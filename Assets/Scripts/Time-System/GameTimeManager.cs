@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System;
+using System.Collections;
 
 public enum DayPhase { Pagi, Siang, Sore, Malam }
 
@@ -7,12 +8,11 @@ public class GameTimeManager : MonoBehaviour
 {
     public static GameTimeManager Instance { get; private set; }
 
-    [Header("Time Settings")]
-    [Tooltip("Real seconds for a full in-game day (6 minutes = 360s)")]
-    public float realSecondsPerDay = 360f;
-    [Tooltip("Start game time hour (0-23)")]
-    [Range(0, 23)] public int startHour = 6;
-    [Range(0, 59)] public int startMinute = 0;
+    [Header("Day Settings")]
+    public float realSecondsPerDay = 360f; // 6 minutes = full day
+    public int startHour = 7; // Start of day (Pagi)
+    public int startMinute = 0;
+    public int endHour = 19;  // End of day (before Malam)
 
     [Header("Runtime (read-only)")]
     public int currentHour;
@@ -28,32 +28,33 @@ public class GameTimeManager : MonoBehaviour
 
     private float secondsElapsedToday;
 
+    public bool isDayPaused = false; // whether time is stopped
+    public event Action OnDayEnded;  // event to trigger day summary UI
+
     void Awake()
     {
         if (Instance == null) Instance = this;
         else { Destroy(gameObject); return; }
 
-        secondsElapsedToday = (startHour * 3600f + startMinute * 60f) / (24f * 3600f) * realSecondsPerDay;
+        secondsElapsedToday = 0;
         ComputeTimeFromSeconds();
     }
 
     void Update()
     {
-        // Normal time progression; multiply by timeScale if need to speed up for testing
-        secondsElapsedToday += Time.deltaTime;
-        if (secondsElapsedToday >= realSecondsPerDay)
-        {
-            secondsElapsedToday -= realSecondsPerDay;
-            currentDay++;
-        }
+        if (isDayPaused) return;
 
+        secondsElapsedToday += Time.deltaTime;
         ComputeTimeFromSeconds();
     }
 
     void ComputeTimeFromSeconds()
     {
         dayFraction = Mathf.Clamp01(secondsElapsedToday / realSecondsPerDay);
-        float totalGameMinutes = dayFraction * 24f * 60f;
+
+        // Map real-time 0–1 to in-game startHour–endHour
+        float totalGameMinutes = Mathf.Lerp(startHour * 60, endHour * 60, dayFraction);
+
         int hour = Mathf.FloorToInt(totalGameMinutes / 60f) % 24;
         int minute = Mathf.FloorToInt(totalGameMinutes % 60f);
 
@@ -66,7 +67,21 @@ public class GameTimeManager : MonoBehaviour
 
         OnDayFractionChanged?.Invoke(dayFraction);
 
-        DayPhase phaseNow = CalculatePhase(currentHour);
+        // Detect if day is still within the active window
+        if (dayFraction >= 1f)
+        {
+            // 🔹 Force Malam once full day is complete
+            if (CurrentPhase != DayPhase.Malam)
+            {
+                CurrentPhase = DayPhase.Malam;
+                OnPhaseChanged?.Invoke(CurrentPhase);
+                EndDay();
+            }
+            return;
+        }
+
+        // Otherwise, calculate phase normally
+        DayPhase phaseNow = CalculatePhase(hour);
         if (phaseNow != CurrentPhase)
         {
             CurrentPhase = phaseNow;
@@ -74,17 +89,74 @@ public class GameTimeManager : MonoBehaviour
         }
     }
 
+    public void EndDay()
+    {
+        if (isDayPaused) return;
+
+        isDayPaused = true;
+        Debug.Log($"Day {currentDay} ended at {currentHour:D2}:{currentMinute:D2}");
+
+        // Begin fade to black, then show summary
+        StartCoroutine(HandleEndDayTransition());
+    }
+
+    IEnumerator HandleEndDayTransition()
+    {
+        if (FadeTransition.Instance != null)
+            yield return FadeTransition.Instance.FadeOut();
+
+        // When fade completes, show summary
+        OnDayEnded?.Invoke();
+    }
+
+
+    public void StartNextDay()
+    {
+        StartCoroutine(HandleStartNextDay());
+    }
+
+    IEnumerator HandleStartNextDay()
+    {
+        // Reset before fading back
+        secondsElapsedToday = 0f;
+        dayFraction = 0f;
+        isDayPaused = false;
+        currentDay++;
+        currentHour = startHour;
+        currentMinute = 0;
+        OnTimeChanged?.Invoke(currentHour, currentMinute);
+        OnDayFractionChanged?.Invoke(dayFraction);
+        CurrentPhase = DayPhase.Pagi;
+        OnPhaseChanged?.Invoke(CurrentPhase);
+
+        Debug.Log($"Starting Day {currentDay} at {currentHour:D2}:{currentMinute:D2}");
+
+        // Fade from black → visible morning
+        if (FadeTransition.Instance != null)
+            yield return FadeTransition.Instance.FadeIn();
+
+        // Resume time
+        ComputeTimeFromSeconds();
+    }
+
+
     DayPhase CalculatePhase(int hour)
     {
-        // Customizable thresholds:
-        // Pagi: 06:00 - 11:59
-        // Siang: 12:00 - 15:59
-        // Sore: 16:00 - 18:59  
-        // Malam: 19:00 - 05:59
-        if (hour >= 6 && hour < 12) return DayPhase.Pagi;
-        if (hour >= 12 && hour < 16) return DayPhase.Siang;
-        if (hour >= 16 && hour < 19) return DayPhase.Sore;
-        return DayPhase.Malam;
+        // Malam if beyond endHour
+        if (hour >= endHour || hour < startHour)
+            return DayPhase.Malam;
+
+        // Calculate relative fraction of current time within day span
+        float totalDayHours = endHour - startHour; // e.g., 12 hours (07–19)
+        float currentHourFraction = (hour + (currentMinute / 60f) - startHour) / totalDayHours;
+
+        // Divide day into three equal phases
+        if (currentHourFraction < 1f / 3f)
+            return DayPhase.Pagi;  // 07–10:59
+        else if (currentHourFraction < 2f / 3f)
+            return DayPhase.Siang; // 11–14:59
+        else
+            return DayPhase.Sore;  // 15–18:59
     }
 
     public float GetDayFractionForTime(int hour, int minute)
