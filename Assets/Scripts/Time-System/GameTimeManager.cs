@@ -21,6 +21,7 @@ public class GameTimeManager : MonoBehaviour
     [Range(0f, 1f)] public float dayFraction; // 0..1 across the 24h
 
     public event Action<int, int> OnTimeChanged; // hour, minute
+    public event Action<int> OnDayChanged;
     public event Action<DayPhase> OnPhaseChanged;
     public event Action<float> OnDayFractionChanged; // 0..1
 
@@ -122,6 +123,9 @@ public class GameTimeManager : MonoBehaviour
         dayFraction = 0f;
         isDayPaused = false;
         currentDay++;
+
+        OnDayChanged?.Invoke(currentDay);
+
         currentHour = startHour;
         currentMinute = 0;
         OnTimeChanged?.Invoke(currentHour, currentMinute);
@@ -131,14 +135,11 @@ public class GameTimeManager : MonoBehaviour
 
         Debug.Log($"Starting Day {currentDay} at {currentHour:D2}:{currentMinute:D2}");
 
-        // Fade from black → visible morning
         if (FadeTransition.Instance != null)
             yield return FadeTransition.Instance.FadeIn();
 
-        // Resume time
         ComputeTimeFromSeconds();
     }
-
 
     DayPhase CalculatePhase(int hour)
     {
@@ -170,4 +171,17 @@ public class GameTimeManager : MonoBehaviour
         secondsElapsedToday = (hour * 60f + minute) / (24f * 60f) * realSecondsPerDay;
         ComputeTimeFromSeconds();
     }
+
+    public float GetTotalGameMinutes()
+    {
+        // Convert current in-game day time into total minutes since start.
+        float minutesToday = (currentHour * 60f) + currentMinute;
+        return (currentDay * 24f * 60f) + minutesToday;
+    }
+
+    public float GetTotalGameHours()
+    {
+        return GetTotalGameMinutes() / 60f;
+    }
+
 }
