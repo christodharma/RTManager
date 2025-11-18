@@ -1,0 +1,64 @@
+using System;
+using UnityEngine;
+
+public class HAMGradeManager : MonoBehaviour
+{
+    [SerializeField] int _CurrentHAMPoints;
+    public int CurrentHamPoints
+    {
+        get => _CurrentHAMPoints;
+        set
+        {
+            _CurrentHAMPoints = Math.Max(0, Math.Min(100, value));
+        }
+    }
+
+    public static HAMGradeManager Instance;
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    public void SetToInitialValue()
+    {
+        CurrentHamPoints = 0;
+    }
+
+    public void Add(int value)
+    {
+        CurrentHamPoints += value;
+    }
+
+    public HAMGrade GetGrade()
+    {
+        if (CurrentHamPoints >= 85 && CurrentHamPoints <= 100)
+        {
+            return HAMGrade.A;
+        }
+        else if (CurrentHamPoints >= 65 && CurrentHamPoints <= 84)
+        {
+            return HAMGrade.B;
+        }
+        else if (CurrentHamPoints >= 40 && CurrentHamPoints <= 64)
+        {
+            return HAMGrade.C;
+        }
+        else if (CurrentHamPoints <= 40)
+        {
+            return HAMGrade.F;
+        }
+        else return HAMGrade.F;
+    }
+}
+
+public enum HAMGrade
+{
+    A, B, C, F
+}
