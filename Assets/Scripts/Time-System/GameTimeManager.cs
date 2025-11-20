@@ -114,6 +114,7 @@ public class GameTimeManager : MonoBehaviour
     public void StartNextDay()
     {
         StartCoroutine(HandleStartNextDay());
+        QuestManager.Instance.GenerateDailyQuests();
     }
 
     IEnumerator HandleStartNextDay()

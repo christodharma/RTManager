@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuestLogUI : MonoBehaviour
 {
@@ -54,7 +54,10 @@ public class QuestLogUI : MonoBehaviour
         foreach (Transform child in activeQuestContainer)
             Destroy(child.gameObject);
 
-        foreach (var quest in QuestManager.Instance.activeQuests)
+        // Use sorted list
+        var sortedQuests = QuestManager.Instance.GetActiveQuestsSorted();
+
+        foreach (var quest in sortedQuests)
         {
             var entry = Instantiate(questEntryPrefab, activeQuestContainer);
             entry.GetComponent<QuestLogEntryUI>().Setup(quest);

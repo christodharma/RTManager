@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Linq;
 
 public class QuestBoxUI : MonoBehaviour
 {
@@ -22,14 +23,16 @@ public class QuestBoxUI : MonoBehaviour
 
     public void OpenQuestBox(List<QuestData> quests)
     {
-        availableQuests = quests;
+        // Sort quests before showing them
+        availableQuests = quests
+            .OrderBy(q => q.deadlineHour < 0 ? float.MaxValue : q.deadlineHour)
+            .ToList();
+
         questBoxPanel.SetActive(true);
 
-        // Clear old list
         foreach (Transform child in questListContainer)
             Destroy(child.gameObject);
 
-        // Populate available quests
         foreach (var quest in availableQuests)
         {
             var entry = Instantiate(questEntryPrefab, questListContainer);
@@ -40,13 +43,18 @@ public class QuestBoxUI : MonoBehaviour
 
     public void AcceptQuest(QuestData quest)
     {
-        // Set absolute deadline relative to current game time
         float now = GameTimeManager.Instance.GetTotalGameHours();
-        quest.deadlineHour = now + quest.deadlineHour; // treat value as relative duration
+        quest.deadlineHour = now + quest.deadlineHour;
         quest.state = QuestState.Active;
-        QuestManager.Instance.AddQuest(quest);
 
-        Debug.Log($"Quest accepted: {quest.title}");
+        if (quest.hasCost)
+        {
+            // TODO: later connect to money manager
+            Debug.Log($"Paid {CurrencyFormatter.ToRupiah(quest.costRupiah)} to accept quest.");
+        }
+
+        QuestManager.Instance.AddQuest(quest);
+        NotificationSystem.Instance.ShowNotification($"Accepted: {quest.title}");
         RefreshAvailableList(quest);
     }
 
@@ -55,7 +63,7 @@ public class QuestBoxUI : MonoBehaviour
         quest.state = QuestState.Refused;
         QuestManager.Instance.AddQuest(quest);
 
-        Debug.Log($"Quest refused: {quest.title}");
+        NotificationSystem.Instance.ShowNotification($"Quest Refused: <b>{quest.title}</b>");
         RefreshAvailableList(quest);
     }
 
@@ -63,7 +71,11 @@ public class QuestBoxUI : MonoBehaviour
     {
         availableQuests.Remove(handledQuest);
 
-        // Clear and rebuild
+        // Re-sort list after removal
+        availableQuests = availableQuests
+            .OrderBy(q => q.deadlineHour < 0 ? float.MaxValue : q.deadlineHour)
+            .ToList();
+
         foreach (Transform child in questListContainer)
             Destroy(child.gameObject);
 
@@ -73,7 +85,6 @@ public class QuestBoxUI : MonoBehaviour
             entry.GetComponent<QuestBoxEntryUI>().Setup(quest, this);
         }
 
-        // Auto-close if no more quests
         if (availableQuests.Count == 0)
             gameObject.SetActive(false);
     }

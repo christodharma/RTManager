@@ -3,17 +3,26 @@ using System.Collections.Generic;
 
 public class QuestGiverClickable : MonoBehaviour
 {
+    public QuestDatabase questDatabase;
     public QuestBoxUI questBoxUI;
-    public List<QuestData> availableQuests = new List<QuestData>();
+
+    [Header("Filter options")]
+    public string[] questIDsToOffer;
+
+    private List<QuestData> runtimeQuests = new List<QuestData>();
+
+    void Start()
+    {
+        foreach (var id in questIDsToOffer)
+        {
+            var questObj = questDatabase.GetQuestByID(id);
+            if (questObj != null)
+                runtimeQuests.Add(new QuestData(questObj));
+        }
+    }
 
     void OnMouseDown()
     {
-        if (questBoxUI == null)
-        {
-            Debug.LogWarning($"{name}: QuestBoxUI not assigned!");
-            return;
-        }
-
-        questBoxUI.OpenQuestBox(availableQuests);
+        questBoxUI.OpenQuestBox(runtimeQuests);
     }
 }

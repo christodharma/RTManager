@@ -7,7 +7,9 @@ public class QuestBoxEntryUI : MonoBehaviour
     public TextMeshProUGUI titleText;
     public TextMeshProUGUI descriptionText;
     public TextMeshProUGUI rewardText;
+    public TextMeshProUGUI costText;
     public TextMeshProUGUI deadlineText;
+
     public Button acceptButton;
     public Button refuseButton;
 
@@ -22,6 +24,11 @@ public class QuestBoxEntryUI : MonoBehaviour
         titleText.text = data.title;
         descriptionText.text = data.description;
         rewardText.text = $"Reward: {data.rewardHAM} HAM";
+
+        costText.text = data.hasCost
+            ? $"Cost: {CurrencyFormatter.ToRupiah(data.costRupiah)}"
+            : "Cost: FREE";
+
         deadlineText.text = $"Deadline: {data.deadlineHour:0.#}h";
 
         acceptButton.onClick.RemoveAllListeners();
