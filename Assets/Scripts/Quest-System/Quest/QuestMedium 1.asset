@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestMedium 1
+  m_EditorClassIdentifier: 
+  questID: QM001
+  title: Perbaiki Fasilitas RT
+  description: Beberapa fasilitas ada yang rusak. Segera perbaiki fasilitas tersebut!
+  rewardHAM: 25
+  deadlineHours: 24
+  difficulty: 1
+  hasCost: 1
+  costRupiah: 100000
+  isMultiStage: 1
+  stages:
+  - objectiveDescription: Perbaiki Pos Ronda
+    requiresItem: 0
+    requiredItemID: 
+    requiredAmount: 0
+  - objectiveDescription: Perbaiki Jalan
+    requiresItem: 0
+    requiredItemID: 
+    requiredAmount: 0
