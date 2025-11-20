@@ -1,0 +1,19 @@
+{
+  "npcName": "NPC",
+  "npcPortrait": "Female_Neutral",
+  "typingSpeed": 0.05,
+  "dialog": [
+    {
+      "text": "Hello!",
+      "choices": ["Answer 1", "Answer 2", "Answer 3"]
+    },
+    {
+      "playerChoice": "Answer 1",
+      "npcReply": [
+        "The first answer!",
+        "This one just continues the text",
+        "And this is one final dialog"
+      ]
+    }
+  ]
+}
