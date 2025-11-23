@@ -100,6 +100,16 @@ public class QuestManager : MonoBehaviour
         OnQuestListChanged?.Invoke();
     }
 
+    public void FailQuest(QuestData quest)
+    {
+        activeQuests.Remove(quest);
+        failedQuests.Add(quest);
+
+        Debug.Log($"Quest Failed: {quest.title}");
+
+        OnQuestListChanged?.Invoke();
+    }
+
     public List<QuestData> GetActiveQuestsSorted()
     {
         return activeQuests

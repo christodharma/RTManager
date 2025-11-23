@@ -18,18 +18,25 @@ public class QuestBoxUI : MonoBehaviour
     {
         questBoxPanel.SetActive(false);
         if (closeButton != null)
-            closeButton.onClick.AddListener(() => gameObject.SetActive(false));
+            closeButton.onClick.AddListener(CloseBox);
+    }
+
+    public void CloseBox()
+    {
+        questBoxPanel.SetActive(false);
     }
 
     public void OpenQuestBox(List<QuestData> quests)
     {
-        // Sort quests before showing them
+        gameObject.SetActive(true); // Ensure UI script is active
+
         availableQuests = quests
             .OrderBy(q => q.deadlineHour < 0 ? float.MaxValue : q.deadlineHour)
             .ToList();
 
         questBoxPanel.SetActive(true);
 
+        // Refresh UI entries
         foreach (Transform child in questListContainer)
             Destroy(child.gameObject);
 
