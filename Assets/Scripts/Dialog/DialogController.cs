@@ -183,7 +183,20 @@ public class DialogController : MonoBehaviour
         waitingForInput = true;
         yield return new WaitUntil(() => !waitingForInput);
         showingChoices = false;
+
+        if (entry.endAfter)
+        {
+            EndDialog();
+            yield break;
+        }
     }
+
+    IEnumerator RunEntryAndEnd(DialogEntry entry)
+    {
+        yield return RunEntry(entry);
+        EndDialog();
+    }
+
 
     IEnumerator TypeLine(string fullText)
     {
@@ -235,8 +248,7 @@ public class DialogController : MonoBehaviour
         int foundIndex = -1;
         for (int i = 0; i < currentData.dialog.Length; i++)
         {
-            if (!string.IsNullOrEmpty(currentData.dialog[i].playerChoice) &&
-                currentData.dialog[i].playerChoice == playerChoice)
+            if (currentData.dialog[i].playerChoice == playerChoice)
             {
                 foundIndex = i;
                 break;
@@ -250,7 +262,7 @@ public class DialogController : MonoBehaviour
         {
             currentIndex = foundIndex;
             if (typingCoroutine != null) StopCoroutine(typingCoroutine);
-            typingCoroutine = StartCoroutine(RunEntry(currentData.dialog[currentIndex]));
+            typingCoroutine = StartCoroutine(RunEntryAndEnd(currentData.dialog[currentIndex]));
         }
         else
         {

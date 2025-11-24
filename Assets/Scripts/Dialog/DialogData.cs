@@ -17,4 +17,5 @@ public class DialogEntry
     public string playerChoice;
     public string[] npcReply;
     public string[] choices;
+    public bool endAfter;
 }

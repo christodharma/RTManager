@@ -13,7 +13,26 @@
         "The first answer!",
         "This one just continues the text",
         "And this is one final dialog"
-      ]
+      ],
+      "endAfter": true
+    },
+    {
+      "playerChoice": "Answer 2",
+      "npcReply": [
+        "The second answer!",
+        "This one just continues the text",
+        "And this is one final dialog"
+      ],
+      "endAfter": true
+    },
+    {
+      "playerChoice": "Answer 3",
+      "npcReply": [
+        "The third answer!",
+        "This one just continues the text",
+        "And this is one final dialog"
+      ],
+      "endAfter": true
     }
   ]
 }
