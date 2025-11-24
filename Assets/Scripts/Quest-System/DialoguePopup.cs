@@ -49,6 +49,8 @@ public class DialoguePopup : MonoBehaviour
             // Assign behavior
             if (option.completesQuest)
                 button.onClick.AddListener(CompleteQuest);
+            else if (option.failQuest)
+                button.onClick.AddListener(FailQuest);
             else
                 button.onClick.AddListener(CloseDialogue);
         }
@@ -62,6 +64,16 @@ public class DialoguePopup : MonoBehaviour
         QuestManager.Instance.CompleteQuest(currentQuest);
 
         NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{currentQuest.title}</b>");
+
+        CloseDialogue();
+    }
+
+    private void FailQuest()
+    {
+        currentQuest.state = QuestState.Failed;
+        QuestManager.Instance.FailQuest(currentQuest);
+
+        NotificationSystem.Instance.ShowNotification($"Quest Failed: <b>{currentQuest.title}</b>");
 
         CloseDialogue();
     }

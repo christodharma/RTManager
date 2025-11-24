@@ -5,6 +5,7 @@ public class DialogueOption
 {
     public string buttonText = "OK";
     public bool completesQuest = false;
+    public bool failQuest = false;
 }
 
 [System.Serializable]
@@ -17,6 +18,6 @@ public class QuestDialogueData
     public DialogueOption[] options = new DialogueOption[]
     {
         new DialogueOption(){ buttonText = "Yes", completesQuest = true },
-        new DialogueOption(){ buttonText = "No", completesQuest = false }
+        new DialogueOption(){ buttonText = "No", failQuest = true }
     };
 }
