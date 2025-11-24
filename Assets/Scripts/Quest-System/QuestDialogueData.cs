@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class DialogueOption
@@ -6,11 +7,14 @@ public class DialogueOption
     public string buttonText = "OK";
     public bool completesQuest = false;
     public bool failQuest = false;
+    public int costRupiah = 0;
 }
 
 [System.Serializable]
 public class QuestDialogueData
 {
+    public Sprite npcImage;
+    public string npcName;
     [TextArea(3, 6)]
     public string dialogueText = "Default dialogue...";
 

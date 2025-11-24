@@ -54,12 +54,6 @@ public class QuestBoxUI : MonoBehaviour
         quest.deadlineHour = now + quest.deadlineHour;
         quest.state = QuestState.Active;
 
-        if (quest.hasCost)
-        {
-            // TODO: later connect to money manager
-            Debug.Log($"Paid {CurrencyFormatter.ToRupiah(quest.costRupiah)} to accept quest.");
-        }
-
         QuestManager.Instance.AddQuest(quest);
         NotificationSystem.Instance.ShowNotification($"Accepted: {quest.title}");
         RefreshAvailableList(quest);

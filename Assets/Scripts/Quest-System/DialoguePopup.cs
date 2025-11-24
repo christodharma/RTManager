@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialoguePopup : MonoBehaviour
 {
     [Header("UI")]
     public GameObject DialoguePopupPanel;
     public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI nameText;
+    public Image portraitImage;
     public GameObject buttonPrefab;
     public Transform buttonContainer;
 
@@ -23,7 +25,19 @@ public class DialoguePopup : MonoBehaviour
     {
         currentQuest = quest;
 
-        // Set text
+        // Apply NPC display data
+        nameText.text = quest.completionDialogue.npcName;
+
+        if (quest.completionDialogue.npcImage != null)
+        {
+            portraitImage.sprite = quest.completionDialogue.npcImage;
+            portraitImage.gameObject.SetActive(true);
+        }
+        else
+        {
+            portraitImage.gameObject.SetActive(false);
+        }
+
         dialogueText.text = quest.completionDialogue.dialogueText;
 
         // Remove old buttons
@@ -32,7 +46,6 @@ public class DialoguePopup : MonoBehaviour
 
         activeButtons.Clear();
 
-        // Create dynamic buttons
         foreach (var option in quest.completionDialogue.options)
         {
             GameObject btnObj = Instantiate(buttonPrefab, buttonContainer);
@@ -41,21 +54,43 @@ public class DialoguePopup : MonoBehaviour
             var text = btnObj.GetComponentInChildren<TextMeshProUGUI>();
             var button = btnObj.GetComponent<Button>();
 
-            text.text = option.buttonText;
-
-            // Clear previous listeners
-            button.onClick.RemoveAllListeners();
-
-            // Assign behavior
-            if (option.completesQuest)
-                button.onClick.AddListener(CompleteQuest);
-            else if (option.failQuest)
-                button.onClick.AddListener(FailQuest);
+            // Show cost if the option has one
+            if (option.costRupiah > 0)
+                text.text = $"{option.buttonText} ({CurrencyFormatter.ToRupiah(option.costRupiah)})";
             else
-                button.onClick.AddListener(CloseDialogue);
+                text.text = option.buttonText;
+
+            button.onClick.RemoveAllListeners();
+            button.onClick.AddListener(() => HandleOption(option));
         }
 
         DialoguePopupPanel.SetActive(true);
+    }
+
+    private void HandleOption(DialogueOption option)
+    {
+        // Debug cost (money system can be added later)
+        if (option.costRupiah > 0)
+        {
+            Debug.Log($"Paid {CurrencyFormatter.ToRupiah(option.costRupiah)}");
+
+            // subtract money from a money manager here later
+            // MoneyManager.Instance.Spend(option.costRupiah);
+        }
+
+        if (option.completesQuest)
+        {
+            CompleteQuest();
+            return;
+        }
+
+        if (option.failQuest)
+        {
+            FailQuest();
+            return;
+        }
+
+        CloseDialogue();
     }
 
     private void CompleteQuest()
@@ -80,9 +115,8 @@ public class DialoguePopup : MonoBehaviour
 
     public void CloseDialogue()
     {
-        gameObject.SetActive(false);
+        DialoguePopupPanel.SetActive(false);
 
-        // Optional: clear UI buttons on close to avoid ghost presses
         foreach (var b in activeButtons)
             Destroy(b);
 
