@@ -23,6 +23,9 @@ public class QuestManager : MonoBehaviour
     public QuestDatabase questDatabase;
     public GameTimeManager timeManager;
     public int CurrentDay => GameTimeManager.Instance.currentDay;
+    public int startingMoneyOfDay;
+
+    public DailyReport TodayReport { get; private set; } = new DailyReport();
 
     // Events (for UI auto-refresh)
     public System.Action OnQuestListChanged;
@@ -92,22 +95,26 @@ public class QuestManager : MonoBehaviour
 
     public void CompleteQuest(QuestData quest)
     {
+        quest.state = QuestState.Completed;
         activeQuests.Remove(quest);
         completedQuests.Add(quest);
 
-        Debug.Log($"Quest Completed: {quest.title}");
+        TodayReport.completedQuests++;
+        TodayReport.hamEarned += quest.rewardHAM;
 
-        OnQuestListChanged?.Invoke();
+        // No auto-comment here — dialogue added already
+        NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{quest.title}</b>");
     }
 
     public void FailQuest(QuestData quest)
     {
+        quest.state = QuestState.Failed;
         activeQuests.Remove(quest);
         failedQuests.Add(quest);
 
-        Debug.Log($"Quest Failed: {quest.title}");
+        TodayReport.failedQuests++;
 
-        OnQuestListChanged?.Invoke();
+        NotificationSystem.Instance.ShowNotification($"Quest Failed: <b>{quest.title}</b>");
     }
 
     public List<QuestData> GetActiveQuestsSorted()
@@ -229,7 +236,7 @@ public class QuestManager : MonoBehaviour
             if (q.isRepeatable && weight > 0)
                 weight += 2;
 
-            // 🚨 Prevent zero-weight quests from being included
+            // Prevent zero-weight quests from being included
             if (weight <= 0)
                 continue;
 
@@ -256,5 +263,27 @@ public class QuestManager : MonoBehaviour
         return difficulty == QuestObject.Difficulty.Easy ||
                difficulty == QuestObject.Difficulty.Medium ||
                difficulty == QuestObject.Difficulty.Hard;
+    }
+
+    public void FinalizeDayReport()
+    {
+        var report = QuestManager.Instance.TodayReport;
+
+        // Apply grade based on HAM points
+        report.grade = HAMGradeManager.Instance.GetGrade();
+
+        // Give money according to grade rules
+        ResourceManager.Instance.GetMoneyFromGrade();
+
+        // Get final money earned value (difference)
+        report.moneyEarned = (int)ResourceManager.Instance.CurrentMoney - startingMoneyOfDay;
+
+        // Reset grade score for next day if needed
+    }
+
+    public void ResetDailyReport()
+    {
+        TodayReport = new DailyReport();
+        startingMoneyOfDay = (int)ResourceManager.Instance.CurrentMoney;
     }
 }

@@ -103,16 +103,26 @@ public class GameTimeManager : MonoBehaviour
 
     IEnumerator HandleEndDayTransition()
     {
+        // Fade screen to black first
         if (FadeTransition.Instance != null)
             yield return FadeTransition.Instance.FadeOut();
 
-        // When fade completes, show summary
-        OnDayEnded?.Invoke();
-    }
+        // --- STEP 1: Finalize Daily Progress Before UI Shows ---
+        QuestManager.Instance.FinalizeDayReport();
 
+        // --- STEP 2: Trigger UI (DaySummaryUI listens to this) ---
+        OnDayEnded?.Invoke();
+
+        // --- STEP 3: Reset report AFTER summary is created ---
+        QuestManager.Instance.ResetDailyReport();
+
+        // Gameplay stays paused here — UI now controls "Next Day"
+    }
 
     public void StartNextDay()
     {
+        QuestManager.Instance.ResetDailyReport();
+
         StartCoroutine(HandleStartNextDay());
         QuestManager.Instance.GenerateDailyQuests();
     }
@@ -184,5 +194,4 @@ public class GameTimeManager : MonoBehaviour
     {
         return GetTotalGameMinutes() / 60f;
     }
-
 }

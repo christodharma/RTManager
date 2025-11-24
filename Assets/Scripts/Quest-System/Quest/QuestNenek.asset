@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestNenek
+  m_EditorClassIdentifier: 
+  questID: Q001
+  title: Obat untuk Nenek
+  description: Nenek Tuminah membutuhkan bantuan untuk membeli obat.
+  rewardHAM: 10
+  hasCost: 1
+  costRupiah: 15000
+  deadlineHours: 12
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: NenekTuminah
+  completionDialogue:
+    npcImage: {fileID: -8346007976263654106, guid: 7c798d6996c720f18b254c1030c5b950, type: 3}
+    npcName: Nenek Tuminah
+    dialogueText: '"Nak... Nenek lagi batuk parah nih. Tapi uang pensiunnya belum
+      turun. Bisa tolong belikan obat?"'
+    options:
+    - buttonText: '[Bantu] Beli obat pakai kas RT "Kesehatan adalah hak dasar, Nek."'
+      completesQuest: 1
+      failQuest: 0
+      costRupiah: 15000
+      responseText: 
+    - buttonText: '[Tolak] "Maaf Nek, itu urusan pribadi. Kas RT tidak untuk hal
+        seperti ini, Nek."'
+      completesQuest: 0
+      failQuest: 1
+      costRupiah: 0
+      responseText: 
+    successResponse: Terima kasih atas bantuannya nak, Nenek sudah sehat dan bisa
+      jalan kembali!
+    failureResponse: Nenek semakin parah jadi dibawa ke rumah sakit
+  isRepeatable: 0
+  canSpawn: 1
+  isMultiStage: 0

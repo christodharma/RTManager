@@ -21,6 +21,12 @@ public class TopBarUI : MonoBehaviour
             UpdateClock(GameTimeManager.Instance.currentHour, GameTimeManager.Instance.currentMinute);
             UpdatePhaseText(GameTimeManager.Instance.CurrentPhase);
         }
+
+        if (ResourceManager.Instance != null)
+        {
+            ResourceManager.Instance.OnMoneyChanged += UpdateMoney;
+            UpdateMoney(ResourceManager.Instance.CurrentMoney); // initialize UI
+        }
     }
 
     void UpdateClock(int hour, int minute)
@@ -38,7 +44,7 @@ public class TopBarUI : MonoBehaviour
         dayText.text = $"Day {day}";
     }
 
-    public void UpdateMoney(int amount)
+    public void UpdateMoney(float amount)
     {
         moneyText.text = $"Rp {amount:N0}";
     }
@@ -50,6 +56,11 @@ public class TopBarUI : MonoBehaviour
             GameTimeManager.Instance.OnTimeChanged -= UpdateClock;
             GameTimeManager.Instance.OnPhaseChanged -= UpdatePhaseText;
             GameTimeManager.Instance.OnDayChanged -= UpdateDay;
+        }
+
+        if (ResourceManager.Instance != null)
+        {
+            ResourceManager.Instance.OnMoneyChanged -= UpdateMoney;
         }
     }
 }

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EarlyBuildTest.unity
+    path: Assets/Scenes/Dialog Box.unity
     guid: a3a2b5ede14c2674985c11a4ae9ff2c6
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d53d296733b664341aa7002eb2d02ff6, type: 2}
