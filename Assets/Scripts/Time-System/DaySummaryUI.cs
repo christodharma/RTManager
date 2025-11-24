@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
 public class DaySummaryUI : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class DaySummaryUI : MonoBehaviour
     public TextMeshProUGUI titleText;
     public TextMeshProUGUI summaryText;
     public Button nextDayButton;
+
+    public GameObject playerController;
+    public GameObject buttonGroup;
 
     void Start()
     {
@@ -23,16 +27,38 @@ public class DaySummaryUI : MonoBehaviour
 
     void ShowSummary()
     {
+        var report = QuestManager.Instance.TodayReport;
+
         panel.SetActive(true);
-        titleText.text = $"Day {GameTimeManager.Instance.currentDay} Ended";
-        summaryText.text = "Summary of today’s events will go here."; // Replace with data later
-        Time.timeScale = 0f; // optional: pause gameplay systems
+        playerController.SetActive(false);
+        buttonGroup.SetActive(false);
+
+        titleText.text = $"Hari {GameTimeManager.Instance.currentDay} Berakhir";
+
+        string feedbackText = report.npcFeedback.Count > 0
+            ? string.Join("\n", report.npcFeedback)
+            : "Tidak ada feedback hari ini.";
+
+        summaryText.text =
+            $"Ringkasan Hari Ini</b>\n" +
+            $"Quest Selesai : <b>{report.completedQuests}</b>\n" +
+            $"Quest Gagal : <b>{report.failedQuests}</b>\n\n" +
+
+            $"<b>HAM Didapat:</b> {report.hamEarned}\n" +
+            $"<b>Grade:</b> {report.grade}\n" +
+            $"<b>Total Uang:</b> {CurrencyFormatter.ToRupiah(ResourceManager.Instance.CurrentMoney)}\n\n" +
+
+            $"<b>Feedback Warga:</b>\n{feedbackText}";
+
+        Time.timeScale = 0f;
     }
 
     void OnNextDay()
     {
         panel.SetActive(false);
         Time.timeScale = 1f;
+        playerController.SetActive(true);
+        buttonGroup.SetActive(true);
         GameTimeManager.Instance.StartNextDay();
     }
 
@@ -41,4 +67,14 @@ public class DaySummaryUI : MonoBehaviour
         if (GameTimeManager.Instance != null)
             GameTimeManager.Instance.OnDayEnded -= ShowSummary;
     }
+}
+
+public class DailyReport
+{
+    public int completedQuests;
+    public int failedQuests;
+    public int hamEarned;
+    public HAMGrade grade;
+    public float moneyEarned;
+    public List<string> npcFeedback = new List<string>();
 }

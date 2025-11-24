@@ -69,25 +69,48 @@ public class DialoguePopup : MonoBehaviour
 
     private void HandleOption(DialogueOption option)
     {
-        // Debug cost (money system can be added later)
+        // Cost handling
         if (option.costRupiah > 0)
-        {
-            Debug.Log($"Paid {CurrencyFormatter.ToRupiah(option.costRupiah)}");
+            ResourceManager.Instance.Subtract(option.costRupiah);
 
-            // subtract money from a money manager here later
-            // MoneyManager.Instance.Spend(option.costRupiah);
+        // Immediate short response (optional)
+        if (!string.IsNullOrEmpty(option.responseText))
+        {
+            dialogueText.text = option.responseText;
+
+            // Replace all buttons with a "Close" button
+            foreach (var b in activeButtons)
+                Destroy(b);
+            activeButtons.Clear();
+
+            GameObject closeBtn = Instantiate(buttonPrefab, buttonContainer);
+            closeBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Close";
+            closeBtn.GetComponent<Button>().onClick.AddListener(() => FinalizeChoice(option));
+
+            activeButtons.Add(closeBtn);
+            return;
         }
 
+        // If no responseText → finalize directly
+        FinalizeChoice(option);
+    }
+    
+    private void FinalizeChoice(DialogueOption option)
+    {
+        // Store final reaction for summary, not shown now
         if (option.completesQuest)
         {
+            QuestManager.Instance.TodayReport.npcFeedback.Add(
+                $"{currentQuest.completionDialogue.npcName}: \"{currentQuest.completionDialogue.successResponse}\""
+            );
             CompleteQuest();
-            return;
         }
-
-        if (option.failQuest)
+        else if (option.failQuest)
         {
+            QuestManager.Instance.TodayReport.npcFeedback.Add(
+                $"{currentQuest.completionDialogue.npcName}: \"{currentQuest.completionDialogue.failureResponse}\""
+            );
             FailQuest();
-            return;
         }
 
         CloseDialogue();

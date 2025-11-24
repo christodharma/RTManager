@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class ResourceManager : MonoBehaviour
 {
@@ -9,10 +10,14 @@ public class ResourceManager : MonoBehaviour
         private set
         {
             _CurrentMoney = value;
+            OnMoneyChanged?.Invoke(_CurrentMoney); // <-- Trigger UI update
         }
     }
 
     public static ResourceManager Instance { get; private set; }
+
+    public event Action<float> OnMoneyChanged;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

@@ -564,6 +564,8 @@ MonoBehaviour:
   titleText: {fileID: 1919055672}
   summaryText: {fileID: 880760005}
   nextDayButton: {fileID: 585288050}
+  playerController: {fileID: 810173208}
+  buttonGroup: {fileID: 295749672}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +761,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558082966}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3089,6 +3091,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366702458}
   m_CullTransparentMesh: 1
+--- !u!1 &1379326833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379326834}
+  - component: {fileID: 1379326835}
+  - component: {fileID: 1379326836}
+  m_Layer: 0
+  m_Name: ResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1379326834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379326833}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.464294, y: 6.623125, z: 0.010799398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1379326835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379326833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9056700d390014813be774db1a171c04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CurrentMoney: 50000
+--- !u!114 &1379326836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379326833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b71005b418441a49c80e5844df6b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CurrentHAMPoints: 0
 --- !u!1001 &1455825562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4330,7 +4391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2dd3a5ca5f4d7419fa05a8543a2ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  realSecondsPerDay: 360
+  realSecondsPerDay: 30
   startHour: 7
   startMinute: 0
   endHour: 19
@@ -4347,8 +4408,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915877186}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1002406, y: 0.598279, z: -9.018905}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1002407, y: 0.598279, z: -9.018905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6647,6 +6708,7 @@ MonoBehaviour:
   availableQuests: []
   questDatabase: {fileID: 11400000, guid: ed1bcc5a7651e1a4999c9f318da6b60e, type: 2}
   timeManager: {fileID: 1915877187}
+  startingMoneyOfDay: 0
 --- !u!1 &3192166622701006415
 GameObject:
   m_ObjectHideFlags: 0
@@ -7235,7 +7297,7 @@ Transform:
   m_GameObject: {fileID: 2779649745729459471}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 482.49686, y: 286.66437, z: -0.010433743}
+  m_LocalPosition: {x: 482.49686, y: 286.66437, z: -0.010433744}
   m_LocalScale: {x: 0.37130362, y: 0.37130362, z: 0.14852145}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9848,17 +9910,18 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 558082967}
+  - {fileID: 1915877188}
+  - {fileID: 4540053585087743148}
+  - {fileID: 1379326834}
   - {fileID: 2078376138}
   - {fileID: 1278100176710746673}
   - {fileID: 1317491975}
   - {fileID: 1849559580}
   - {fileID: 1043057829}
-  - {fileID: 558082967}
   - {fileID: 2054051146}
   - {fileID: 810173212}
   - {fileID: 916972899}
-  - {fileID: 4540053585087743148}
-  - {fileID: 1915877188}
   - {fileID: 3660202813571616528}
   - {fileID: 2078274940}
   - {fileID: 1879232}

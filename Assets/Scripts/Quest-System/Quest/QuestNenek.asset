@@ -28,14 +28,20 @@ MonoBehaviour:
     dialogueText: '"Nak... Nenek lagi batuk parah nih. Tapi uang pensiunnya belum
       turun. Bisa tolong belikan obat?"'
     options:
-    - buttonText: '[Bantu] "Kesehatan adalah hak dasar, Nek."'
+    - buttonText: '[Bantu] Beli obat pakai kas RT "Kesehatan adalah hak dasar, Nek."'
       completesQuest: 1
       failQuest: 0
       costRupiah: 15000
-    - buttonText: '[Tolak] "kas RT tidak untuk hal seperti ini, Nek."'
+      responseText: 
+    - buttonText: '[Tolak] "Maaf Nek, itu urusan pribadi. Kas RT tidak untuk hal
+        seperti ini, Nek."'
       completesQuest: 0
       failQuest: 1
       costRupiah: 0
+      responseText: 
+    successResponse: Terima kasih atas bantuannya nak, Nenek sudah sehat dan bisa
+      jalan kembali!
+    failureResponse: Nenek semakin parah jadi dibawa ke rumah sakit
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0
