@@ -2,6 +2,7 @@ using System.IO;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 using TMPro;
 
 public class DialogController : MonoBehaviour
@@ -46,9 +47,13 @@ public class DialogController : MonoBehaviour
     {
         if (!isDialogActive) return;
 
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
+        bool enterPressed = Keyboard.current != null && Keyboard.current.enterKey.wasPressedThisFrame;
+        bool mousePressed = Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame;
+
+        if (enterPressed || mousePressed)
         {
             if (showingChoices) return;
+
             if (isTyping)
             {
                 isTyping = false;
