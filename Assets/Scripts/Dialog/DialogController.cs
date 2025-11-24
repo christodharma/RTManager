@@ -26,6 +26,8 @@ public class DialogController : MonoBehaviour
     public bool closeOnFinish = true;
 
     // runtime state
+    public bool IsDialogOpen { get; private set; }
+
     private DialogData currentData;
     private int currentIndex = 0;
     private Coroutine typingCoroutine;
@@ -65,6 +67,7 @@ public class DialogController : MonoBehaviour
     public void StartDialog(string fileName, Sprite portraitOverride = null)
     {
         StopDialogImmediate();
+        IsDialogOpen = true;
 
         currentData = LoadDialog(fileName);
         if (currentData == null)
@@ -93,19 +96,25 @@ public class DialogController : MonoBehaviour
     {
         if (typingCoroutine != null) StopCoroutine(typingCoroutine);
         typingCoroutine = null;
+
         isDialogActive = false;
         isTyping = false;
         waitingForInput = false;
         showingChoices = false;
+
         ClearChoices();
         dialogText.text = "";
+
+        IsDialogOpen = false;
+
         if (closeOnFinish && dialogPanel != null)
             dialogPanel.SetActive(false);
     }
 
     public DialogData LoadDialog(string fileName)
     {
-        string path = Path.Combine(Application.streamingAssetsPath, fileName + ".json");
+        string path = Path.Combine(Application.streamingAssetsPath, "NPC_Dialogs", fileName + ".json");
+
         if (!File.Exists(path))
         {
             Debug.LogError("DialogController: dialog file not found: " + path);
@@ -138,7 +147,11 @@ public class DialogController : MonoBehaviour
     IEnumerator RunEntry(DialogEntry entry)
     {
         showingChoices = false;
-        string mainText = !string.IsNullOrEmpty(entry.text) ? entry.text : (entry.npcReply != null && entry.npcReply.Length > 0 ? entry.npcReply[0] : "");
+
+        string mainText =
+            !string.IsNullOrEmpty(entry.text) ?
+            entry.text :
+            (entry.npcReply != null && entry.npcReply.Length > 0 ? entry.npcReply[0] : "");
 
         yield return StartCoroutine(TypeLine(mainText));
         AddToHistory(currentData.npcName ?? "NPC", mainText);
@@ -177,7 +190,9 @@ public class DialogController : MonoBehaviour
         {
             dialogText.text = fullText.Substring(0, letterIndex + 1);
             letterIndex++;
-            yield return new WaitForSeconds(currentData != null ? currentData.typingSpeed : 0.05f);
+            yield return new WaitForSeconds(
+                currentData != null ? currentData.typingSpeed : 0.05f
+            );
 
             if (!isTyping)
             {
@@ -241,6 +256,7 @@ public class DialogController : MonoBehaviour
     public void AddToHistory(string speaker, string line)
     {
         if (historyText == null) return;
+
         if (string.IsNullOrEmpty(historyText.text))
             historyText.text = $"<b>{speaker}:</b> {line}";
         else
@@ -253,6 +269,7 @@ public class DialogController : MonoBehaviour
     void TrimHistory()
     {
         if (historyText == null) return;
+
         string[] lines = historyText.text.Split('\n');
         if (lines.Length <= maxHistoryEntries) return;
 
@@ -265,6 +282,7 @@ public class DialogController : MonoBehaviour
     public void ToggleHistory()
     {
         if (historyPanel == null) return;
+
         historyPanel.SetActive(!historyPanel.activeSelf);
         ScrollInstantBottom();
     }
@@ -280,6 +298,7 @@ public class DialogController : MonoBehaviour
     void ClearChoices()
     {
         if (choiceContainer == null) return;
+
         for (int i = choiceContainer.childCount - 1; i >= 0; i--)
             Destroy(choiceContainer.GetChild(i).gameObject);
     }
