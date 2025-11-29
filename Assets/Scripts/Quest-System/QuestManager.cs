@@ -10,7 +10,7 @@ public enum QuestState
     Refused
 }
 
-public class QuestManager : MonoBehaviour
+public class QuestManager : MonoBehaviour, IPersistable
 {
     public static QuestManager Instance { get; private set; }
 
@@ -285,5 +285,23 @@ public class QuestManager : MonoBehaviour
     {
         TodayReport = new DailyReport();
         startingMoneyOfDay = (int)ResourceManager.Instance.CurrentMoney;
+    }
+
+    public void Save(ref GameData data)
+    {
+        data.activeQuests = activeQuests;
+        data.availableQuests = availableQuests;
+        data.completedQuests = completedQuests;
+        data.failedQuests = failedQuests;
+        data.refusedQuests = refusedQuests;
+    }
+
+    public void Load(GameData data)
+    {
+        activeQuests = data.activeQuests;
+        availableQuests = data.availableQuests;
+        completedQuests = data.completedQuests;
+        failedQuests = data.failedQuests;
+        refusedQuests = data.refusedQuests;
     }
 }

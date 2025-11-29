@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class HAMGradeManager : MonoBehaviour
+public class HAMGradeManager : MonoBehaviour, IPersistable
 {
     [SerializeField] int _CurrentHAMPoints;
     public int CurrentHamPoints
@@ -55,6 +55,16 @@ public class HAMGradeManager : MonoBehaviour
             return HAMGrade.F;
         }
         else return HAMGrade.F;
+    }
+
+    public void Save(ref GameData data)
+    {
+        data.CurrentHAMPoints = CurrentHamPoints;
+    }
+
+    public void Load(GameData data)
+    {
+        CurrentHamPoints = data.CurrentHAMPoints;
     }
 }
 

@@ -4,7 +4,7 @@ using System.Collections;
 
 public enum DayPhase { Pagi, Siang, Sore, Malam }
 
-public class GameTimeManager : MonoBehaviour
+public class GameTimeManager : MonoBehaviour, IPersistable
 {
     public static GameTimeManager Instance { get; private set; }
 
@@ -193,5 +193,19 @@ public class GameTimeManager : MonoBehaviour
     public float GetTotalGameHours()
     {
         return GetTotalGameMinutes() / 60f;
+    }
+
+    public void Save(ref GameData data)
+    {
+        data.currentDay = currentDay;
+        data.currentHour = currentHour;
+        data.currentMinute = currentMinute;
+    }
+
+    public void Load(GameData data)
+    {
+        currentDay = data.currentDay;
+        currentHour = data.currentHour;
+        currentMinute = data.currentMinute;
     }
 }

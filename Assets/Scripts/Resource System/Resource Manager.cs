@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class ResourceManager : MonoBehaviour
+public class ResourceManager : MonoBehaviour, IPersistable
 {
     [SerializeField] float _CurrentMoney;
     public float CurrentMoney
@@ -65,5 +65,15 @@ public class ResourceManager : MonoBehaviour
                 Add(5000);
                 break;
         }
+    }
+
+    public void Save(ref GameData data)
+    {
+        data.CurrentMoney = CurrentMoney;
+    }
+
+    public void Load(GameData data)
+    {
+        CurrentMoney = data.CurrentMoney;
     }
 }
