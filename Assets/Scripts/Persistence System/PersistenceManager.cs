@@ -52,7 +52,7 @@ public class PersistenceManager : MonoBehaviour
     [ContextMenu("Trigger Load Game")]
     public void TriggerLoad()
     {
-        GameData = StorageHandler.Read();
+        GameData = StorageHandler.Read("save");
         foreach (var item in Subscribers)
         {
             item.Load(GameData);

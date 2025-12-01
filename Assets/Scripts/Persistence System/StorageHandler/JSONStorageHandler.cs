@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class JSONStorageHandler : MonoBehaviour, IStorageHandler
 {
-    public string FileName = "autosave"; // default value, this will get overwritten by GameData
-    public string FileDirectory;
+    private readonly string FileName = "save";
+    [SerializeField] private string FileDirectory;
 
     void Awake()
     {
@@ -39,7 +39,6 @@ public class JSONStorageHandler : MonoBehaviour, IStorageHandler
 
     public void Write(GameData data)
     {
-        FileName = data.ID ?? "autosave";
         string fullPath = Path.Combine(FileDirectory, FileName);
         fullPath = Path.ChangeExtension(fullPath, ".json");
 
