@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JSONStorageHandler : MonoBehaviour, IStorageHandler
 {
-    public string FileName = "GameSave";
+    public string FileName = "autosave"; // default value, this will get overwritten by GameData
     public string FileDirectory;
 
     void Awake()
@@ -12,14 +12,13 @@ public class JSONStorageHandler : MonoBehaviour, IStorageHandler
         FileDirectory = Path.Combine(Application.persistentDataPath, "Saves");
     }
 
-    public GameData Read()
+    public GameData Read(string filename)
     {
-        string fullPath = Path.Combine(FileDirectory, FileName);
+        string fullPath = Path.Combine(FileDirectory, filename);
         fullPath = Path.ChangeExtension(fullPath, ".json");
         GameData readData = null;
         if (File.Exists(fullPath))
         {
-            Debug.Log($"Reading file at {fullPath}");
             try
             {
                 string serializedData = "";
@@ -32,7 +31,7 @@ public class JSONStorageHandler : MonoBehaviour, IStorageHandler
             }
             catch (Exception e)
             {
-                Debug.LogError($"Error occured when reading data from file at {fullPath}: \n{e}");
+                Debug.LogError($"[JSON StorageHandler] {e}");
             }
         }
         return readData;
@@ -40,7 +39,8 @@ public class JSONStorageHandler : MonoBehaviour, IStorageHandler
 
     public void Write(GameData data)
     {
-        string fullPath = Path.Combine(FileDirectory, $"{FileName}{DateTime.Now:yyyy-MM-ddTHH-mm-ss}");
+        FileName = data.ID ?? "autosave";
+        string fullPath = Path.Combine(FileDirectory, FileName);
         fullPath = Path.ChangeExtension(fullPath, ".json");
 
         long freeSpace = GetTotalFreeSpace(FileDirectory);
