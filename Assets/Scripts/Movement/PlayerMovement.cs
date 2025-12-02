@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IPersistable
 {
     private Rigidbody2D RigidBody;
     private Vector2 MovementDirection = Vector2.zero;
@@ -35,5 +35,18 @@ public class PlayerMovement : MonoBehaviour
     public void ReadInput(InputAction.CallbackContext ctx)
     {
         MovementDirection = ctx.ReadValue<Vector2>();
+    }
+
+    public void Save(ref GameData data)
+    {
+        data.Position = transform.position;
+        data.Rotation = transform.rotation;
+        data.LocalScale = transform.localScale;
+    }
+
+    public void Load(GameData data)
+    {
+        transform.SetPositionAndRotation(data.Position, data.Rotation);
+        transform.localScale = data.LocalScale;
     }
 }

@@ -24,8 +24,11 @@ public class GameData
     public List<QuestData> availableQuests;
 
     [Header("Game Time Manager")]
-    public int currentHour;
-    public int currentMinute;
+    public float secondsElapsedToday;
     public int currentDay;
-    [Range(0f, 1f)] public float dayFraction; // 0..1 across the 24h
+
+    [Header("Movement")]
+    public Vector3 Position;
+    public Quaternion Rotation;
+    public Vector3 LocalScale;
 }

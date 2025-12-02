@@ -197,15 +197,13 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
     public void Save(ref GameData data)
     {
+        data.secondsElapsedToday = secondsElapsedToday;
         data.currentDay = currentDay;
-        data.currentHour = currentHour;
-        data.currentMinute = currentMinute;
     }
 
     public void Load(GameData data)
     {
+        secondsElapsedToday = data.secondsElapsedToday;
         currentDay = data.currentDay;
-        currentHour = data.currentHour;
-        currentMinute = data.currentMinute;
     }
 }

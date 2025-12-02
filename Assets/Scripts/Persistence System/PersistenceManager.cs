@@ -57,6 +57,7 @@ public class PersistenceManager : MonoBehaviour
         {
             item.Load(GameData);
         }
+        // Optional: reload scene
     }
 
     [ContextMenu("Trigger Save Game")]
