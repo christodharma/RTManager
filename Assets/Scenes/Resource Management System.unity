@@ -374,7 +374,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameData:
-    Resource: {fileID: 0}
+    CurrentMoney: 0
+    CurrentHAMPoints: 0
+    activeQuests: []
+    completedQuests: []
+    failedQuests: []
+    refusedQuests: []
+    availableQuests: []
+    currentHour: 0
+    currentMinute: 0
+    currentDay: 0
+    dayFraction: 0
 --- !u!4 &105619070
 Transform:
   m_ObjectHideFlags: 0
@@ -2359,7 +2369,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 219791928}
   m_Father: {fileID: 1375159546}
