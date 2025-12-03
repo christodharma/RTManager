@@ -30,6 +30,9 @@ public class QuestManager : MonoBehaviour, IPersistable
     // Events (for UI auto-refresh)
     public System.Action OnQuestListChanged;
 
+    public event System.Action<QuestData> QuestFailed;
+    public event System.Action<QuestData> QuestSucceed;
+
     private void Awake()
     {
         if (Instance == null) Instance = this;
@@ -104,6 +107,7 @@ public class QuestManager : MonoBehaviour, IPersistable
 
         // No auto-comment here — dialogue added already
         NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{quest.title}</b>");
+        QuestSucceed?.Invoke(quest);
     }
 
     public void FailQuest(QuestData quest)
@@ -115,6 +119,7 @@ public class QuestManager : MonoBehaviour, IPersistable
         TodayReport.failedQuests++;
 
         NotificationSystem.Instance.ShowNotification($"Quest Failed: <b>{quest.title}</b>");
+        QuestFailed?.Invoke(quest);
     }
 
     public List<QuestData> GetActiveQuestsSorted()

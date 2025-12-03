@@ -23,12 +23,23 @@ MonoBehaviour:
   completesOnObjectClick: 1
   targetObjectID: BukuPelajaran
   completionDialogue:
-    dialogueText: Beri bantuan buku pelajaran?
+    npcImage: {fileID: 21300000, guid: d4e62e083155535e4b49316a704f50ab, type: 3}
+    npcName: 
+    dialogueText: Kak... aku harus beli buku pelajaran tapi lagi ga punya uang
     options:
-    - buttonText: Ya
+    - buttonText: '[Bantu] Kasiannya Bella.. Nih, kamu pake buat beli buku ya!'
       completesQuest: 1
-    - buttonText: Tidak
+      failQuest: 0
+      costRupiah: 25000
+      responseText: 
+    - buttonText: '[Tolak] Pinjem temen dulu aja ya Bel'
       completesQuest: 0
+      failQuest: 1
+      costRupiah: 0
+      responseText: 
+    successResponse: Yeay!! Terima kasih kak!!! Aku jadi bisa belajar di sekolah
+      dan di rumah!
+    failureResponse: Yah.. Aku ga bisa belajar di rumah pake buku sendiri
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

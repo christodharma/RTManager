@@ -23,12 +23,24 @@ MonoBehaviour:
   completesOnObjectClick: 1
   targetObjectID: BuatSurat
   completionDialogue:
-    dialogueText: Buat Surat?
+    npcImage: {fileID: 0}
+    npcName: 
+    dialogueText: Bisa buatkan surat keterangan RT, mas? Saya baru mau mengurus KTP
+      saya hilang
     options:
-    - buttonText: Ya
+    - buttonText: '[Bantu] Boleh, Pak, suratnya pakai materai Rp10000 ya'
       completesQuest: 1
-    - buttonText: Tidak
+      failQuest: 0
+      costRupiah: 0
+      responseText: 
+    - buttonText: '[Tolak] Lain waktu dulu ya, Pak, saya sibuk'
       completesQuest: 0
+      failQuest: 1
+      costRupiah: 0
+      responseText: 
+    successResponse: Terima kasih banyak, Mas. Saya jadi bisa mengajukan asuransi
+      untuk anak saya yang sakit.
+    failureResponse: Oalah, ya mas, gapapa.
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

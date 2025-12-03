@@ -23,7 +23,7 @@ MonoBehaviour:
   completesOnObjectClick: 1
   targetObjectID: NenekTuminah
   completionDialogue:
-    npcImage: {fileID: -8346007976263654106, guid: 7c798d6996c720f18b254c1030c5b950, type: 3}
+    npcImage: {fileID: 21300000, guid: c5a68d3d5631cc41eb6f87da17448f20, type: 3}
     npcName: Nenek Tuminah
     dialogueText: '"Nak... Nenek lagi batuk parah nih. Tapi uang pensiunnya belum
       turun. Bisa tolong belikan obat?"'
