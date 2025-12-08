@@ -9,6 +9,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2580896551281409780, guid: 4ccbb8fb09dd17ca18b18853e62d6c1d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580896551281409780, guid: 4ccbb8fb09dd17ca18b18853e62d6c1d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580896551281409780, guid: 4ccbb8fb09dd17ca18b18853e62d6c1d, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
       value: 0.5
       objectReference: {fileID: 0}
