@@ -19,10 +19,9 @@ public class QuestDialogueData
     public Sprite npcImage;
     public string npcName;
 
+    [Header("Single-Stage Dialogue")]
     [TextArea(3, 6)]
     public string dialogueText = "Default dialogue...";
-
-    // Buttons player can choose
     public DialogueOption[] options = new DialogueOption[]
     {
         new DialogueOption(){ buttonText = "Yes", completesQuest = true },
@@ -32,4 +31,7 @@ public class QuestDialogueData
     [Header("Outcome Responses")]
     [TextArea(2, 5)] public string successResponse = "Thank you so much! You helped me a lot!";
     [TextArea(2, 5)] public string failureResponse = "Oh... I see. That's disappointing.";
+
+    [Header("Multi-Stage Optional")]
+    public QuestStageDialogue[] stageDialogues;
 }

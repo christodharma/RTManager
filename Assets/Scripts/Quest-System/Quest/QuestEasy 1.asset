@@ -24,7 +24,7 @@ MonoBehaviour:
   targetObjectID: BuatSurat
   completionDialogue:
     npcImage: {fileID: 0}
-    npcName: 
+    npcName: Pak Wahyu
     dialogueText: Bisa buatkan surat keterangan RT, mas? Saya baru mau mengurus KTP
       saya hilang
     options:
@@ -41,6 +41,8 @@ MonoBehaviour:
     successResponse: Terima kasih banyak, Mas. Saya jadi bisa mengajukan asuransi
       untuk anak saya yang sakit.
     failureResponse: Oalah, ya mas, gapapa.
+    stageDialogues: []
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0
+  stages: []

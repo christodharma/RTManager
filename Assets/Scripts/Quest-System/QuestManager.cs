@@ -24,6 +24,7 @@ public class QuestManager : MonoBehaviour, IPersistable
     public GameTimeManager timeManager;
     public int CurrentDay => GameTimeManager.Instance.currentDay;
     public int startingMoneyOfDay;
+    private List<string> dailyCompletedQuests = new List<string>();
 
     public DailyReport TodayReport { get; private set; } = new DailyReport();
 
@@ -90,6 +91,14 @@ public class QuestManager : MonoBehaviour, IPersistable
     {
         foreach (var quest in activeQuests)
         {
+            if (quest.isMultiStage)
+            {
+                var stage = quest.CurrentStage;
+
+                if (stage.requiredItemID == id || quest.targetObjectID == id)
+                    return quest;
+            }
+
             if (quest.completesOnObjectClick && quest.targetObjectID == id)
                 return quest;
         }
@@ -98,14 +107,28 @@ public class QuestManager : MonoBehaviour, IPersistable
 
     public void CompleteQuest(QuestData quest)
     {
+
+        if (quest.isMultiStage && !quest.IsFinalStage)
+        {
+            Debug.LogWarning($"Attempting to 'Complete' Quest {quest.questID} which is not yet in its final stage. Check calling code.");
+            return;
+        }
+
         quest.state = QuestState.Completed;
         activeQuests.Remove(quest);
         completedQuests.Add(quest);
 
+        if (questDatabase.GetQuestByID(quest.questID).isRepeatable)
+        {
+            if (!dailyCompletedQuests.Contains(quest.questID))
+            {
+                dailyCompletedQuests.Add(quest.questID);
+            }
+        }
+
         TodayReport.completedQuests++;
         TodayReport.hamEarned += quest.rewardHAM;
 
-        // No auto-comment here — dialogue added already
         NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{quest.title}</b>");
         QuestSucceed?.Invoke(quest);
     }
@@ -178,6 +201,13 @@ public class QuestManager : MonoBehaviour, IPersistable
             if (chosen == null)
                 break;
 
+            if (chosen.isRepeatable && dailyCompletedQuests.Contains(chosen.questID))
+            {
+                i--;
+                eligible.Remove(chosen);
+                continue;
+            }
+
             availableQuests.Add(new QuestData(chosen));
 
             if (!chosen.isRepeatable)
@@ -187,6 +217,12 @@ public class QuestManager : MonoBehaviour, IPersistable
         Debug.Log($"Spawned {availableQuests.Count} quests for Day {CurrentDay}");
 
         OnQuestListChanged?.Invoke();
+    }
+
+    public bool HasQuestBeenCompletedToday(string questID)
+    {
+        if (dailyCompletedQuests == null) return false;
+        return dailyCompletedQuests.Contains(questID);
     }
 
     private List<QuestObject> GetEligibleQuestsFromDatabase()
@@ -290,6 +326,8 @@ public class QuestManager : MonoBehaviour, IPersistable
     {
         TodayReport = new DailyReport();
         startingMoneyOfDay = (int)ResourceManager.Instance.CurrentMoney;
+
+        dailyCompletedQuests.Clear();
     }
 
     public void Save(ref GameData data)

@@ -32,31 +32,35 @@ public class QuestInteractable : MonoBehaviour
         if (player == null || interactButton == null) return;
 
         float distance = Vector2.Distance(player.position, transform.position);
+        bool shouldBeInRange = distance <= interactDistance;
 
-        if (distance <= interactDistance && !playerInRange)
+        if (shouldBeInRange)
         {
             var quest = QuestManager.Instance.GetQuestRequiringObject(objectID);
+
+            bool hasQuestToOffer = (quest != null);
+
+            interactButton.gameObject.SetActive(hasQuestToOffer);
+
             playerInRange = true;
-            if (quest != null)
-            {
-                interactButton.gameObject.SetActive(true);
-            }
-            else
-            {
-                interactButton.gameObject.SetActive(false);
-            }
-            
         }
-        else if (distance > interactDistance && playerInRange)
+        else if (!shouldBeInRange && playerInRange)
         {
             playerInRange = false;
             interactButton.gameObject.SetActive(false);
         }
     }
 
+    // QuestInteractable.cs
+
     private void Interact()
     {
         var quest = QuestManager.Instance.GetQuestRequiringObject(objectID);
+
+        if (interactButton != null)
+        {
+            interactButton.gameObject.SetActive(false);
+        }
 
         if (quest != null)
         {

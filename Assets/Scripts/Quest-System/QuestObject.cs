@@ -30,7 +30,7 @@ public class QuestObject : ScriptableObject
     public bool isRepeatable = false;
     public bool canSpawn = true; // default true for normal quests
 
-    [Header("Advanced System (Future Expansion)")]
+    [Header("Multi-Stage Settings")]
     public bool isMultiStage = false;
-    // public QuestStage[] stages;  <-- for later multi-stage expansion
+    public QuestStage[] stages;
 }

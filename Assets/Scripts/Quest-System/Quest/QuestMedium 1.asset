@@ -16,17 +16,68 @@ MonoBehaviour:
   title: Perbaiki Fasilitas RT
   description: Beberapa fasilitas ada yang rusak. Segera perbaiki fasilitas tersebut!
   rewardHAM: 25
+  hasCost: 1
+  costRupiah: 10000
   deadlineHours: 24
   difficulty: 1
-  hasCost: 1
-  costRupiah: 100000
+  completesOnObjectClick: 0
+  targetObjectID: FasilitasRT
+  completionDialogue:
+    npcImage: {fileID: 0}
+    npcName: Pak Budi
+    dialogueText: Nak... beberapa fasilitas RT ada yang rusak nih... Sebaiknya kita
+      perbaiki sekarang ya...
+    options:
+    - buttonText: Baik pak
+      completesQuest: 0
+      failQuest: 0
+      costRupiah: 0
+      responseText: 
+    - buttonText: Maaf pak saat ini belum bisa
+      completesQuest: 0
+      failQuest: 1
+      costRupiah: 0
+      responseText: 
+    successResponse: Thank you so much! You helped me a lot!
+    failureResponse: Oh... I see. That's disappointing.
+    stageDialogues:
+    - dialogueText: Perbaiki Pos Ronda?
+      options:
+      - buttonText: Ya
+        completesQuest: 0
+        failQuest: 0
+        costRupiah: 0
+        responseText: 
+      - buttonText: Tidak
+        completesQuest: 0
+        failQuest: 1
+        costRupiah: 0
+        responseText: 
+      successResponse: 
+      failureResponse: 
+    - dialogueText: Perbaiki Posyandu?
+      options:
+      - buttonText: Ya
+        completesQuest: 1
+        failQuest: 0
+        costRupiah: 0
+        responseText: 
+      - buttonText: Tidak
+        completesQuest: 0
+        failQuest: 1
+        costRupiah: 0
+        responseText: 
+      successResponse: 
+      failureResponse: 
+  isRepeatable: 0
+  canSpawn: 1
   isMultiStage: 1
   stages:
   - objectiveDescription: Perbaiki Pos Ronda
     requiresItem: 0
-    requiredItemID: 
+    requiredItemID: PosRonda
     requiredAmount: 0
-  - objectiveDescription: Perbaiki Jalan
+  - objectiveDescription: Perbaiki Pos Layanan Terpadu
     requiresItem: 0
-    requiredItemID: 
+    requiredItemID: Posyandu
     requiredAmount: 0

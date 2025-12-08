@@ -24,7 +24,7 @@ MonoBehaviour:
   targetObjectID: PerbaikiLampu
   completionDialogue:
     npcImage: {fileID: 0}
-    npcName: 
+    npcName: Pak Joko
     dialogueText: Lampunya rusak, perbaiki?
     options:
     - buttonText: '[Bantu] Perbaiki'
@@ -39,6 +39,8 @@ MonoBehaviour:
       responseText: 
     successResponse: Jalan jadi terang!
     failureResponse: Jalan tetap gelap
+    stageDialogues: []
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0
+  stages: []

@@ -38,30 +38,68 @@ public class DialoguePopup : MonoBehaviour
             portraitImage.gameObject.SetActive(false);
         }
 
+        if (quest.isMultiStage &&
+            quest.stages != null &&
+            quest.currentStageIndex < quest.stages.Length &&
+            quest.completionDialogue.stageDialogues != null &&
+            quest.currentStageIndex < quest.completionDialogue.stageDialogues.Length)
+        {
+            var stageData = quest.completionDialogue.stageDialogues[quest.currentStageIndex];
+
+            dialogueText.text = stageData.dialogueText;
+
+            // Clear previous buttons
+            foreach (var b in activeButtons)
+                Destroy(b);
+            activeButtons.Clear();
+
+            // Create buttons for this stage
+            foreach (var option in stageData.options)
+            {
+                GameObject btnObj = Instantiate(buttonPrefab, buttonContainer);
+                activeButtons.Add(btnObj);
+
+                var text = btnObj.GetComponentInChildren<TextMeshProUGUI>();
+                var button = btnObj.GetComponent<Button>();
+
+                if (option.costRupiah > 0)
+                    text.text = $"{option.buttonText} ({CurrencyFormatter.ToRupiah(option.costRupiah)})";
+                else
+                    text.text = option.buttonText;
+
+                button.onClick.RemoveAllListeners();
+                button.onClick.AddListener(() => HandleStageOption(option, stageData));
+            }
+
+            DialoguePopupPanel.SetActive(true);
+            return;
+        }
+
         dialogueText.text = quest.completionDialogue.dialogueText;
 
-        // Remove old buttons
         foreach (var b in activeButtons)
             Destroy(b);
-
         activeButtons.Clear();
 
-        foreach (var option in quest.completionDialogue.options)
+        if (quest.completionDialogue.options != null)
         {
-            GameObject btnObj = Instantiate(buttonPrefab, buttonContainer);
-            activeButtons.Add(btnObj);
+            foreach (var option in quest.completionDialogue.options)
+            {
+                GameObject btnObj = Instantiate(buttonPrefab, buttonContainer);
+                activeButtons.Add(btnObj);
 
-            var text = btnObj.GetComponentInChildren<TextMeshProUGUI>();
-            var button = btnObj.GetComponent<Button>();
+                var text = btnObj.GetComponentInChildren<TextMeshProUGUI>();
+                var button = btnObj.GetComponent<Button>();
 
-            // Show cost if the option has one
-            if (option.costRupiah > 0)
-                text.text = $"{option.buttonText} ({CurrencyFormatter.ToRupiah(option.costRupiah)})";
-            else
-                text.text = option.buttonText;
+                // Handle text button & cost
+                if (option.costRupiah > 0)
+                    text.text = $"{option.buttonText} (Rp {option.costRupiah})";
+                else
+                    text.text = option.buttonText;
 
-            button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(() => HandleOption(option));
+                button.onClick.RemoveAllListeners();
+                button.onClick.AddListener(() => HandleOption(option));
+            }
         }
 
         DialoguePopupPanel.SetActive(true);
@@ -94,7 +132,34 @@ public class DialoguePopup : MonoBehaviour
         // If no responseText → finalize directly
         FinalizeChoice(option);
     }
-    
+
+    private void HandleStageOption(DialogueOption option, QuestStageDialogue stageData)
+    {
+        // Cost handling
+        if (option.costRupiah > 0)
+            ResourceManager.Instance.Subtract(option.costRupiah);
+
+        // Optional immediate response
+        if (!string.IsNullOrEmpty(option.responseText))
+        {
+            dialogueText.text = option.responseText;
+
+            foreach (var b in activeButtons)
+                Destroy(b);
+            activeButtons.Clear();
+
+            GameObject closeBtn = Instantiate(buttonPrefab, buttonContainer);
+            closeBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Close";
+            closeBtn.GetComponent<Button>().onClick.AddListener(() =>
+                FinalizeStageChoice(option, stageData));
+
+            activeButtons.Add(closeBtn);
+            return;
+        }
+
+        FinalizeStageChoice(option, stageData);
+    }
+
     private void FinalizeChoice(DialogueOption option)
     {
         // Store final reaction for summary, not shown now
@@ -114,6 +179,41 @@ public class DialoguePopup : MonoBehaviour
         }
 
         CloseDialogue();
+    }
+
+    private void FinalizeStageChoice(DialogueOption option, QuestStageDialogue stageData)
+    {
+        // Fail stage → fail full quest
+        if (option.failQuest)
+        {
+            QuestManager.Instance.TodayReport.npcFeedback.Add(
+                $"{currentQuest.completionDialogue.npcName}: \"{stageData.failureResponse}\""
+            );
+
+            FailQuest();
+            return;
+        }
+
+        // Stage completes
+        QuestManager.Instance.TodayReport.npcFeedback.Add(
+            $"{currentQuest.completionDialogue.npcName}: \"{stageData.successResponse}\""
+        );
+
+        // Last stage → complete full quest
+        if (currentQuest.currentStageIndex >= currentQuest.stages.Length - 1)
+        {
+            CompleteQuest();
+            return;
+        }
+
+        // Advance to next stage
+        currentQuest.currentStageIndex++;
+
+        NotificationSystem.Instance.ShowNotification(
+            $"Stage {currentQuest.currentStageIndex}/{currentQuest.stages.Length} complete!"
+        );
+
+        CloseDialogue(); // close dialog; player re-interacts for next stage
     }
 
     private void CompleteQuest()

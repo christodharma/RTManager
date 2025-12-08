@@ -21,7 +21,7 @@ MonoBehaviour:
   deadlineHours: 12
   difficulty: 0
   completesOnObjectClick: 1
-  targetObjectID: NenekTuminah
+  targetObjectID: ObatNenek
   completionDialogue:
     npcImage: {fileID: 21300000, guid: c5a68d3d5631cc41eb6f87da17448f20, type: 3}
     npcName: Nenek Tuminah
@@ -42,6 +42,8 @@ MonoBehaviour:
     successResponse: Terima kasih atas bantuannya nak, Nenek sudah sehat dan bisa
       jalan kembali!
     failureResponse: Nenek semakin parah jadi dibawa ke rumah sakit
+    stageDialogues: []
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0
+  stages: []

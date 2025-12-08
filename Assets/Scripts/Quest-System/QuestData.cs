@@ -23,7 +23,12 @@ public class QuestData
     public QuestDialogueData completionDialogue;
 
     public bool isMultiStage;
+    public QuestStage[] stages;
     public int currentStageIndex;
+
+    public bool IsFinalStage => currentStageIndex >= stages.Length - 1;
+
+    public QuestStage CurrentStage => stages[currentStageIndex];
 
     public QuestData(QuestObject questObject)
     {
@@ -44,6 +49,7 @@ public class QuestData
         completionDialogue = questObject.completionDialogue;
 
         isMultiStage = questObject.isMultiStage;
+        stages = questObject.stages;
         currentStageIndex = 0;
 
         state = QuestState.Active;
