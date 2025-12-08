@@ -15,6 +15,8 @@ public class GameData
 
     [Header("HAM Grade Manager")]
     public int CurrentHAMPoints;
+    public int TotalAccumulatedHAM;
+
 
     [Header("Quest Manager")]
     public List<QuestData> activeQuests;

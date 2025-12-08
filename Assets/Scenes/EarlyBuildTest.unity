@@ -833,7 +833,7 @@ MonoBehaviour:
   titleText: {fileID: 1919055672}
   summaryText: {fileID: 880760005}
   nextDayButton: {fileID: 585288050}
-  playerController: {fileID: 0}
+  playerController: {fileID: 1358496079}
   buttonGroup: {fileID: 295749672}
 --- !u!1 &498723402
 GameObject:
@@ -1505,7 +1505,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: BuatSurat
-  npcName: Pak Wahyu
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -2384,7 +2383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: Posyandu
-  npcName: Pak Budi
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -2640,7 +2638,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8909851895577016897, guid: 4ccbb8fb09dd17ca18b18853e62d6c1d, type: 3}
   m_PrefabInstance: {fileID: 1191723195}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1358496079}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c0f4a6520317486fb8e792967b4ab64, type: 3}
@@ -3591,6 +3589,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1358496079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7022991162591171020, guid: 4ccbb8fb09dd17ca18b18853e62d6c1d, type: 3}
+  m_PrefabInstance: {fileID: 1191723195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1366702458
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,6 +3785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b71005b418441a49c80e5844df6b79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _TotalAccumulatedHamPoints: 0
   _CurrentHAMPoints: 0
 --- !u!1001 &1455825562
 PrefabInstance:
@@ -4034,6 +4038,7 @@ MonoBehaviour:
   GameData:
     CurrentMoney: 0
     CurrentHAMPoints: 0
+    TotalAccumulatedHAM: 0
     activeQuests: []
     completedQuests: []
     failedQuests: []
@@ -4816,7 +4821,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: PerbaikiLampu
-  npcName: Pak Joko
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -5320,7 +5324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: ObatNenek
-  npcName: Nenek Tuminah
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -6173,6 +6176,10 @@ MonoBehaviour:
   currentDay: 1
   dayFraction: 0
   isDayPaused: 0
+  finalDay: 20
+  lowHamEndingScene: Ending_Low
+  midHamEndingScene: Ending_Mid
+  highHamEndingScene: Ending_High
 --- !u!4 &1915877188
 Transform:
   m_ObjectHideFlags: 0
@@ -6439,7 +6446,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: PosRonda
-  npcName: Pak Budi
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -7250,7 +7256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectID: BukuPelajaran
-  npcName: Bella
   dialoguePopup: {fileID: 7712955831550076114}
   interactButton: {fileID: 1859824328}
   player: {fileID: 1043057829}
@@ -8118,6 +8123,7 @@ GameObject:
   - component: {fileID: 1021150385677667693}
   - component: {fileID: 7398666248088231390}
   - component: {fileID: 421548578159216888}
+  - component: {fileID: 7398666248088231391}
   m_Layer: 5
   m_Name: DialogPanel
   m_TagString: Untagged
@@ -11144,6 +11150,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702801712217526322}
   m_CullTransparentMesh: 1
+--- !u!114 &7398666248088231391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702801712217526322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7712955831550076114}
+          m_TargetAssemblyTypeName: DialoguePopup, Assembly-CSharp
+          m_MethodName: SkipDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!224 &7415589230681493698
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11284,6 +11319,7 @@ MonoBehaviour:
   portraitImage: {fileID: 389137680909263622}
   buttonPrefab: {fileID: 8845427222874785019, guid: 8297c937f3ab3ae49a98d557ae0d5ca5, type: 3}
   buttonContainer: {fileID: 7734880871460539626}
+  typingSpeed: 0.05
 --- !u!114 &7714818281535531298
 MonoBehaviour:
   m_ObjectHideFlags: 0

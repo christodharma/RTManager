@@ -41,6 +41,7 @@ MonoBehaviour:
       dan di rumah!
     failureResponse: Yah.. Aku ga bisa belajar di rumah pake buku sendiri
     stageDialogues: []
+  dialogueSourceID: BukuPelajaran
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

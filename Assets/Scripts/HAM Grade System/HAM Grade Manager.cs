@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class HAMGradeManager : MonoBehaviour, IPersistable
 {
+    [SerializeField] private int _TotalAccumulatedHamPoints = 0;
+    public int TotalAccumulatedHamPoints => _TotalAccumulatedHamPoints;
+
     [SerializeField] int _CurrentHAMPoints;
     public int CurrentHamPoints
     {
@@ -36,6 +39,11 @@ public class HAMGradeManager : MonoBehaviour, IPersistable
         CurrentHamPoints += value;
     }
 
+    public void AddToTotal(int value)
+    {
+        _TotalAccumulatedHamPoints += value;
+    }
+
     public HAMGrade GetGrade()
     {
         if (CurrentHamPoints >= 85 && CurrentHamPoints <= 100)
@@ -60,11 +68,13 @@ public class HAMGradeManager : MonoBehaviour, IPersistable
     public void Save(ref GameData data)
     {
         data.CurrentHAMPoints = CurrentHamPoints;
+        data.TotalAccumulatedHAM = _TotalAccumulatedHamPoints;
     }
 
     public void Load(GameData data)
     {
         CurrentHamPoints = data.CurrentHAMPoints;
+        _TotalAccumulatedHamPoints = data.TotalAccumulatedHAM;
     }
 }
 

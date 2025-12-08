@@ -32,17 +32,18 @@ MonoBehaviour:
       completesQuest: 1
       failQuest: 0
       costRupiah: 15000
-      responseText: 
+      responseText: '"Terima kasih ya nak..."'
     - buttonText: '[Tolak] "Maaf Nek, itu urusan pribadi. Kas RT tidak untuk hal
         seperti ini, Nek."'
       completesQuest: 0
       failQuest: 1
       costRupiah: 0
-      responseText: 
+      responseText: '"Ohh baiklah tidak apa nak..."'
     successResponse: Terima kasih atas bantuannya nak, Nenek sudah sehat dan bisa
       jalan kembali!
     failureResponse: Nenek semakin parah jadi dibawa ke rumah sakit
     stageDialogues: []
+  dialogueSourceID: ObatNenek
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0

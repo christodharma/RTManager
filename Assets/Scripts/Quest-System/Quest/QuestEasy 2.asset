@@ -40,6 +40,7 @@ MonoBehaviour:
     successResponse: Jalan jadi terang!
     failureResponse: Jalan tetap gelap
     stageDialogues: []
+  dialogueSourceID: PerbaikiLampu
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0

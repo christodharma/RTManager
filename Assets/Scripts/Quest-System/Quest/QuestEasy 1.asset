@@ -42,6 +42,7 @@ MonoBehaviour:
       untuk anak saya yang sakit.
     failureResponse: Oalah, ya mas, gapapa.
     stageDialogues: []
+  dialogueSourceID: BuatSurat
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

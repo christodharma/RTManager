@@ -13,13 +13,13 @@ public class QuestInteractable : MonoBehaviour
     public float interactDistance = 1.5f;
 
     private bool playerInRange = false;
+    private bool isListening = false;
 
     private void Start()
     {
         if (interactButton != null)
         {
             interactButton.gameObject.SetActive(false);
-            interactButton.onClick.AddListener(Interact);
         }
         else
         {
@@ -43,15 +43,34 @@ public class QuestInteractable : MonoBehaviour
             interactButton.gameObject.SetActive(hasQuestToOffer);
 
             playerInRange = true;
+
+            // >> LOGIKA PENAMBAHAN/PENGHAPUSAN LISTENER
+            if (hasQuestToOffer && !isListening)
+            {
+                // Tambahkan listener HANYA jika ada Quest dan belum ditambahkan
+                interactButton.onClick.AddListener(Interact);
+                isListening = true;
+            }
+            else if (!hasQuestToOffer && isListening)
+            {
+                // Hapus listener jika sudah tidak ada Quest yang ditawarkan (atau dihilangkan oleh logika lain)
+                interactButton.onClick.RemoveListener(Interact);
+                isListening = false;
+            }
         }
         else if (!shouldBeInRange && playerInRange)
         {
             playerInRange = false;
             interactButton.gameObject.SetActive(false);
+
+            // >> PENGHAPUSAN LISTENER KETIKA KELUAR JANGKAUAN
+            if (isListening)
+            {
+                interactButton.onClick.RemoveListener(Interact);
+                isListening = false;
+            }
         }
     }
-
-    // QuestInteractable.cs
 
     private void Interact()
     {
@@ -64,6 +83,7 @@ public class QuestInteractable : MonoBehaviour
 
         if (quest != null)
         {
+            Debug.Log($"[DEBUG INTERACT] NPC {objectID} memicu Quest: {quest.title}");
             dialoguePopup.OpenDialogue(quest, this);
         }
         else
@@ -74,7 +94,10 @@ public class QuestInteractable : MonoBehaviour
 
     private void OnDisable()
     {
-        if (interactButton != null)
+        if (interactButton != null && isListening)
+        {
             interactButton.onClick.RemoveListener(Interact);
+            isListening = false;
+        }
     }
 }

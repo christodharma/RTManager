@@ -32,6 +32,14 @@ public class GameTimeManager : MonoBehaviour, IPersistable
     public bool isDayPaused = false; // whether time is stopped
     public event Action OnDayEnded;  // event to trigger day summary UI
 
+    [Header("Ending Settings")]
+    public int finalDay = 20;
+
+    public string lowHamEndingScene = "Ending_Low";
+    public string midHamEndingScene = "Ending_Mid";
+    public string highHamEndingScene = "Ending_High";
+
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -68,10 +76,8 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
         OnDayFractionChanged?.Invoke(dayFraction);
 
-        // Detect if day is still within the active window
         if (dayFraction >= 1f)
         {
-            // 🔹 Force Malam once full day is complete
             if (CurrentPhase != DayPhase.Malam)
             {
                 CurrentPhase = DayPhase.Malam;
@@ -81,7 +87,6 @@ public class GameTimeManager : MonoBehaviour, IPersistable
             return;
         }
 
-        // Otherwise, calculate phase normally
         DayPhase phaseNow = CalculatePhase(hour);
         if (phaseNow != CurrentPhase)
         {
@@ -97,39 +102,57 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         isDayPaused = true;
         Debug.Log($"Day {currentDay} ended at {currentHour:D2}:{currentMinute:D2}");
 
-        // Begin fade to black, then show summary
         StartCoroutine(HandleEndDayTransition());
     }
 
     IEnumerator HandleEndDayTransition()
     {
-        // Fade screen to black first
         if (FadeTransition.Instance != null)
             yield return FadeTransition.Instance.FadeOut();
 
-        // --- STEP 1: Finalize Daily Progress Before UI Shows ---
+        // 1 — Finalize quests first
         QuestManager.Instance.FinalizeDayReport();
 
-        // --- STEP 2: Trigger UI (DaySummaryUI listens to this) ---
+        // 2 — Save TODAY'S HAM into TOTAL HAM
+        int dailyHam = HAMGradeManager.Instance.CurrentHamPoints;
+        HAMGradeManager.Instance.AddToTotal(dailyHam);
+
+        // DEBUG: Check daily accumulation
+        Debug.Log($"[HAM DEBUG] End of Day {currentDay} → Daily HAM: {dailyHam}, Total HAM: {HAMGradeManager.Instance.TotalAccumulatedHamPoints}");
+
+        // 3 — Convert HAM → MONEY
+        ResourceManager.Instance.GetMoneyFromGrade();
+
+        // 4 — NOW reset daily HAM (NOT before this!)
+        HAMGradeManager.Instance.CurrentHamPoints = 0;
+
+        // 5 — Show day summary UI
         OnDayEnded?.Invoke();
 
-        // --- STEP 3: Reset report AFTER summary is created ---
+        // 6 — Reset quests
         QuestManager.Instance.ResetDailyReport();
-
-        // Gameplay stays paused here — UI now controls "Next Day"
     }
+
 
     public void StartNextDay()
     {
-        QuestManager.Instance.ResetDailyReport();
+        if (currentDay >= finalDay)
+        {
+            Debug.Log("[ENDING] Day 20 finished → Loading ending scene...");
+            LoadEndingBasedOnHAM();
+            return;
+        }
 
+        QuestManager.Instance.ResetDailyReport();
         StartCoroutine(HandleStartNextDay());
         QuestManager.Instance.GenerateDailyQuests();
     }
 
+
     IEnumerator HandleStartNextDay()
     {
         // Reset before fading back
+        HAMGradeManager.Instance.CurrentHamPoints = 0;
         secondsElapsedToday = 0f;
         dayFraction = 0f;
         isDayPaused = false;
@@ -206,4 +229,22 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         secondsElapsedToday = data.secondsElapsedToday;
         currentDay = data.currentDay;
     }
+
+    private void LoadEndingBasedOnHAM()
+    {
+        int ham = HAMGradeManager.Instance.CurrentHamPoints; // adjust if your HAM manager name differs
+
+        string sceneToLoad;
+
+        if (ham >= 80) // High HAM
+            sceneToLoad = highHamEndingScene;
+        else if (ham >= 40) // Medium HAM
+            sceneToLoad = midHamEndingScene;
+        else // Low HAM
+            sceneToLoad = lowHamEndingScene;
+
+        Debug.Log("Loading ending: " + sceneToLoad);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoad);
+    }
+
 }

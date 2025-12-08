@@ -24,18 +24,17 @@ MonoBehaviour:
   targetObjectID: FasilitasRT
   completionDialogue:
     npcImage: {fileID: 0}
-    npcName: Pak Budi
-    dialogueText: Nak... beberapa fasilitas RT ada yang rusak nih... Sebaiknya kita
-      perbaiki sekarang ya...
+    npcName: 
+    dialogueText: 
     options:
-    - buttonText: Baik pak
+    - buttonText: 
       completesQuest: 0
       failQuest: 0
       costRupiah: 0
       responseText: 
-    - buttonText: Maaf pak saat ini belum bisa
+    - buttonText: 
       completesQuest: 0
-      failQuest: 1
+      failQuest: 0
       costRupiah: 0
       responseText: 
     successResponse: Thank you so much! You helped me a lot!
@@ -69,6 +68,7 @@ MonoBehaviour:
         responseText: 
       successResponse: 
       failureResponse: 
+  dialogueSourceID: FasilitasRT
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 1
