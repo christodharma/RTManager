@@ -122,10 +122,10 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         // DEBUG: Check daily accumulation
         Debug.Log($"[HAM DEBUG] End of Day {currentDay} → Daily HAM: {dailyHam}, Total HAM: {HAMGradeManager.Instance.TotalAccumulatedHamPoints}");
 
-        // 3 — Convert HAM → MONEY
+        // 3 — Convert HAM into MONEY
         ResourceManager.Instance.GetMoneyFromGrade();
 
-        // 4 — NOW reset daily HAM (NOT before this!)
+        // 4 — Reset daily HAM
         HAMGradeManager.Instance.CurrentHamPoints = 0;
 
         // 5 — Show day summary UI
@@ -179,7 +179,6 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
     DayPhase CalculatePhase(int hour)
     {
-        // Malam if beyond endHour
         if (hour >= endHour || hour < startHour)
             return DayPhase.Malam;
 
@@ -234,7 +233,7 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
     private void LoadEndingBasedOnHAM()
     {
-        int ham = HAMGradeManager.Instance.CurrentHamPoints; // adjust if your HAM manager name differs
+        int ham = HAMGradeManager.Instance.TotalAccumulatedHamPoints;
 
         string sceneToLoad;
 

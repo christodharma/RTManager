@@ -13,6 +13,7 @@ public class DialoguePopup : MonoBehaviour
     public Image portraitImage;
     public GameObject buttonPrefab;
     public Transform buttonContainer;
+    public GameObject ControllerUI;
 
     private QuestData currentQuest;
     private List<GameObject> activeButtons = new List<GameObject>();
@@ -108,6 +109,7 @@ public class DialoguePopup : MonoBehaviour
             ShowTextAnimated(stageData.dialogueText, () => ShowAllButtons());
 
             DialoguePopupPanel.SetActive(true);
+            ControllerUI.gameObject.SetActive(false);
             return;
         }
 
@@ -139,6 +141,7 @@ public class DialoguePopup : MonoBehaviour
         ShowTextAnimated(quest.completionDialogue.dialogueText, () => ShowAllButtons());
 
         DialoguePopupPanel.SetActive(true);
+        ControllerUI.gameObject.SetActive(false);
     }
 
     private void HandleOption(DialogueOption option)
@@ -264,6 +267,7 @@ public class DialoguePopup : MonoBehaviour
     public void CloseDialogue()
     {
         DialoguePopupPanel.SetActive(false);
+        ControllerUI.gameObject.SetActive(true);
 
         foreach (var b in activeButtons)
             Destroy(b);

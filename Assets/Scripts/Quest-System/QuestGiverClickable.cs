@@ -30,7 +30,6 @@ public class QuestGiverClickable : MonoBehaviour
     void Update()
     {
         if (player == null || interactButton == null) return;
-
         float distance = Vector2.Distance(player.position, transform.position);
         bool shouldBeInRange = distance <= interactDistance;
 

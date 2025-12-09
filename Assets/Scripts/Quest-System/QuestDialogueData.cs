@@ -10,7 +10,7 @@ public class DialogueOption
     public int costRupiah = 0;
 
     [TextArea(2, 5)]
-    public string responseText = ""; // NEW: optional NPC reply after select
+    public string responseText = ""; // optional NPC reply after select
 }
 
 [System.Serializable]

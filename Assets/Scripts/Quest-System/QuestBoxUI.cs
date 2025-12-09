@@ -7,9 +7,10 @@ public class QuestBoxUI : MonoBehaviour
 {
     [Header("UI References")]
     public GameObject questBoxPanel;
-    public Transform questListContainer; // ScrollView → Content
+    public Transform questListContainer;
     public GameObject questEntryPrefab;
     public Button closeButton;
+    public GameObject ControllerUI;
 
     [Header("Runtime")]
     private List<QuestData> availableQuests = new List<QuestData>();
@@ -24,6 +25,7 @@ public class QuestBoxUI : MonoBehaviour
     public void CloseBox()
     {
         questBoxPanel.SetActive(false);
+        ControllerUI.gameObject.SetActive(true);
     }
 
     public void OpenQuestBox(List<QuestData> quests)
@@ -35,6 +37,7 @@ public class QuestBoxUI : MonoBehaviour
             .ToList();
 
         questBoxPanel.SetActive(true);
+        ControllerUI.gameObject.SetActive(false);
 
         // Refresh UI entries
         foreach (Transform child in questListContainer)
@@ -87,6 +90,9 @@ public class QuestBoxUI : MonoBehaviour
         }
 
         if (availableQuests.Count == 0)
+        {
             gameObject.SetActive(false);
+            ControllerUI.gameObject.SetActive(true);
+        }
     }
 }

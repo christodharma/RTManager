@@ -175,7 +175,7 @@ public class QuestManager : MonoBehaviour, IPersistable
 
     private int GetDailyQuestCount()
     {
-        return Random.Range(2, 5); // 5 is exclusive → returns 2,3,4
+        return Random.Range(2, 5);
     }
 
     public void GenerateDailyQuests()
@@ -300,7 +300,6 @@ public class QuestManager : MonoBehaviour, IPersistable
             return difficulty == QuestObject.Difficulty.Easy ||
                    difficulty == QuestObject.Difficulty.Medium;
 
-        // Day 11+ → start hard quests
         return difficulty == QuestObject.Difficulty.Easy ||
                difficulty == QuestObject.Difficulty.Medium ||
                difficulty == QuestObject.Difficulty.Hard;
@@ -318,8 +317,6 @@ public class QuestManager : MonoBehaviour, IPersistable
 
         // Get final money earned value (difference)
         report.moneyEarned = (int)ResourceManager.Instance.CurrentMoney - startingMoneyOfDay;
-
-        // Reset grade score for next day if needed
     }
 
     public void ResetDailyReport()
