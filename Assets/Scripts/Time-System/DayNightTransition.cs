@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Rendering.Universal;
 
 public class DayNightTransition : MonoBehaviour
 {
     [Header("References")]
-    public Image overlayImage;
+    public Light2D Light;
 
     [Header("Colors by Phase")]
     public Color pagiColor = new Color(1f, 0.95f, 0.75f, 0.1f);   // soft warm tint
@@ -48,13 +48,13 @@ public class DayNightTransition : MonoBehaviour
 
     System.Collections.IEnumerator TransitionColor()
     {
-        Color startColor = overlayImage.color;
+        Color startColor = Light.color;
         float t = 0f;
 
         while (t < 1f)
         {
             t += Time.deltaTime * transitionSpeed;
-            overlayImage.color = Color.Lerp(startColor, targetColor, t);
+            Light.color = Color.Lerp(startColor, targetColor, t);
             yield return null;
         }
     }
