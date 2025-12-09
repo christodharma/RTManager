@@ -251,13 +251,11 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
     public void PauseGame()
     {
-        isDayPaused = true;
         OnPause?.Invoke();
     }
 
     public void ResumeGame()
     {
         OnResume?.Invoke();
-        isDayPaused = false;
     }
 }
