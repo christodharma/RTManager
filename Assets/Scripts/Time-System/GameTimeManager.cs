@@ -24,6 +24,8 @@ public class GameTimeManager : MonoBehaviour, IPersistable
     public event Action<int> OnDayChanged;
     public event Action<DayPhase> OnPhaseChanged;
     public event Action<float> OnDayFractionChanged; // 0..1
+    public event Action OnPause;
+    public event Action OnResume;
 
     public DayPhase CurrentPhase { get; private set; }
 
@@ -247,4 +249,15 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoad);
     }
 
+    public void PauseGame()
+    {
+        isDayPaused = true;
+        OnPause?.Invoke();
+    }
+
+    public void ResumeGame()
+    {
+        OnResume?.Invoke();
+        isDayPaused = false;
+    }
 }
