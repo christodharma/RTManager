@@ -19,7 +19,7 @@ MonoBehaviour:
   hasCost: 1
   costRupiah: 15000
   deadlineHours: 12
-  difficulty: 0
+  difficulty: 1
   completesOnObjectClick: 1
   targetObjectID: ObatNenek
   completionDialogue:
@@ -43,7 +43,6 @@ MonoBehaviour:
       jalan kembali!
     failureResponse: Nenek semakin parah jadi dibawa ke rumah sakit
     stageDialogues: []
-  dialogueSourceID: ObatNenek
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0

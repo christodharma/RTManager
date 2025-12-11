@@ -131,6 +131,8 @@ public class QuestManager : MonoBehaviour, IPersistable
 
         NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{quest.title}</b>");
         QuestSucceed?.Invoke(quest);
+
+        QuestTracker.Instance.StopTracking();
     }
 
     public void FailQuest(QuestData quest)

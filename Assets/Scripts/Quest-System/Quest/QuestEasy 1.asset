@@ -15,7 +15,7 @@ MonoBehaviour:
   questID: QE001
   title: Buat Surat Keterangan RT
   description: Seorang warga membutuhkan surat keterangan RT!
-  rewardHAM: 10
+  rewardHAM: 100
   hasCost: 1
   costRupiah: 5000
   deadlineHours: 6
@@ -31,7 +31,7 @@ MonoBehaviour:
     - buttonText: '[Bantu] Boleh, Pak, suratnya pakai materai Rp10000 ya'
       completesQuest: 1
       failQuest: 0
-      costRupiah: 0
+      costRupiah: 10000
       responseText: 
     - buttonText: '[Tolak] Lain waktu dulu ya, Pak, saya sibuk'
       completesQuest: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
       untuk anak saya yang sakit.
     failureResponse: Oalah, ya mas, gapapa.
     stageDialogues: []
-  isRepeatable: 1
+  isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0
   stages: []

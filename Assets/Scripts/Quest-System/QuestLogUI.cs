@@ -15,6 +15,9 @@ public class QuestLogUI : MonoBehaviour
     [Header("Toggle Button")]
     public Button toggleButton;
 
+    [Header("Show/Hide Controller")]
+    public GameObject ControllerUI;
+
     private bool isOpen = false;
 
     private void Start()
@@ -26,6 +29,9 @@ public class QuestLogUI : MonoBehaviour
         QuestManager.Instance.OnQuestListChanged += HandleQuestListChanged;
 
         questLogPanel.SetActive(false); // start closed
+
+        if (ControllerUI != null)
+            ControllerUI.SetActive(true);
     }
 
     private void OnDestroy()
@@ -44,6 +50,9 @@ public class QuestLogUI : MonoBehaviour
     {
         isOpen = !isOpen;
         questLogPanel.SetActive(isOpen);
+
+        if (ControllerUI != null) 
+            ControllerUI.SetActive(!isOpen);
 
         if (isOpen)
             RefreshLog();
