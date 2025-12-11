@@ -150,10 +150,8 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         QuestManager.Instance.GenerateDailyQuests();
     }
 
-
     IEnumerator HandleStartNextDay()
     {
-        // Reset before fading back
         HAMGradeManager.Instance.CurrentHamPoints = 0;
         secondsElapsedToday = 0f;
         dayFraction = 0f;

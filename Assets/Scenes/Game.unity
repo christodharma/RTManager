@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2dd3a5ca5f4d7419fa05a8543a2ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  realSecondsPerDay: 360
+  realSecondsPerDay: 10
   startHour: 7
   startMinute: 0
   endHour: 19
@@ -1010,6 +1010,37 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!1 &643244017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643244018}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &643244018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643244017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.33, y: -15.7, z: -0.062100053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &712453356
 GameObject:
   m_ObjectHideFlags: 0
@@ -20544,6 +20575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621695108}
   - component: {fileID: 1621695107}
+  - component: {fileID: 1621695109}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -20684,6 +20716,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1621695109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621695106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8865d5d331d00b045bcbfb0d5bbd6376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerObject: {fileID: 1406290578}
+  dailySpawnPoint: {fileID: 643244018}
 --- !u!1 &1661436202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3422368950141593724, guid: 5a5c767a0e9b34f39a630ed004a14f2b, type: 3}
@@ -34224,7 +34270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8004545925302904939, guid: b5fa523b0cb164fd19fb00568b234626, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34743,3 +34789,4 @@ SceneRoots:
   - {fileID: 525440439}
   - {fileID: 332043723}
   - {fileID: 1606472182}
+  - {fileID: 643244018}
