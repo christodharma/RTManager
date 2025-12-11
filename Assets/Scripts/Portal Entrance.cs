@@ -39,7 +39,7 @@ public class PortalEntrance : MonoBehaviour
         Destroy(instantiated);
     }
 
-    IEnumerator FadeOutAndTeleport(GameObject teleporter, Vector3 destination)
+    IEnumerator FadeOutAndTeleport(GameObject teleported, Vector3 destination)
     {
         if (instantiated != null) { Destroy(instantiated); }
 
@@ -47,6 +47,8 @@ public class PortalEntrance : MonoBehaviour
 
         yield return StartCoroutine(FadeTransition.Instance.FadeOut());
 
-        teleporter.transform.SetPositionAndRotation(destination, teleporter.transform.rotation);
+        Target.GetComponent<BoxCollider2D>().enabled = true; // open exit script
+
+        teleported.transform.SetPositionAndRotation(destination, teleported.transform.rotation);
     }
 }

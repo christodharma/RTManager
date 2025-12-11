@@ -16,6 +16,7 @@ public class PortalExit : MonoBehaviour
     {
         if (FadeTransition.Instance == null) { yield break; }
 
+        yield return new WaitForSeconds(1); // sustaining black screen
         yield return StartCoroutine(FadeTransition.Instance.FadeIn());
 
         GetComponent<BoxCollider2D>().enabled = false;
