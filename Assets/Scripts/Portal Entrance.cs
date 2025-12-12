@@ -7,7 +7,7 @@ public class PortalEntrance : MonoBehaviour
     public PortalExit Target;
     public bool PromptFirst = true;
     public GameObject PromptGameObject;
-    GameObject instantiated;
+    GameObject instantiatedPromptGameObject;
     GameObject player;
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -20,9 +20,9 @@ public class PortalEntrance : MonoBehaviour
                 StartTeleport(); return;
             }
 
-            instantiated = Instantiate(PromptGameObject);
-            instantiated.GetComponent<Canvas>().enabled = true;
-            TeleportPromptUI promptUI = instantiated.GetComponent<TeleportPromptUI>();
+            instantiatedPromptGameObject = Instantiate(PromptGameObject);
+            instantiatedPromptGameObject.GetComponent<Canvas>().enabled = true;
+            TeleportPromptUI promptUI = instantiatedPromptGameObject.GetComponent<TeleportPromptUI>();
             promptUI.Entrance = this;
 
             // TODO pause on prompt?
@@ -36,12 +36,12 @@ public class PortalEntrance : MonoBehaviour
 
     public void CancelTeleport()
     {
-        Destroy(instantiated);
+        Destroy(instantiatedPromptGameObject);
     }
 
     IEnumerator FadeOutAndTeleport(GameObject teleported, Vector3 destination)
     {
-        if (instantiated != null) { Destroy(instantiated); }
+        if (instantiatedPromptGameObject != null) { Destroy(instantiatedPromptGameObject); }
 
         if (FadeTransition.Instance == null) { yield break; }
 
