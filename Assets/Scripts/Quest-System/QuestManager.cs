@@ -107,10 +107,9 @@ public class QuestManager : MonoBehaviour, IPersistable
 
     public void CompleteQuest(QuestData quest)
     {
-
         if (quest.isMultiStage && !quest.IsFinalStage)
         {
-            Debug.LogWarning($"Attempting to 'Complete' Quest {quest.questID} which is not yet in its final stage. Check calling code.");
+            Debug.LogWarning($"Attempting to 'Complete' Quest {quest.questID}...");
             return;
         }
 
@@ -128,6 +127,8 @@ public class QuestManager : MonoBehaviour, IPersistable
 
         TodayReport.completedQuests++;
         TodayReport.hamEarned += quest.rewardHAM;
+
+        HAMGradeManager.Instance.Add(quest.rewardHAM);
 
         NotificationSystem.Instance.ShowNotification($"Quest Completed: <b>{quest.title}</b>");
         QuestSucceed?.Invoke(quest);

@@ -112,26 +112,17 @@ public class GameTimeManager : MonoBehaviour, IPersistable
         if (FadeTransition.Instance != null)
             yield return FadeTransition.Instance.FadeOut();
 
-        // 1 — Finalize quests first
         QuestManager.Instance.FinalizeDayReport();
 
-        // 2 — Save TODAY'S HAM into TOTAL HAM
         int dailyHam = HAMGradeManager.Instance.CurrentHamPoints;
         HAMGradeManager.Instance.AddToTotal(dailyHam);
 
-        // DEBUG: Check daily accumulation
-        Debug.Log($"[HAM DEBUG] End of Day {currentDay} → Daily HAM: {dailyHam}, Total HAM: {HAMGradeManager.Instance.TotalAccumulatedHamPoints}");
+        Debug.Log($"[HAM DEBUG] End of Day {currentDay}...");
 
-        // 3 — Convert HAM into MONEY
-        ResourceManager.Instance.GetMoneyFromGrade();
-
-        // 4 — Reset daily HAM
         HAMGradeManager.Instance.CurrentHamPoints = 0;
 
-        // 5 — Show day summary UI
         OnDayEnded?.Invoke();
 
-        // 6 — Reset quests
         QuestManager.Instance.ResetDailyReport();
     }
 

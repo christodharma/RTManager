@@ -18,7 +18,7 @@ MonoBehaviour:
   rewardHAM: 100
   hasCost: 1
   costRupiah: 5000
-  deadlineHours: 6
+  deadlineHours: 12
   difficulty: 0
   completesOnObjectClick: 1
   targetObjectID: BuatSurat

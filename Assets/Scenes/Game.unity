@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f2dd3a5ca5f4d7419fa05a8543a2ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  realSecondsPerDay: 10
+  realSecondsPerDay: 60
   startHour: 7
   startMinute: 0
   endHour: 19
@@ -32179,7 +32179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 80}
+  m_AnchoredPosition: {x: 0, y: -75}
   m_SizeDelta: {x: 250, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2248519713439964917
@@ -32511,7 +32511,7 @@ MonoBehaviour:
   titleText: {fileID: 7576953357008719392}
   summaryText: {fileID: 8412131534377520053}
   nextDayButton: {fileID: 5574413773089087480}
-  playerController: {fileID: 1406290578}
+  playerController: {fileID: 815543442}
   buttonGroup: {fileID: 4623486088867037883}
 --- !u!1 &3382927858907483698
 GameObject:
@@ -33117,6 +33117,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 390719347448454463, guid: 5a5c767a0e9b34f39a630ed004a14f2b, type: 3}
+      propertyPath: gameTime
+      value: 
+      objectReference: {fileID: 44190513}
     - target: {fileID: 3422368950141593724, guid: 5a5c767a0e9b34f39a630ed004a14f2b, type: 3}
       propertyPath: m_Name
       value: Control Canvas
@@ -34260,6 +34264,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1590488865291986149, guid: b5fa523b0cb164fd19fb00568b234626, type: 3}
+      propertyPath: buttonGroup
+      value: 
+      objectReference: {fileID: 4623486088867037883}
+    - target: {fileID: 1590488865291986149, guid: b5fa523b0cb164fd19fb00568b234626, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1406290578}
     - target: {fileID: 5296113184990740155, guid: b5fa523b0cb164fd19fb00568b234626, type: 3}
       propertyPath: m_IsActive
       value: 0

@@ -52,14 +52,13 @@ public class QuestGiverClickable : MonoBehaviour
 
     private List<QuestData> GetAvailableQuestsForGiver()
     {
-        List<QuestObject> offeredQuests = questIDsToOffer
+        List<QuestData> combinedQuests = new List<QuestData>();
+        List<QuestObject> manualQuests = questIDsToOffer
             .Select(id => questDatabase.GetQuestByID(id))
             .Where(q => q != null)
             .ToList();
 
-        List<QuestData> availableQuests = new List<QuestData>();
-
-        foreach (var questObj in offeredQuests)
+        foreach (var questObj in manualQuests)
         {
             string qID = questObj.questID;
 
@@ -67,24 +66,29 @@ public class QuestGiverClickable : MonoBehaviour
                 continue;
 
             bool isRepeatable = questObj.isRepeatable;
-
             if (isRepeatable)
             {
-                if (QuestManager.Instance.HasQuestBeenCompletedToday(qID))
-                {
-                    continue;
-                }
+                if (QuestManager.Instance.HasQuestBeenCompletedToday(qID)) continue;
             }
             else
             {
-                if (QuestManager.Instance.completedQuests.Exists(q => q.questID == qID))
-                    continue;
+                if (QuestManager.Instance.completedQuests.Exists(q => q.questID == qID)) continue;
             }
 
-            availableQuests.Add(new QuestData(questObj));
+            if (QuestManager.Instance.availableQuests.Exists(q => q.questID == qID))
+                continue;
+
+            combinedQuests.Add(new QuestData(questObj));
         }
 
-        return availableQuests;
+        List<QuestData> dailyQuests = QuestManager.Instance.availableQuests;
+
+        if (dailyQuests != null && dailyQuests.Count > 0)
+        {
+            combinedQuests.AddRange(dailyQuests);
+        }
+
+        return combinedQuests;
     }
 
     private void OpenQuestUI()
