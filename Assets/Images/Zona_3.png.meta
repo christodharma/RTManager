@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: d5949e02179b543218cf2b59bb6e2040
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5777189828586116203
+    second: Zona_3_0
+  - first:
+      213: 5811365199532847766
+    second: Zona_3_1
+  - first:
+      213: 5114980324669880052
+    second: Zona_3_2
+  - first:
+      213: 5030082910211726929
+    second: Zona_3_3
+  - first:
+      213: 6125344631026227726
+    second: Zona_3_4
+  - first:
+      213: -2931685084267049945
+    second: Zona_3_5
+  - first:
+      213: 3466397076925432969
+    second: Zona_3_6
+  - first:
+      213: 7655136298581889336
+    second: Zona_3_7
+  - first:
+      213: -8574204881549638113
+    second: Zona_3_8
+  - first:
+      213: 5706383003197683436
+    second: Zona_3_9
+  - first:
+      213: 5147759097766560383
+    second: Zona_3_10
+  - first:
+      213: 8004307307145994652
+    second: Zona_3_11
+  - first:
+      213: 1872549173801117890
+    second: Zona_3_12
+  - first:
+      213: -3202468627421359597
+    second: Zona_3_13
+  - first:
+      213: -5699690529303627829
+    second: Zona_3_14
+  - first:
+      213: 5167386358483008160
+    second: Zona_3_15
+  - first:
+      213: -1098000503338666436
+    second: Zona_3_16
+  - first:
+      213: 924920785627235100
+    second: Zona_3_17
+  - first:
+      213: 3254718553298141144
+    second: Zona_3_18
+  - first:
+      213: 2724875713955670324
+    second: Zona_3_19
+  - first:
+      213: 8097348728620791647
+    second: Zona_3_20
+  - first:
+      213: -6955910605502493922
+    second: Zona_3_21
+  - first:
+      213: 1932428316658055152
+    second: Zona_3_22
+  - first:
+      213: 6190285544368837241
+    second: Zona_3_23
+  - first:
+      213: 8080513836786311064
+    second: Zona_3_24
+  - first:
+      213: 5748757274992838702
+    second: Zona_3_25
+  - first:
+      213: 8294962099861610123
+    second: Zona_3_26
+  - first:
+      213: -4087494835525232286
+    second: Zona_3_27
+  - first:
+      213: 5144434801349849142
+    second: Zona_3_28
+  - first:
+      213: -9009551072527207390
+    second: Zona_3_29
+  - first:
+      213: -4279232357995417413
+    second: Zona_3_30
+  - first:
+      213: 4964409313614074732
+    second: Zona_3_31
+  - first:
+      213: -3750029710754176077
+    second: Zona_3_32
+  - first:
+      213: -8130904122894933100
+    second: Zona_3_33
+  - first:
+      213: -8856760696437086397
+    second: Zona_3_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zona_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 382
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bef13b57c43dfa0800000000000000
+      internalID: -5777189828586116203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_1
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1237
+        width: 76
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692f83aebdd16a050800000000000000
+      internalID: 5811365199532847766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_2
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1260
+        width: 130
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f67f05418f0cf640800000000000000
+      internalID: 5114980324669880052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_3
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 1275
+        width: 105
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15edeed91c17ec540800000000000000
+      internalID: 5030082910211726929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1170
+        width: 164
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1a2b0d78910550800000000000000
+      internalID: 6125344631026227726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_5
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1170
+        width: 164
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c83f6d2ff8057d0800000000000000
+      internalID: -2931685084267049945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_6
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1157
+        width: 535
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984c79496cd1b1030800000000000000
+      internalID: 3466397076925432969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1093
+        width: 21
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8311c28a7e18c3a60800000000000000
+      internalID: 7655136298581889336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_8
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 982
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1640db961e420980800000000000000
+      internalID: -8574204881549638113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_9
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 367
+        width: 739
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6bce19b15213f40800000000000000
+      internalID: 5706383003197683436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_10
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 921
+        width: 166
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7249ab10a3807740800000000000000
+      internalID: 5147759097766560383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 780
+        width: 75
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9120835613051f60800000000000000
+      internalID: 8004307307145994652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 716
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8edd86d81acf910800000000000000
+      internalID: 1872549173801117890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 714
+        width: 302
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312973230cb8e83d0800000000000000
+      internalID: -3202468627421359597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 643
+        width: 124
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7f23f69a1a6e0b0800000000000000
+      internalID: -5699690529303627829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_15
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 576
+        width: 9
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa349ad38e36b740800000000000000
+      internalID: 5167386358483008160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_16
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 583
+        width: 276
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c367c431c5e13c0f0800000000000000
+      internalID: -1098000503338666436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_17
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 583
+        width: 146
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13cfa8dd8af5dc00800000000000000
+      internalID: 924920785627235100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_18
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 506
+        width: 116
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df753da7451b2d20800000000000000
+      internalID: 3254718553298141144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_19
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 0
+        width: 377
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439aa6b5604b0d520800000000000000
+      internalID: 2724875713955670324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 391
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5737ef54cf8f5070800000000000000
+      internalID: 8097348728620791647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 391
+        width: 111
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bc6a58824a77f90800000000000000
+      internalID: -6955910605502493922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 392
+        width: 71
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f73f48c05d51da10800000000000000
+      internalID: 1932428316658055152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_23
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 378
+        width: 109
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9721752b7ef48e550800000000000000
+      internalID: 6190285544368837241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 315
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd64ca580c32070800000000000000
+      internalID: 8080513836786311064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_25
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 185
+        width: 65
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2804eb8840b7cf40800000000000000
+      internalID: 5748757274992838702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 236
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e549bc410ad1370800000000000000
+      internalID: 8294962099861610123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 223
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26956438a1d4647c0800000000000000
+      internalID: -4087494835525232286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_28
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 247
+        width: 8
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6307d980234b46740800000000000000
+      internalID: 5144434801349849142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_29
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 200
+        width: 90
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224b640c805a7f280800000000000000
+      internalID: -9009551072527207390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_30
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 200
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0735eb7dc1d94c0800000000000000
+      internalID: -4279232357995417413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_31
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 189
+        width: 131
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c639b99d7ff15e440800000000000000
+      internalID: 4964409313614074732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_32
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 189
+        width: 510
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b32659b8d735fbc0800000000000000
+      internalID: -3750029710754176077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_33
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 0
+        width: 686
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493a61497c9392f80800000000000000
+      internalID: -8130904122894933100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zona_3_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 60
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347e93c5217761580800000000000000
+      internalID: -8856760696437086397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Zona_3_0: -5777189828586116203
+      Zona_3_1: 5811365199532847766
+      Zona_3_10: 5147759097766560383
+      Zona_3_11: 8004307307145994652
+      Zona_3_12: 1872549173801117890
+      Zona_3_13: -3202468627421359597
+      Zona_3_14: -5699690529303627829
+      Zona_3_15: 5167386358483008160
+      Zona_3_16: -1098000503338666436
+      Zona_3_17: 924920785627235100
+      Zona_3_18: 3254718553298141144
+      Zona_3_19: 2724875713955670324
+      Zona_3_2: 5114980324669880052
+      Zona_3_20: 8097348728620791647
+      Zona_3_21: -6955910605502493922
+      Zona_3_22: 1932428316658055152
+      Zona_3_23: 6190285544368837241
+      Zona_3_24: 8080513836786311064
+      Zona_3_25: 5748757274992838702
+      Zona_3_26: 8294962099861610123
+      Zona_3_27: -4087494835525232286
+      Zona_3_28: 5144434801349849142
+      Zona_3_29: -9009551072527207390
+      Zona_3_3: 5030082910211726929
+      Zona_3_30: -4279232357995417413
+      Zona_3_31: 4964409313614074732
+      Zona_3_32: -3750029710754176077
+      Zona_3_33: -8130904122894933100
+      Zona_3_34: -8856760696437086397
+      Zona_3_4: 6125344631026227726
+      Zona_3_5: -2931685084267049945
+      Zona_3_6: 3466397076925432969
+      Zona_3_7: 7655136298581889336
+      Zona_3_8: -8574204881549638113
+      Zona_3_9: 5706383003197683436
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

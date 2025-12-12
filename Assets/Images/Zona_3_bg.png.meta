@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1dfbf610973f445af9f81c78f8be7db0
+guid: 5c9256b07513843adaf0228a4bf1c454
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3155504585378416429
-    second: 8a02f80b-5259-4317-9d7d-a87e0a046870_0
+      213: -1664683622848171280
+    second: Zona_3_bg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 8a02f80b-5259-4317-9d7d-a87e0a046870_0
+      name: Zona_3_bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1296
-        height: 701
+        width: 2403
+        height: 1300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d837655c456534d0800000000000000
-      internalID: -3155504585378416429
+      spriteID: 0f279bc901bd5e8e0800000000000000
+      internalID: -1664683622848171280
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      8a02f80b-5259-4317-9d7d-a87e0a046870_0: -3155504585378416429
+      Zona_3_bg_0: -1664683622848171280
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
