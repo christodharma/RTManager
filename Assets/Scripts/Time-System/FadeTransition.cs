@@ -6,7 +6,7 @@ public class FadeTransition : MonoBehaviour
 {
     public static FadeTransition Instance { get; private set; }
     public Image fadeImage;
-    public float fadeDuration = 1.5f; // seconds
+    public float fadeDuration = 3.5f; // seconds
 
     void Awake()
     {
@@ -21,7 +21,7 @@ public class FadeTransition : MonoBehaviour
 
     public IEnumerator FadeIn()
     {
-        yield return Fade(1f, 0f); // fade back in
+        yield return Fade(3.5f, 0f); // fade back in
     }
 
     IEnumerator Fade(float start, float end)
