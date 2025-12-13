@@ -23629,7 +23629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSource: {fileID: 1864638883}
   sfxSource: {fileID: 1864638882}
-  dayBGM: {fileID: 8300000, guid: 071bf7c297bc2d74ca6887453bd95a77, type: 3}
+  dayBGM: {fileID: 8300000, guid: 3b7ed6b100aafe311b543527cb3152a1, type: 3}
   nightBGM: {fileID: 8300000, guid: e875c05a481f596428b556b57543783b, type: 3}
   bgmFadeDuration: 2
 --- !u!1 &1874067347
