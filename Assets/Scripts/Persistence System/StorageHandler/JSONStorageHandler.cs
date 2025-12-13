@@ -42,12 +42,12 @@ public class JSONStorageHandler : MonoBehaviour, IStorageHandler
         string fullPath = Path.Combine(FileDirectory, FileName);
         fullPath = Path.ChangeExtension(fullPath, ".json");
 
-        long freeSpace = GetTotalFreeSpace(FileDirectory);
-        if (freeSpace == -1)
-        {
-            Debug.LogError("There's no storage to save");
-            return;
-        }
+        // long freeSpace = GetTotalFreeSpace(FileDirectory);
+        // if (freeSpace == -1)
+        // {
+        //     Debug.LogError("There's no storage to save");
+        //     return;
+        // }
 
         try
         {
