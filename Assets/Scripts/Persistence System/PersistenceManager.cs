@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PersistenceManager : MonoBehaviour
 {
@@ -48,12 +49,24 @@ public class PersistenceManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        StorageHandler = gameObject.AddComponent<JSONStorageHandler>();
+
+        SceneManager.sceneUnloaded += (_) => PullFromPersistables();
+        SceneManager.sceneLoaded += (_, _) => FindAllPersistableScripts();
+        SceneManager.sceneLoaded += OnMapSceneActive;
     }
 
     void Start()
     {
         FindAllPersistableScripts();
-        StorageHandler = gameObject.AddComponent<JSONStorageHandler>();
+    }
+
+    [ContextMenu("Trigger New Game")]
+    public void TriggerNew()
+    {
+        GameData = new();
+        StorageHandler.Write(GameData);
     }
 
     [ContextMenu("Trigger Load Game")]
@@ -61,11 +74,13 @@ public class PersistenceManager : MonoBehaviour
     {
         LoadStart?.Invoke();
 
-        GameData = StorageHandler.Read("save");
-        foreach (var item in Subscribers)
+        if (!TryGetSaveFile(out GameData))
         {
-            item.Load(GameData);
+            throw new NullReferenceException($"[{GetType().Name}] Read null save file");
+            // TODO automatically makes a new game?
         }
+
+        PushToPersistables();
         // Optional: reload scene
 
         LoadEnd?.Invoke();
@@ -76,13 +91,27 @@ public class PersistenceManager : MonoBehaviour
     {
         SaveStart?.Invoke();
 
+        PullFromPersistables();
+
+        StorageHandler.Write(GameData);
+
+        SaveEnd?.Invoke();
+    }
+
+    public void PushToPersistables()
+    {
+        foreach (var item in Subscribers)
+        {
+            item.Load(GameData);
+        }
+    }
+
+    public void PullFromPersistables()
+    {
         foreach (var item in Subscribers)
         {
             item.Save(ref GameData);
         }
-        StorageHandler.Write(GameData);
-
-        SaveEnd?.Invoke();
     }
 
     public void AddSubcriber(IPersistable persistable)
@@ -97,12 +126,33 @@ public class PersistenceManager : MonoBehaviour
         Subscribers = new List<IPersistable>(persistables);
         Debug.Log($"[PersistenceManager] Found {Subscribers.Count} persistables");
     }
+
+    public bool TryGetSaveFile(out GameData data)
+    {
+        GameData read = StorageHandler.Read("save");
+        if (read == null)
+        {
+            data = null;
+            return false;
+        }
+        data = read;
+        return true;
+    }
+
+    public void OnMapSceneActive(Scene next, LoadSceneMode loadSceneMode)
+    {
+        if (next.name == "Game")
+        {
+            PushToPersistables();
+        }
+    }
 }
 
+[Serializable]
 public enum StorageType
 {
     JSON,
-    Binary,
-    Cloud
+    // Binary,
+    // Cloud
     // add more if needed
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PortalEntrance : MonoBehaviour
 {
     public PortalExit Target;
-    public bool PromptFirst = true;
+    public bool AskPromptFirst = true;
     public GameObject PromptGameObject;
     GameObject instantiatedPromptGameObject;
     GameObject player;
@@ -15,7 +15,7 @@ public class PortalEntrance : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             player = collision.gameObject;
-            if (!PromptFirst)
+            if (!AskPromptFirst)
             {
                 StartTeleport(); return;
             }

@@ -11,26 +11,26 @@ public class GameData
 {
     // add data types here, e.g. statistics, level, health, etc
     [Header("Resource Manager")]
-    public float CurrentMoney;
+    public float CurrentMoney = 50000;
 
     [Header("HAM Grade Manager")]
-    public int CurrentHAMPoints;
+    public int CurrentHAMPoints = 0;
     public int TotalAccumulatedHAM;
 
 
     [Header("Quest Manager")]
-    public List<QuestData> activeQuests;
-    public List<QuestData> completedQuests;
-    public List<QuestData> failedQuests;
-    public List<QuestData> refusedQuests;
-    public List<QuestData> availableQuests;
+    public List<QuestData> activeQuests = new();
+    public List<QuestData> completedQuests = new();
+    public List<QuestData> failedQuests = new();
+    public List<QuestData> refusedQuests = new();
+    public List<QuestData> availableQuests = new();
 
     [Header("Game Time Manager")]
     public float secondsElapsedToday;
-    public int currentDay;
+    public int currentDay  = 1;
 
     [Header("Movement")]
     public Vector3 Position;
     public Quaternion Rotation;
-    public Vector3 LocalScale;
+    public Vector3 LocalScale = Vector3.one;
 }

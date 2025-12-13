@@ -10,6 +10,7 @@ public class DayNightTransition : MonoBehaviour
     public Color pagiColor = new Color(1f, 0.95f, 0.75f, 0.1f);   // soft warm tint
     public Color siangColor = new Color(1f, 1f, 1f, 0f);          // no tint
     public Color soreColor = new Color(1f, 0.75f, 0.5f, 0.15f);   // orange tint
+    public Color malamColor = new(0f, 0f, 0f, 0.15f);
 
     [Header("Transition Settings")]
     public float transitionSpeed = 1f; // how fast to blend (higher = faster)
@@ -38,6 +39,9 @@ public class DayNightTransition : MonoBehaviour
                 break;
             case DayPhase.Sore:
                 targetColor = soreColor;
+                break;
+            case DayPhase.Malam:
+                targetColor = malamColor;
                 break;
         }
 
