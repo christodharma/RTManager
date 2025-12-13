@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 607af2774e7034e69aaa194ac91e7c12
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Target: {instanceID: 0}
+  - PromptGameObject: {instanceID: 0}
+  - PlayerController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
