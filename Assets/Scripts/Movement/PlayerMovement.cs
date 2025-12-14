@@ -32,6 +32,15 @@ public class PlayerMovement : MonoBehaviour, IPersistable
         RigidBody.linearVelocity = MovementDirection * MovementSpeed;
     }
 
+    void OnDisable()
+    {
+        MovementDirection = Vector2.zero;
+        RigidBody.linearVelocity = Vector2.zero;
+        Animator.SetFloat("Velocity", 0f);
+        Animator.SetFloat("Vertical", 0f);
+        Animator.SetFloat("Horizontal", 0f);
+    }
+
     public void ReadInput(InputAction.CallbackContext ctx)
     {
         MovementDirection = ctx.ReadValue<Vector2>();

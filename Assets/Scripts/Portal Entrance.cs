@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PortalEntrance : MonoBehaviour
 {
@@ -9,10 +10,6 @@ public class PortalEntrance : MonoBehaviour
     public GameObject PromptGameObject;
     GameObject instantiatedPromptGameObject;
     GameObject player;
-
-    private PlayerMovement playerMovementScript;
-    private Animator playerAnimator;
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -29,23 +26,7 @@ public class PortalEntrance : MonoBehaviour
             promptUI.Entrance = this;
 
             // TODO pause on prompt?
-            playerMovementScript = player.GetComponent<PlayerMovement>();
-            if (playerMovementScript != null)
-            {
-                playerMovementScript.enabled = false;
-            }
-
-            playerAnimator = player.GetComponent<Animator>();
-            playerAnimator.SetFloat("Velocity", 0f);
-            playerAnimator.SetFloat("Vertical", 0f);
-            playerAnimator.SetFloat("Horizontal", 0f);
-
-            Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.linearVelocity = Vector2.zero;
-                rb.angularVelocity = 0f;
-            }
+            SetEnablePlayerMovement(false);
         }
     }
 
@@ -53,19 +34,21 @@ public class PortalEntrance : MonoBehaviour
     {
         StartCoroutine(FadeOutAndTeleport(player, Target.transform.position));
 
-        if (playerMovementScript != null)
-        {
-            playerMovementScript.enabled = true;
-        }
+        SetEnablePlayerMovement(true);
     }
 
     public void CancelTeleport()
     {
         Destroy(instantiatedPromptGameObject);
-        
-        if (playerMovementScript != null)
+
+        SetEnablePlayerMovement(true);
+    }
+
+    private void SetEnablePlayerMovement(bool active)
+    {
+        if (player.TryGetComponent(out PlayerMovement movement))
         {
-            playerMovementScript.enabled = true;
+            movement.enabled = active;
         }
     }
 
