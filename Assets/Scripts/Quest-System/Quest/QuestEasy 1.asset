@@ -13,36 +13,52 @@ MonoBehaviour:
   m_Name: QuestEasy 1
   m_EditorClassIdentifier: 
   questID: QE001
-  title: Buat Surat Keterangan RT
-  description: Seorang warga membutuhkan surat keterangan RT!
+  title: Anak dipaksa nikah dibawah umur!
+  description: 
   rewardHAM: 100
   hasCost: 1
   costRupiah: 5000
   deadlineHours: 12
   difficulty: 0
   completesOnObjectClick: 1
-  targetObjectID: BuatSurat
+  targetObjectID: NikahPaksa
   completionDialogue:
-    npcImage: {fileID: 21300000, guid: 4e7f4e5ef3f45501b9f2653600f9548e, type: 3}
-    npcName: Pak Ahmad
-    dialogueText: Bisa buatkan surat keterangan RT, mas? Saya baru mau mengurus KTP
-      saya hilang
-    options:
-    - buttonText: '[Bantu] Boleh, Pak, suratnya pakai materai Rp10000 ya'
-      completesQuest: 1
-      failQuest: 0
-      costRupiah: 10000
-      responseText: 
-    - buttonText: '[Tolak] Lain waktu dulu ya, Pak, saya sibuk'
-      completesQuest: 0
-      failQuest: 1
-      costRupiah: 0
-      responseText: 
-    successResponse: Terima kasih banyak, Mas. Saya jadi bisa mengajukan asuransi
-      untuk anak saya yang sakit.
-    failureResponse: Oalah, ya mas, gapapa.
-    stageDialogues: []
+    stageDialogues:
+    - npcName: 
+      npcImage: {fileID: 0}
+      conversationNodes: []
+      dialogueText: 
+      options: []
+      successResponse: 
+      failureResponse: 
+    - npcName: 
+      npcImage: {fileID: 0}
+      conversationNodes: []
+      dialogueText: 
+      options: []
+      successResponse: 
+      failureResponse: 
+    finalCompletionDialogue:
+      npcName: 
+      npcImage: {fileID: 0}
+      conversationNodes: []
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
   isRepeatable: 0
   canSpawn: 1
-  isMultiStage: 0
-  stages: []
+  isMultiStage: 1
+  stages:
+  - objectiveDescription: Bicara dengan warga
+    requiresItem: 0
+    requiredItemID: QE001Tetangga
+    requiredAmount: 0
+  - objectiveDescription: Bicara dengan Orang Tua
+    requiresItem: 0
+    requiredItemID: QE001OrangTua
+    requiredAmount: 0
+  - objectiveDescription: Bicara dengan Orang Tua
+    requiresItem: 0
+    requiredItemID: QE001OrangTua
+    requiredAmount: 0
