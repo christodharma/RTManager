@@ -7,19 +7,26 @@ public class TutorialUI : MonoBehaviour
 {
     [SerializeField] private Button NextButton;
     [SerializeField] private Button PreviousButton;
+    [SerializeField] private Button FinishButton;
     [SerializeField] private TextMeshProUGUI TMP;
     private Canvas TutorialCanvas;
 
     [SerializeField]
-    [TextArea(100, 1000)]
+    [TextArea]
     private string TutorialContent;
 
     void Awake()
     {
         NextButton.onClick.AddListener(() => { TMP.pageToDisplay++; });
         PreviousButton.onClick.AddListener(() => { TMP.pageToDisplay--; });
+        FinishButton.onClick.AddListener(() => { StopTutorial(); });
         TutorialCanvas = GetComponent<Canvas>();
         TutorialCanvas.enabled = false;
+    }
+
+    void OnEnable()
+    {
+        StartTutorial();
     }
 
     [ContextMenu("Start Tutorial")]
@@ -43,7 +50,11 @@ public class TutorialUI : MonoBehaviour
 
     void Update()
     {
-        NextButton.interactable = TMP.pageToDisplay < TMP.textInfo.pageCount;
+        if (TMP.pageToDisplay == TMP.textInfo.pageCount && NextButton.gameObject.activeSelf)
+        {
+            NextButton.gameObject.SetActive(false);
+            FinishButton.gameObject.SetActive(true);
+        }
         PreviousButton.interactable = TMP.pageToDisplay > 1;
     }
 }

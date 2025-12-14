@@ -39,6 +39,8 @@ public class PersistenceManager : MonoBehaviour
     public event Action SaveEnd;
     public static PersistenceManager Instance { get; private set; }
 
+    public bool IsNewGame { get; set; } = true;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -60,6 +62,8 @@ public class PersistenceManager : MonoBehaviour
     void Start()
     {
         FindAllPersistableScripts();
+
+        IsNewGame = !TryGetSaveFile(out GameData);
     }
 
     [ContextMenu("Trigger New Game")]
@@ -67,6 +71,8 @@ public class PersistenceManager : MonoBehaviour
     {
         GameData = new();
         StorageHandler.Write(GameData);
+
+        // IsNewGame is set to false by TutorialManager
     }
 
     [ContextMenu("Trigger Load Game")]
@@ -143,7 +149,14 @@ public class PersistenceManager : MonoBehaviour
     {
         if (next.name == "Game")
         {
-            PushToPersistables();
+            if (IsNewGame)
+            {
+                // New Game procedures
+            }
+            else
+            {
+                PushToPersistables();
+            }
         }
     }
 }
