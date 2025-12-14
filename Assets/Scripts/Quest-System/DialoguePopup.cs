@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[RequireComponent(typeof(Canvas))]
 public class DialoguePopup : MonoBehaviour
 {
     [Header("UI")]
-    public GameObject DialoguePopupPanel;
+    public Canvas DialoguePopupCanvas;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
+    [SerializeField] private Button NextButton;
     public Image portraitImage;
     public GameObject buttonPrefab;
     public Transform buttonContainer;
@@ -21,9 +23,10 @@ public class DialoguePopup : MonoBehaviour
     private Coroutine typingRoutine;
     public float typingSpeed = 0.02f;
 
-    private void Start()
+    void Awake()
     {
-        DialoguePopupPanel.SetActive(false);
+        DialoguePopupCanvas.enabled = false;
+        NextButton.onClick.AddListener(() => { dialogueText.pageToDisplay++; });
     }
 
     private IEnumerator TypeText(string fullText, System.Action onFinished = null)
@@ -108,8 +111,8 @@ public class DialoguePopup : MonoBehaviour
 
             ShowTextAnimated(stageData.dialogueText, () => ShowAllButtons());
 
-            DialoguePopupPanel.SetActive(true);
-            ControllerUI.gameObject.SetActive(false);
+            DialoguePopupCanvas.enabled = true;
+            ControllerUI.SetActive(false);
             return;
         }
 
@@ -140,8 +143,8 @@ public class DialoguePopup : MonoBehaviour
 
         ShowTextAnimated(quest.completionDialogue.dialogueText, () => ShowAllButtons());
 
-        DialoguePopupPanel.SetActive(true);
-        ControllerUI.gameObject.SetActive(false);
+        DialoguePopupCanvas.enabled = true;
+        ControllerUI.SetActive(false);
     }
 
     private void HandleOption(DialogueOption option)
@@ -266,8 +269,8 @@ public class DialoguePopup : MonoBehaviour
 
     public void CloseDialogue()
     {
-        DialoguePopupPanel.SetActive(false);
-        ControllerUI.gameObject.SetActive(true);
+        DialoguePopupCanvas.enabled = false;
+        ControllerUI.SetActive(true);
 
         foreach (var b in activeButtons)
             Destroy(b);
