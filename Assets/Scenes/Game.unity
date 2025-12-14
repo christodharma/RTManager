@@ -23167,6 +23167,7 @@ GameObject:
   - component: {fileID: 1621695108}
   - component: {fileID: 1621695107}
   - component: {fileID: 1621695109}
+  - component: {fileID: 1621695110}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -23321,6 +23322,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObject: {fileID: 1406290578}
   dailySpawnPoint: {fileID: 643244018}
+--- !u!114 &1621695110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621695106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffc9cb0f5a6b49228f1cc40a83c015a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TutorialCanvas: {fileID: 3739590259675156550, guid: aefb6d196a3454c60985d4d21bc3cecb, type: 3}
 --- !u!1 &1629810636
 GameObject:
   m_ObjectHideFlags: 0

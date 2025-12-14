@@ -16,7 +16,7 @@ public class MainMenuUI : MonoBehaviour
         ContinueButton.onClick.AddListener(ContinueGame);
         QuitButton.onClick.AddListener(QuitGame);
 
-        if (!PersistenceManager.Instance.TryGetSaveFile(out GameData _))
+        if (PersistenceManager.Instance.IsNewGame)
         {
             // there is no save file, player can only start new game
             ContinueButton.gameObject.SetActive(false);
