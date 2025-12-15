@@ -35,8 +35,8 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 0
-        dialogueText: ' "Kak Ardi/Dina... Ibu ini nyebarin gosip saya pacaran sama
-          teman saya yang beda agama, padahal nggak..."'
+        dialogueText: Kak Ardi... Ibu ini nyebarin gosip saya pacaran sama teman
+          saya yang beda agama, padahal nggak...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Saya kan cuma cerita apa yang saya lihat..."'
+        dialogueText: Saya kan cuma cerita apa yang saya lihat...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -54,24 +54,24 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Ibu cuma melihat saya ngobrol sama teman saya doang di halaman!
-          Sekarang semua orang salah paham! Bahkan guru guru jadi menegur saya"'
+        dialogueText: Ibu cuma melihat saya ngobrol sama teman saya doang di halaman!
+          Sekarang semua orang salah paham! Bahkan guru guru jadi menegur saya.
         options:
-        - buttonText: '"Ibu, jangan sebar gosip tanpa tau kebenarannya. Minta maaf
-            ke dia."'
+        - buttonText: Ibu, jangan sebar gosip tanpa tau kebenarannya. Minta maaf
+            ke dia.
           nextNodeIndex: 3
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Namanya juga gosip. Biarin aja."'
+        - buttonText: Namanya juga gosip. Biarin aja.
           nextNodeIndex: 6
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Ibu harus minta maaf. Gosip bisa jadi masalah ke orang orang."'
+        dialogueText: Ibu harus minta maaf. Gosip bisa jadi masalah ke orang orang.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -80,7 +80,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Maaf ya, Nak..."'
+        dialogueText: Maaf ya, Nak...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -89,7 +89,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Terima kasih, Kak..."'
+        dialogueText: Terima kasih, Kak...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -98,7 +98,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Namanya juga gosip, biasa."'
+        dialogueText: Namanya juga gosip, biasa.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -107,7 +107,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Tapi Kak..."'
+        dialogueText: Tapi Kak...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1

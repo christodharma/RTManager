@@ -29,16 +29,14 @@ MonoBehaviour:
       npcName: Ibu-Ibu
       secondaryNpcImage: {fileID: 21300000, guid: c6ed75c053854ed67a820ddd71aa7055, type: 3}
       secondaryNpcName: Remaja
-      additionalNpcImage: {fileID: 0}
-      additionalNpcName: 
       dialogueText: Default dialogue...
       options: []
       successResponse: Thank you so much! You helped me a lot!
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 0
-        dialogueText: '"Nak Ardi/Dina! Remaja itu vape di taman! Asapnya banyak!
-          Anak-anak pada main di situ!"'
+        dialogueText: Nak Ardi! Remaja itu vape di taman! Asapnya banyak! Anak-anak
+          pada main di situ!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -47,7 +45,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Kak, vape kan bukan rokok... Nggak apa-apa kan?"'
+        dialogueText: Kak, vape kan bukan rokok... Nggak apa-apa kan?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -56,7 +54,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Tetap aja! Asapnya ganggu! Dan anak-anak bisa lihat!"'
+        dialogueText: Tetap aja! Asapnya ganggu! Dan anak-anak bisa lihat!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 3
@@ -67,20 +65,20 @@ MonoBehaviour:
       - speaker: 1
         dialogueText: '"Tapi ini tempat umum... Saya bebas kan?"'
         options:
-        - buttonText: '"Vape kan bukan rokok. Nggak apa-apa."'
+        - buttonText: Vape kan bukan rokok. Nggak apa-apa.
           nextNodeIndex: 4
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Vape di tempat umum tidak boleh, apalagi dekat anak-anak."'
+        - buttonText: Vape di tempat umum tidak boleh, apalagi dekat anak-anak.
           nextNodeIndex: 6
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Vape bukan rokok. Harusnya nggak masalah."'
+        dialogueText: Vape bukan rokok. Harusnya nggak masalah.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -89,7 +87,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Tapi tetap ganggu!"'
+        dialogueText: Tapi tetap ganggu!
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -98,8 +96,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Vape juga nggak boleh di tempat umum. Apalagi dekat anak-anak.
-          Stop sekarang."'
+        dialogueText: Vape juga nggak boleh di tempat umum. Apalagi dekat anak-anak.
+          Stop sekarang.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -108,7 +106,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Oke, Kak..."'
+        dialogueText: Oke, Kak...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 8
@@ -117,7 +115,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Terima kasih, Nak."'
+        dialogueText: Terima kasih, Nak.
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -125,8 +123,6 @@ MonoBehaviour:
           failQuest: 0
           costRupiah: 0
           responseText: 
-    postQuestSuccessDialogue: Thanks again for your help!
-    postQuestFailureDialogue: I don't have anything to say to you.
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

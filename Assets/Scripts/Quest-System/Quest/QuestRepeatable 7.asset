@@ -35,7 +35,7 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 0
-        dialogueText: '"Kak Ardi/Dina... Tolong!!!..."'
+        dialogueText: '"Kak Ardi... Tolong!!!...'
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Loh? Ada apa ini?"'
+        dialogueText: Loh? Ada apa ini?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -53,8 +53,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: "\u201COm om ini ngajak aku ke rumah dia, aku takut. Apalagi
-          aku tidak bisa masuk ke dalam rumah\u201D"
+        dialogueText: Om om ini ngajak aku ke rumah dia, aku takut. Apalagi aku tidak
+          bisa masuk ke dalam rumah.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 3
@@ -63,8 +63,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Kunci rumahku ketinggalan dalam rumah dan ibuku bakal pulang
-          sore hari nanti."'
+        dialogueText: Kunci rumahku ketinggalan dalam rumah dan ibuku bakal pulang
+          sore hari nanti.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -73,23 +73,23 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Nak Ardi/Dina, saya bisa jagain anak ini di rumah saya, saya
-          ga ada niat buruk kok."'
+        dialogueText: Nak Ardi, saya bisa jagain anak ini di rumah saya, saya ga
+          ada niat buruk kok.
         options:
-        - buttonText: '"Dik, ikut Om-om itu dulu aja. Nanti Kakak kabarin ibumu."'
+        - buttonText: Dik, ikut Om-om itu dulu aja. Nanti Kakak kabarin ibumu.
           nextNodeIndex: 5
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Kamu tunggu di luar aja dengan kakak sampai ibumu pulang."'
+        - buttonText: Kamu tunggu di luar aja dengan kakak sampai ibumu pulang.
           nextNodeIndex: 7
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Kamu tunggu di rumah dia saja. Nanti Kakak hubungin ibumu."'
+        dialogueText: Kamu tunggu di rumah dia saja. Nanti Kakak hubungin ibumu.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 6
@@ -98,7 +98,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Tapi aku takut, Kak..."'
+        dialogueText: Tapi aku takut, Kak...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -107,8 +107,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Kamu tunggu di luar aja dengan kakak. Nanti kakak belikan
-          makanan"'
+        dialogueText: Kamu tunggu di luar aja dengan kakak. Nanti kakak belikan makanan.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 8
@@ -117,8 +116,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: "\u201COm harap pergi sebelum saya panggi polisi, ini rawan
-          penculikan anak\u201D"
+        dialogueText: Om harap pergi sebelum saya panggi polisi, ini rawan penculikan
+          anak.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 9
@@ -127,7 +126,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: "\u201CTerimakasih kak\u201D"
+        dialogueText: Terimakasih kak.
         options:
         - buttonText: Tutup
           nextNodeIndex: -1

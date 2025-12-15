@@ -35,8 +35,8 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 1
-        dialogueText: '"Kak Ardi/Dina! Satpam nggak bolehin kami main bola di jalan!
-          Padahal kami hati-hati!"'
+        dialogueText: Kak Ardi! Satpam nggak bolehin kami main bola di jalan! Padahal
+          kami hati-hati!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -45,8 +45,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Nak, main bola di jalan berbahaya! Nanti kalau kena orang
-          gimana?"'
+        dialogueText: Nak, main bola di jalan berbahaya! Nanti kalau kena orang gimana?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -55,23 +54,23 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Itu kan salah pengendara sendiri yang ga hati hati"'
+        dialogueText: Itu kan salah pengendara sendiri yang ga hati hati
         options:
-        - buttonText: '"Mereka boleh main bola."'
+        - buttonText: Mereka boleh main bola.
           nextNodeIndex: 3
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Satpam benar. Main di jalan berbahaya."'
+        - buttonText: Satpam benar. Main di jalan berbahaya.
           nextNodeIndex: 6
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Pak, mereka boleh main selama hati hati. Ga bakal kena pengendara
-          lain kok."'
+        dialogueText: Pak, mereka boleh main selama hati hati. Ga bakal kena pengendara
+          lain kok.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -80,7 +79,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Saya ga mau tanggung jawab ya..."'
+        dialogueText: Saya ga mau tanggung jawab ya...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -89,7 +88,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Terima kasih, Kak!"'
+        dialogueText: Terima kasih, Kak!
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -98,7 +97,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Pak Satpam benar. Kalian nggak boleh main bola di jalan."'
+        dialogueText: Pak Satpam benar. Kalian nggak boleh main bola di jalan.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -107,7 +106,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: "\"Yah\u2026Kakak ngga seru...\""
+        dialogueText: "Yah\u2026Kakak ngga seru..."
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
