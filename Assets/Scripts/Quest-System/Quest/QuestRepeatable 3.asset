@@ -29,6 +29,8 @@ MonoBehaviour:
       npcName: Anak
       secondaryNpcImage: {fileID: 21300000, guid: 8d59fa7507a424b52b082387330b697a, type: 3}
       secondaryNpcName: Guru
+      additionalNpcImage: {fileID: 0}
+      additionalNpcName: 
       dialogueText: Default dialogue...
       options: []
       successResponse: Thank you so much! You helped me a lot!
@@ -121,7 +123,7 @@ MonoBehaviour:
         dialogueText: ' "Kenapa saya yang harus pindah...? Saya nggak salah..."'
         options:
         - buttonText: Lanjut
-          nextNodeIndex: 8
+          nextNodeIndex: -1
           completesQuest: 0
           failQuest: 1
           costRupiah: 50000
@@ -156,6 +158,8 @@ MonoBehaviour:
           failQuest: 0
           costRupiah: 0
           responseText: 
+    postQuestSuccessDialogue: Thanks again for your help!
+    postQuestFailureDialogue: I don't have anything to say to you.
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0

@@ -72,61 +72,10 @@ public class DialoguePopup : MonoBehaviour
             b.SetActive(true);
     }
 
-    public void OpenSimpleDialogue(string text, string npcName, Sprite npcSprite)
-    {
-        currentQuest = null;
-        currentNodes = null;
-        currentActiveStageData = null;
-
-        nameText.text = npcName;
-
-        if (npcSprite != null)
-        {
-            portraitImage.sprite = npcSprite;
-            portraitImage.gameObject.SetActive(true);
-        }
-        else
-        {
-            portraitImage.gameObject.SetActive(false);
-        }
-
-        foreach (var b in activeButtons) Destroy(b);
-        activeButtons.Clear();
-
-        GameObject closeBtn = Instantiate(buttonPrefab, buttonContainer);
-        closeBtn.SetActive(false);
-        closeBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Close";
-        closeBtn.GetComponent<Button>().onClick.AddListener(CloseDialogue);
-        activeButtons.Add(closeBtn);
-
-        DialoguePopupCanvas.enabled = true;
-        ControllerUI.SetActive(false);
-
-        ShowTextAnimated(text, () => ShowAllButtons());
-    }
-
     public void OpenDialogue(QuestData quest, QuestInteractable source)
     {
-        QuestStageDialogue outcomeNpcData = quest.completionDialogue.finalCompletionDialogue;
-
-        if (outcomeNpcData == null && quest.completionDialogue.stageDialogues != null && quest.completionDialogue.stageDialogues.Length > 0)
-        {
-            outcomeNpcData = quest.completionDialogue.stageDialogues[0];
-        }
-
-        string outcomeName = outcomeNpcData != null ? outcomeNpcData.npcName : "NPC";
-        Sprite outcomeSprite = outcomeNpcData != null ? outcomeNpcData.npcImage : null;
-
-        if (quest.state == QuestState.Completed)
-        {
-            OpenSimpleDialogue(quest.completionDialogue.postQuestSuccessDialogue, outcomeName, outcomeSprite);
-            return;
-        }
-        else if (quest.state == QuestState.Failed)
-        {
-            OpenSimpleDialogue(quest.completionDialogue.postQuestFailureDialogue, outcomeName, outcomeSprite);
-            return;
-        }
+        currentQuest = quest;
+        currentActiveStageData = null;
 
         if (quest.isMultiStage &&
             quest.stages != null &&
@@ -204,12 +153,6 @@ public class DialoguePopup : MonoBehaviour
         {
             speakerName = currentActiveStageData.secondaryNpcName;
             speakerImage = currentActiveStageData.secondaryNpcImage;
-        }
-
-        else if (node.speaker == Speaker.NPC3)
-        {
-            speakerName = currentActiveStageData.additionalNpcName;
-            speakerImage= currentActiveStageData.additionalNpcImage;
         }
         else if (node.speaker == Speaker.Player)
         {
