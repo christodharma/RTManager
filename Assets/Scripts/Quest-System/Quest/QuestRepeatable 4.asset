@@ -35,8 +35,8 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 0
-        dialogueText: ' "Nak Ardi/Dina, setiap malam ada remaja nongkrong di taman
-          sampai jam 10 malam. Apa perlu saya usir?"'
+        dialogueText: Nak Ardi, setiap malam ada remaja nongkrong di taman sampai
+          jam 10 malam. Apa perlu saya usir?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Mereka ngapain?"'
+        dialogueText: Mereka ngapain?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -54,26 +54,26 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Ya cuma duduk-duduk, ngobrol. Tapi kan udah malam. Nggak
-          sopan. Lagipula warga komplain, katanya remaja nongkrong gitu suka rencana
-          yang nggak-nggak."'
+        dialogueText: Ya cuma duduk-duduk, ngobrol. Tapi kan udah malam. Nggak sopan.
+          Lagipula warga komplain, katanya remaja nongkrong gitu suka rencana yang
+          nggak-nggak.
         options:
-        - buttonText: '"Selama mereka tidak ganggu dan tidak melanggar aturan, biarkan
-            mereka."'
+        - buttonText: Selama mereka tidak ganggu dan tidak melanggar aturan, biarkan
+            mereka.
           nextNodeIndex: 3
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Usir saja pak!"'
+        - buttonText: Usir saja pak!
           nextNodeIndex: 6
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Pak, remaja-remaja ini tidak ganggu siapa-siapa. Mereka
-          tidak berisik, tidak mabuk, tidak merokok. Mereka cuma ngobrol."'
+        dialogueText: Pak, remaja-remaja ini tidak ganggu siapa-siapa. Mereka tidak
+          berisik, tidak mabuk, tidak merokok. Mereka cuma ngobrol.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -82,7 +82,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: " \"Tapi kan malam\u2014\""
+        dialogueText: "Tapi kan malam\u2014"
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -91,8 +91,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Taman adalah ruang publik. Mereka punya hak untuk berkumpul
-          selama tidak mengganggu. Kita nggak bisa larang mereka cuma karena ''malam''."'
+        dialogueText: Taman adalah ruang publik. Mereka punya hak untuk berkumpul
+          selama tidak mengganggu. Kita nggak bisa larang mereka cuma karena 'malam'.
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -101,8 +101,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Kelihatannya memang harus kita usir pak, kita harus waspada
-          agar mereka tidak melakukan yang aneh aneh"'
+        dialogueText: Kelihatannya memang harus kita usir pak, kita harus waspada
+          agar mereka tidak melakukan yang aneh aneh
         options:
         - buttonText: Tutup
           nextNodeIndex: -1

@@ -35,7 +35,7 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 0
-        dialogueText: " \"Kak Ardi/Dina\u2026 Ibu Guru ini mukul saya...\""
+        dialogueText: "Kak Ardi\u2026 Ibu Guru ini mukul saya...\""
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -44,7 +44,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Guru mukul kamu? Kenapa?"'
+        dialogueText: Guru mukul kamu? Kenapa?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -53,8 +53,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Saya... saya nggak bisa jawab soal matematika... Jadi Ibu
-          guru mukul pipi saya..."'
+        dialogueText: Saya... saya nggak bisa jawab soal matematika... Jadi Ibu guru
+          mukul pipi saya...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 3
@@ -63,8 +63,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Nak Ardi/Dina, saya cuma mendisiplinkan anak itu. Dia bandel,
-          nggak mau belajar."'
+        dialogueText: Nak Ardi, saya cuma mendisiplinkan anak itu. Dia bandel, nggak
+          mau belajar.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -73,7 +73,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Ibu mukul anak ini?"'
+        dialogueText: Ibu mukul anak ini?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -82,8 +82,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Iya, saya tampar sedikit. Bukan mukul keras kok. Cuma biar
-          dia kapok dan mau belajar."'
+        dialogueText: Iya, saya tampar sedikit. Bukan mukul keras kok. Cuma biar
+          dia kapok dan mau belajar.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 6
@@ -92,7 +92,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Sakit, Kak Ardi/Dina... Dan malu... Teman-teman pada lihat..."'
+        dialogueText: Sakit, Kak Ardi... Dan malu... Teman-teman pada lihat..
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -101,8 +101,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Anak sekarang itu manja! Dulu waktu saya sekolah, dipukul
-          guru itu biasa! Itu bagian dari pendidikan!"'
+        dialogueText: Anak sekarang itu manja! Dulu waktu saya sekolah, dipukul guru
+          itu biasa! Itu bagian dari pendidikan!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 8
@@ -111,7 +111,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Tapi ini bukan zaman dulu..."'
+        dialogueText: Tapi ini bukan zaman dulu...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 9
@@ -120,8 +120,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Nak Ardi/Dina, kalau nggak dipukul, anak nggak akan takut.
-          Kalau nggak takut, nggak akan belajar. Ini cara saya mengajar."'
+        dialogueText: Nak Ardi, kalau nggak dipukul, anak nggak akan takut. Kalau
+          nggak takut, nggak akan belajar. Ini cara saya mengajar.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 10
@@ -130,8 +130,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Kak Ardi/Dina... Saya takut ke sekolah sekarang... Takut
-          dipukul lagi..."'
+        dialogueText: Kak Ardi... Saya takut ke sekolah sekarang... Takut dipukul
+          lagi...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 11
@@ -140,24 +140,24 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Ya belajar yang bener biar nggak dipukul!"'
+        dialogueText: Ya belajar yang bener biar nggak dipukul!
         options:
-        - buttonText: '"Nurut aja sama guru. Belajar yang rajin biar nggak dipukul."'
+        - buttonText: Nurut aja sama guru. Belajar yang rajin biar nggak dipukul.
           nextNodeIndex: 12
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Guru tidak boleh memukul anak. Ini kekerasan dan melanggar
-            hukum."'
+        - buttonText: Guru tidak boleh memukul anak. Ini kekerasan dan melanggar
+            hukum.
           nextNodeIndex: 16
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Mungkin kamu harus belajar lebih giat. Guru mukul kamu karena
-          kamu nggak bisa jawab kan?"'
+        dialogueText: Mungkin kamu harus belajar lebih giat. Guru mukul kamu karena
+          kamu nggak bisa jawab kan?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 13
@@ -166,7 +166,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Tapi... Kak Ardi/Dina... Saya udah berusaha..."'
+        dialogueText: Tapi... Kak Ardi... Saya udah berusaha...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 14
@@ -175,7 +175,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Nah! Dengar tuh! Belajar yang bener!"'
+        dialogueText: Nah! Dengar tuh! Belajar yang bener!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 15
@@ -184,7 +184,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Baik..."'
+        dialogueText: Baik...
         options:
         - buttonText: Lanjut
           nextNodeIndex: -1
@@ -193,8 +193,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Ibu, Anda TIDAK BOLEH memukul anak. Ini kekerasan dan melanggar
-          hukum perlindungan anak."'
+        dialogueText: Ibu, Anda TIDAK BOLEH memukul anak. Ini kekerasan dan melanggar
+          hukum perlindungan anak.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 17
@@ -203,7 +203,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: "\"Tapi ini cara mendidik\u2014\""
+        dialogueText: "Tapi ini cara mendidik\u2014"
         options:
         - buttonText: Lanjut
           nextNodeIndex: 18
@@ -212,9 +212,9 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Tidak ada pembenaran untuk kekerasan. Ada banyak cara mendidik
+        dialogueText: Tidak ada pembenaran untuk kekerasan. Ada banyak cara mendidik
           tanpa kekerasan fisik. Anda harus minta maaf ke anak ini dan tidak boleh
-          ulangi lagi."'
+          ulangi lagi.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 19
@@ -223,7 +223,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Baik... Maaf..."'
+        dialogueText: Baik... Maaf...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 20
@@ -232,7 +232,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Terima kasih, Kak Ardi/Dina..."'
+        dialogueText: Terima kasih, Kak Ardi/Dina...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1

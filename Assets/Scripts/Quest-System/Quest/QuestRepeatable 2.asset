@@ -35,17 +35,17 @@ MonoBehaviour:
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 1
-        dialogueText: '"Nak Ardi/Dina! Ada gelandangan tidur di taman! Usir dia pergi!
-          Bikin kotor aja!"'
+        dialogueText: Nak Ardi! Ada gelandangan tidur di taman! Usir dia pergi! Bikin
+          kotor aja!
         options:
-        - buttonText: ' "Bapak ini siapa?"'
+        - buttonText: Bapak ini siapa?
           nextNodeIndex: 1
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Maaf... Saya cuma tidur sebentar... Saya nggak punya rumah..."'
+        dialogueText: Maaf... Saya cuma tidur sebentar... Saya nggak punya rumah...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -54,8 +54,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: '"Nak... Saya nggak ganggu siapa-siapa... Saya cuma tidur di
-          sini malam hari karena dingin... Pagi saya pergi nyari kerja..."'
+        dialogueText: Nak... Saya nggak ganggu siapa-siapa... Saya cuma tidur di
+          sini malam hari karena dingin... Pagi saya pergi nyari kerja...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 3
@@ -64,8 +64,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Cari kerja? Bohong! Gelandangan mana ada yang kerja! Pasti
-          ngemis atau maling! Usir, Nak Ardi/Dina!"'
+        dialogueText: Cari kerja? Bohong! Gelandangan mana ada yang kerja! Pasti
+          ngemis atau maling! Usir, Nak Ardi!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -74,9 +74,9 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Saya bukan pengemis... Saya kerja serabutan... Cuma upahnya
+        dialogueText: Saya bukan pengemis... Saya kerja serabutan... Cuma upahnya
           nggak cukup buat sewa rumah... Malam saya tidur di taman... Pagi saya kerja
-          angkat barang di pasar..."'
+          angkat barang di pasar...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 5
@@ -85,24 +85,24 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Alasan! Nak Ardi/Dina, kalau nggak diusir, nanti makin banyak
-          gelandangan datang! RT kita jadi kumuh!"'
+        dialogueText: Alasan! Nak Ardi, kalau nggak diusir, nanti makin banyak gelandangan
+          datang! RT kita jadi kumuh!
         options:
-        - buttonText: '"Bapak ini tidak ganggu siapa-siapa. Taman adalah ruang publik."'
+        - buttonText: Bapak ini tidak ganggu siapa-siapa. Taman adalah ruang publik.
           nextNodeIndex: 6
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Bapak, tolong cari tempat lain ya. Warga komplain."'
+        - buttonText: Bapak, tolong cari tempat lain ya. Warga komplain.
           nextNodeIndex: 11
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Bapak ini tidak melanggar hukum. Dia tidak mengganggu siapa-siapa.
-          Taman adalah ruang publik, bukan hanya untuk warga yang bayar iuran."'
+        dialogueText: Bapak ini tidak melanggar hukum. Dia tidak mengganggu siapa-siapa.
+          Taman adalah ruang publik, bukan hanya untuk warga yang bayar iuran.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -111,7 +111,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Tapi dia gelandangan!"'
+        dialogueText: Tapi dia gelandangan!
         options:
         - buttonText: Lanjut
           nextNodeIndex: 8
@@ -120,8 +120,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Dia manusia. Dia punya hak yang sama. Selama dia tidak merusak
-          atau mengganggu, dia boleh berada di sini."'
+        dialogueText: Dia manusia. Dia punya hak yang sama. Selama dia tidak merusak
+          atau mengganggu, dia boleh berada di sini.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 9
@@ -130,8 +130,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Ini mungkin sedikit uang bisa saya berikan untuk bapak besok
-          hari bisa makan."'
+        dialogueText: Ini mungkin sedikit uang bisa saya berikan untuk bapak besok
+          hari bisa makan.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 10
@@ -140,7 +140,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Terima kasih, Nak Ardi/Dina..."'
+        dialogueText: Terima kasih, Nak Ardi...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -149,8 +149,8 @@ MonoBehaviour:
           costRupiah: 50000
           responseText: 
       - speaker: 2
-        dialogueText: ' "Bapak, maaf ya... Warga komplain... Mungkin Bapak bisa cari
-          taman lain atau tempat lain..."'
+        dialogueText: Bapak, maaf ya... Warga komplain... Mungkin Bapak bisa cari
+          taman lain atau tempat lain...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 12
@@ -159,7 +159,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Kemana saya harus pergi...? Di mana-mana saya diusir..."'
+        dialogueText: Kemana saya harus pergi...? Di mana-mana saya diusir...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1

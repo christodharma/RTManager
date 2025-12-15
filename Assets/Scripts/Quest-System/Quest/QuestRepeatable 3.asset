@@ -29,16 +29,14 @@ MonoBehaviour:
       npcName: Anak
       secondaryNpcImage: {fileID: 21300000, guid: 8d59fa7507a424b52b082387330b697a, type: 3}
       secondaryNpcName: Guru
-      additionalNpcImage: {fileID: 0}
-      additionalNpcName: 
       dialogueText: Default dialogue...
       options: []
       successResponse: Thank you so much! You helped me a lot!
       failureResponse: Oh... I see. That's disappointing.
       conversationNodes:
       - speaker: 1
-        dialogueText: ' "Nak Ardi/Dina, ada masalah di kelas. Anak ini... ayahnya
-          mantan napi. Orang tua murid lain komplain."'
+        dialogueText: Nak Ardi, ada masalah di kelas. Anak ini... ayahnya mantan
+          napi. Orang tua murid lain komplain.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 1
@@ -47,7 +45,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Komplain kenapa?"'
+        dialogueText: Komplain kenapa?
         options:
         - buttonText: Lanjut
           nextNodeIndex: 2
@@ -56,8 +54,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Mereka nggak mau anaknya satu kelas sama dia. Takut anaknya
-          jadi ikut ''kenakalan''. Mereka minta anaknya dipindah kelas atau... dikeluarkan."'
+        dialogueText: Mereka nggak mau anaknya satu kelas sama dia. Takut anaknya
+          jadi ikut 'kenakalan'. Mereka minta anaknya dipindah kelas atau... dikeluarkan.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 3
@@ -66,8 +64,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Saya bukan napi... Saya nggak pernah buat masalah... Nilai
-          saya juga bagus..."'
+        dialogueText: Saya bukan napi... Saya nggak pernah buat masalah... Nilai
+          saya juga bagus...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 4
@@ -76,24 +74,23 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: ' "Iya sih, anaknya memang baik dan pintar... Tapi... ya gitu...
-          Orang tua murid lain pada protes..."'
+        dialogueText: Iya sih, anaknya memang baik dan pintar... Tapi... ya gitu...
+          Orang tua murid lain pada protes...
         options:
-        - buttonText: '"Mungkin lebih baik kamu pindah kelas untuk menghindari masalah."'
+        - buttonText: Mungkin lebih baik kamu pindah kelas untuk menghindari masalah.
           nextNodeIndex: 5
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
-        - buttonText: '"Anak ini tidak bersalah. Dia berhak sekolah tanpa diskriminasi."'
+        - buttonText: Anak ini tidak bersalah. Dia berhak sekolah tanpa diskriminasi.
           nextNodeIndex: 9
           completesQuest: 0
           failQuest: 0
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: '"Mungkin... lebih baik kamu pindah kelas... Biar nggak ada
-          masalah..."'
+        dialogueText: Mungkin... lebih baik kamu pindah kelas... Biar nggak ada masalah...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 6
@@ -102,7 +99,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Tapi... Kak Ardi/Dina... Saya nggak salah apa-apa..."'
+        dialogueText: Tapi... Kak Ardi... Saya nggak salah apa-apa...
         options:
         - buttonText: Lanjut
           nextNodeIndex: 7
@@ -111,7 +108,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Ini saya kasih Rp. 50.000, kamu harus mau pindah ya"'
+        dialogueText: Ini saya kasih Rp. 50.000, kamu harus mau pindah ya.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 8
@@ -120,7 +117,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Kenapa saya yang harus pindah...? Saya nggak salah..."'
+        dialogueText: Kenapa saya yang harus pindah...? Saya nggak salah...
         options:
         - buttonText: Lanjut
           nextNodeIndex: -1
@@ -129,9 +126,9 @@ MonoBehaviour:
           costRupiah: 50000
           responseText: 
       - speaker: 2
-        dialogueText: '"Anak ini TIDAK BERSALAH. Yang pernah di penjara adalah ayahnya,
+        dialogueText: Anak ini TIDAK BERSALAH. Yang pernah di penjara adalah ayahnya,
           bukan dia. Anak tidak boleh dikucilkan atau dihukum karena kesalahan orang
-          tuanya. Ini namanya diskriminasi dan melanggar hak anak."'
+          tuanya. Ini namanya diskriminasi dan melanggar hak anak.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 10
@@ -140,8 +137,8 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 2
-        dialogueText: ' "Orang tua murid lain harus belajar toleransi dan tidak menghakimi.
-          Anak ini tetap di kelasnya. Titik."'
+        dialogueText: Orang tua murid lain harus belajar toleransi dan tidak menghakimi.
+          Anak ini tetap di kelasnya. Titik.
         options:
         - buttonText: Lanjut
           nextNodeIndex: 11
@@ -150,7 +147,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 0
-        dialogueText: ' "Terima kasih, Kak Ardi/Dina..."'
+        dialogueText: Terima kasih, Kak Ardi/Dina...
         options:
         - buttonText: Tutup
           nextNodeIndex: -1
@@ -158,8 +155,6 @@ MonoBehaviour:
           failQuest: 0
           costRupiah: 0
           responseText: 
-    postQuestSuccessDialogue: Thanks again for your help!
-    postQuestFailureDialogue: I don't have anything to say to you.
   isRepeatable: 1
   canSpawn: 1
   isMultiStage: 0
