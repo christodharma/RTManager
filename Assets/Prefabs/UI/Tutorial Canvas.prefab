@@ -296,30 +296,26 @@ MonoBehaviour:
 
 
     Hai, Player! Selamat datang
-    di Desa Sukaduka.
+    di RT 05.
 
-    Pak RT dari desa ini sedang tidak ada di tempat selama
-    20 hari, jadi
-
-
-    <align="center"><b>kamu harus menggantikannya sampai pak
-    RT kembali!</b></align>
+    Pak RT dari desa ini sedang tidak ada di tempat selama 20 hari,
+    jadi
 
 
-    <b>Jadi apa yang harus dilakukan?</b>
+    <align="center"><b>kamu harus menggantikannya sampai pak RT kembali!</b></align>
 
 
-    <page><style="Title">Bantu
-    warga desa Sukaduka!</style>
+    <b>Jadi
+    apa yang harus dilakukan?</b>
 
 
-    Pak RT biasanya mendapat kumpulan surat di
-    kotak pos depan rumahnya. Disana para warga menitipkan keluhan yang terjadi pada
-    mereka. <b>Ambil hal-hal yang dikeluhkan oleh para warga, supaya kamu bisa membantu
-    mereka!</b>
+    <page><style="Title">Bantu warga RT 05!</style>
 
 
-    <sup><align="right">Rumah pak RT ada ujung tenggara desa!</align></sup>
+    Pak
+    RT biasanya mendapat kumpulan surat di kotak pos depan rumahnya. Disana para
+    warga menitipkan keluhan yang terjadi pada mereka. <b>Ambil hal-hal yang dikeluhkan
+    oleh para warga, supaya kamu bisa membantu mereka!</b>
 
 
     <page><style="Title">Quest
@@ -327,17 +323,21 @@ MonoBehaviour:
 
 
     Setiap quest berpasangan dengan
-    <b>Warga</b> yang bisa kamu temukan di sekitar desa Sukaduka! <b>Datangi mereka
+    <b>warga</b> yang bisa kamu temukan di sekitar desa Sukaduka! <b>Datangi mereka
     untuk menanyakan lebih lanjut dan menyelesaikan quest!</b>
 
 
+    <sup><align="right">Kamu
+    bisa gunakan tracker yang bisa dinyalakan dari menu di kanan bawah!</align></sup>
+
+
     <page><style="Title">Siapa
-    saja Warga di desa Sukaduka?</style>
+    saja Warga di RT 05?</style>
 
     - Ibu Sari (ibu rumah tangga)
 
-    -
-    Dimas (anak SD, anak bu Sari)
+    - Dimas
+    (anak SD, anak bu Sari)
 
     - Pak Budi & Pak Joko (Tetangga yang konflik)
 

@@ -296,7 +296,9 @@ MonoBehaviour:
   buttonPrefab: {fileID: 8845427222874785019, guid: 8297c937f3ab3ae49a98d557ae0d5ca5, type: 3}
   buttonContainer: {fileID: 2221705856028413513}
   ControllerUI: {fileID: 0}
-  typingSpeed: 0.02
+  typingSpeed: 0.04
+  playerImage: {fileID: 0}
+  playerName: Player
 --- !u!1 &1378673069678102198
 GameObject:
   m_ObjectHideFlags: 0
