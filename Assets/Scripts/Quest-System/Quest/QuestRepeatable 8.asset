@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 8
+  m_EditorClassIdentifier: 
+  questID: QR008
+  title: Warga lupa bayar iuran
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR008_Warga
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 4730008282232124756, guid: 3d657d20594cb6148bf64144b2c6c71b, type: 3}
+      npcName: Warga
+      secondaryNpcImage: {fileID: 4942277465241232820, guid: 87f1e34b9007cb849a2cb550084e54a8, type: 3}
+      secondaryNpcName: Tetangga
+      additionalNpcImage: {fileID: 0}
+      additionalNpcName: 
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 1
+        dialogueText: ' "Nak Ardi/Dina, Ibu ini nunggak iuran RT sudah 3 bulan. Ini
+          ga adil dong dengan yang lain, bagaimana menurutmu?"'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: '"Nak, maaf... Suami saya lagi di-PHK... Uang pas-pasan untuk
+          makan..."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: ' "Tapi aturan tetap aturan. Kalau nggak bayar, nggak bisa
+          dapat fasilitas RT."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: ' "Saya paham... Tapi saya benar-benar sedang susah..."'
+        options:
+        - buttonText: '"Ibu, nggak apa-apa. Bayar kalau sudah bisa. Fasilitas tetap
+            dapat."'
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: '"Kalau nggak bayar, nggak bisa pakai fasilitas RT."'
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: '"Ibu bayar kalau sudah bisa. Fasilitas RT tetap bisa dipakai."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: '"Terima kasih, Nak..."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: '"Tapi ini kan ga adil..."'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: '"Bu, aturan tetap aturan. Nggak bayar, nggak dapat fasilitas."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 8
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: '"Baik..."'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: 
+    postQuestSuccessDialogue: Thanks again for your help!
+    postQuestFailureDialogue: I don't have anything to say to you.
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []
