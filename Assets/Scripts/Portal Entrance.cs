@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PortalEntrance : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class PortalEntrance : MonoBehaviour
     public GameObject PromptGameObject;
     GameObject instantiatedPromptGameObject;
     GameObject player;
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -26,17 +26,30 @@ public class PortalEntrance : MonoBehaviour
             promptUI.Entrance = this;
 
             // TODO pause on prompt?
+            SetEnablePlayerMovement(false);
         }
     }
 
     public void StartTeleport()
     {
         StartCoroutine(FadeOutAndTeleport(player, Target.transform.position));
+
+        SetEnablePlayerMovement(true);
     }
 
     public void CancelTeleport()
     {
         Destroy(instantiatedPromptGameObject);
+
+        SetEnablePlayerMovement(true);
+    }
+
+    private void SetEnablePlayerMovement(bool active)
+    {
+        if (player.TryGetComponent(out PlayerMovement movement))
+        {
+            movement.enabled = active;
+        }
     }
 
     IEnumerator FadeOutAndTeleport(GameObject teleported, Vector3 destination)
@@ -50,5 +63,6 @@ public class PortalEntrance : MonoBehaviour
         Target.GetComponent<BoxCollider2D>().enabled = true; // open exit script
 
         teleported.transform.SetPositionAndRotation(destination, teleported.transform.rotation);
+
     }
 }
