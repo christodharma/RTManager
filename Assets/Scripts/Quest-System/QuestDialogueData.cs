@@ -6,7 +6,8 @@ public enum Speaker
 {
     NPC1 = 0, // Pembicara Utama
     NPC2 = 1, // Pembicara Kedua
-    Player = 2 // Pemain (Opsional)
+    Player = 2, // Pemain (Opsional)
+    NPC3 = 3 //Pembicara Ketiga
 }
 
 [System.Serializable]
@@ -49,6 +50,10 @@ public class QuestStageDialogue
     public Sprite secondaryNpcImage;
     public string secondaryNpcName;
 
+    [Header("NPC 3 Identity (Additional Speaker)")]
+    public Sprite additionalNpcImage;
+    public string additionalNpcName;
+
     [Header("Single-Stage Dialogue / Start Dialogue")]
     [TextArea(3, 6)]
     public string dialogueText = "Default dialogue...";
@@ -72,5 +77,14 @@ public class QuestDialogueData
 
     [Header("Final Quest Completion Dialogue")]
     public QuestStageDialogue finalCompletionDialogue;
+
+    [Header("Post-Quest Interaction")]
+    [Tooltip("Dialog yang muncul jika player bicara lagi setelah Quest SUKSES.")]
+    [TextArea(3, 6)]
+    public string postQuestSuccessDialogue = "Thanks again for your help!";
+
+    [Tooltip("Dialog yang muncul jika player bicara lagi setelah Quest GAGAL.")]
+    [TextArea(3, 6)]
+    public string postQuestFailureDialogue = "I don't have anything to say to you.";
 
 }

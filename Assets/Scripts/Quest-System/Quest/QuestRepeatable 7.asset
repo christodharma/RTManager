@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 7
+  m_EditorClassIdentifier: 
+  questID: QR007
+  title: Anak lupa kunci rumah
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR007_Anak
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: a1ac58e48c9627bb896d496f173bf5ad, type: 3}
+      npcName: Anak
+      secondaryNpcImage: {fileID: 21300000, guid: cd9bef28aa8f7cacdbbe2fad7a4a2c93, type: 3}
+      secondaryNpcName: Om-Om
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 0
+        dialogueText: '"Kak Ardi/Dina... Tolong!!!..."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: ' "Loh? Ada apa ini?"'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: "\u201COm om ini ngajak aku ke rumah dia, aku takut. Apalagi
+          aku tidak bisa masuk ke dalam rumah\u201D"
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: '"Kunci rumahku ketinggalan dalam rumah dan ibuku bakal pulang
+          sore hari nanti."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: '"Nak Ardi/Dina, saya bisa jagain anak ini di rumah saya, saya
+          ga ada niat buruk kok."'
+        options:
+        - buttonText: '"Dik, ikut Om-om itu dulu aja. Nanti Kakak kabarin ibumu."'
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: '"Kamu tunggu di luar aja dengan kakak sampai ibumu pulang."'
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: '"Kamu tunggu di rumah dia saja. Nanti Kakak hubungin ibumu."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: '"Tapi aku takut, Kak..."'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: '"Kamu tunggu di luar aja dengan kakak. Nanti kakak belikan
+          makanan"'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: "\u201COm harap pergi sebelum saya panggi polisi, ini rawan
+          penculikan anak\u201D"
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 9
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: "\u201CTerimakasih kak\u201D"
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 30000
+          responseText: 
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []

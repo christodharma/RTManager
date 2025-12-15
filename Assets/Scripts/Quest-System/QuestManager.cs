@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public enum QuestState
 {
     Active,
+    Inactive,
     Completed,
     Failed,
     Refused
