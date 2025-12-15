@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 4
+  m_EditorClassIdentifier: 
+  questID: QR004
+  title: Remaja dilarang nongkrong di taman
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR004_Satpam
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: 8309960566f9ab4b5b65f7558bd855f8, type: 3}
+      npcName: Satpam
+      secondaryNpcImage: {fileID: 0}
+      secondaryNpcName: 
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 0
+        dialogueText: ' "Nak Ardi/Dina, setiap malam ada remaja nongkrong di taman
+          sampai jam 10 malam. Apa perlu saya usir?"'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: ' "Mereka ngapain?"'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: ' "Ya cuma duduk-duduk, ngobrol. Tapi kan udah malam. Nggak
+          sopan. Lagipula warga komplain, katanya remaja nongkrong gitu suka rencana
+          yang nggak-nggak."'
+        options:
+        - buttonText: '"Selama mereka tidak ganggu dan tidak melanggar aturan, biarkan
+            mereka."'
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: '"Usir saja pak!"'
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: ' "Pak, remaja-remaja ini tidak ganggu siapa-siapa. Mereka
+          tidak berisik, tidak mabuk, tidak merokok. Mereka cuma ngobrol."'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: " \"Tapi kan malam\u2014\""
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: ' "Taman adalah ruang publik. Mereka punya hak untuk berkumpul
+          selama tidak mengganggu. Kita nggak bisa larang mereka cuma karena ''malam''."'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: ' "Kelihatannya memang harus kita usir pak, kita harus waspada
+          agar mereka tidak melakukan yang aneh aneh"'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: 
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []
