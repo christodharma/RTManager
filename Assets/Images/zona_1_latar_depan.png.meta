@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 78abb172ae5ebd2cab134b8090b6b0cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2404065264734043669
+    second: zona_1_latar_depan_0
+  - first:
+      213: 6889773460218944448
+    second: zona_1_latar_depan_1
+  - first:
+      213: 4306200379004411348
+    second: zona_1_latar_depan_2
+  - first:
+      213: 607410086275771845
+    second: zona_1_latar_depan_3
+  - first:
+      213: 1491143031907725981
+    second: zona_1_latar_depan_4
+  - first:
+      213: 7606009188690827157
+    second: zona_1_latar_depan_5
+  - first:
+      213: 7539353184281130037
+    second: zona_1_latar_depan_6
+  - first:
+      213: 7142243317021446585
+    second: zona_1_latar_depan_7
+  - first:
+      213: 8811937623398212392
+    second: zona_1_latar_depan_8
+  - first:
+      213: 2685054675859953195
+    second: zona_1_latar_depan_9
+  - first:
+      213: 6922819283315356784
+    second: zona_1_latar_depan_10
+  - first:
+      213: -673788589178933756
+    second: zona_1_latar_depan_11
+  - first:
+      213: 9200448117121887511
+    second: zona_1_latar_depan_12
+  - first:
+      213: -713850931865316619
+    second: zona_1_latar_depan_13
+  - first:
+      213: 36697290305191859
+    second: zona_1_latar_depan_14
+  - first:
+      213: -5129250695562117892
+    second: zona_1_latar_depan_15
+  - first:
+      213: 1836259401067852878
+    second: zona_1_latar_depan_16
+  - first:
+      213: 557623413332524755
+    second: zona_1_latar_depan_17
+  - first:
+      213: -2776242413267783023
+    second: zona_1_latar_depan_18
+  - first:
+      213: 1387362452746502653
+    second: zona_1_latar_depan_19
+  - first:
+      213: -5517110154131594690
+    second: zona_1_latar_depan_20
+  - first:
+      213: 8939284843898478837
+    second: zona_1_latar_depan_21
+  - first:
+      213: -1063824382726204075
+    second: zona_1_latar_depan_22
+  - first:
+      213: 3377848310319644770
+    second: zona_1_latar_depan_23
+  - first:
+      213: 1832854906577844975
+    second: zona_1_latar_depan_24
+  - first:
+      213: 363983759821804907
+    second: zona_1_latar_depan_25
+  - first:
+      213: 2345149696035265221
+    second: zona_1_latar_depan_26
+  - first:
+      213: 8552907131298592917
+    second: zona_1_latar_depan_27
+  - first:
+      213: -6842337896303176200
+    second: zona_1_latar_depan_28
+  - first:
+      213: 977314588955685070
+    second: zona_1_latar_depan_29
+  - first:
+      213: 8571035072348093858
+    second: zona_1_latar_depan_30
+  - first:
+      213: 5025962065649555225
+    second: zona_1_latar_depan_31
+  - first:
+      213: -4348358341139862350
+    second: zona_1_latar_depan_32
+  - first:
+      213: 504787801538799090
+    second: zona_1_latar_depan_33
+  - first:
+      213: 1798813979152798209
+    second: zona_1_latar_depan_34
+  - first:
+      213: 9142427399917688976
+    second: zona_1_latar_depan_35
+  - first:
+      213: 4536223553252598186
+    second: zona_1_latar_depan_36
+  - first:
+      213: 4833462124945631042
+    second: zona_1_latar_depan_37
+  - first:
+      213: -97082878234896807
+    second: zona_1_latar_depan_38
+  - first:
+      213: -6884695569232902984
+    second: zona_1_latar_depan_39
+  - first:
+      213: -2565202911205120543
+    second: zona_1_latar_depan_40
+  - first:
+      213: 697737584385140347
+    second: zona_1_latar_depan_41
+  - first:
+      213: 8429831176060634709
+    second: zona_1_latar_depan_42
+  - first:
+      213: 2549171204637979738
+    second: zona_1_latar_depan_43
+  - first:
+      213: -934111190062858389
+    second: zona_1_latar_depan_44
+  - first:
+      213: -1339596296815317848
+    second: zona_1_latar_depan_45
+  - first:
+      213: 1341798430255429623
+    second: zona_1_latar_depan_46
+  - first:
+      213: -5265731345167938183
+    second: zona_1_latar_depan_47
+  - first:
+      213: -1385216844542947742
+    second: zona_1_latar_depan_48
+  - first:
+      213: -8072942739811561065
+    second: zona_1_latar_depan_49
+  - first:
+      213: 25813814148643355
+    second: zona_1_latar_depan_50
+  - first:
+      213: 2926985295626552832
+    second: zona_1_latar_depan_51
+  - first:
+      213: 3582145817257012922
+    second: zona_1_latar_depan_52
+  - first:
+      213: 8771016212313199562
+    second: zona_1_latar_depan_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zona_1_latar_depan_0
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1154
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ef359fe94fc5120800000000000000
+      internalID: 2404065264734043669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_1
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1192
+        width: 158
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb934f55746d9f50800000000000000
+      internalID: 6889773460218944448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1066
+        width: 83
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddd532fd62b2cb30800000000000000
+      internalID: 4306200379004411348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_3
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1246
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cde4795144fd6800800000000000000
+      internalID: 607410086275771845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_4
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1246
+        width: 66
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b826efaa91b410800000000000000
+      internalID: 1491143031907725981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_5
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1246
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597164a0f09fd8960800000000000000
+      internalID: 7606009188690827157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_6
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1246
+        width: 99
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5347941a6c921a860800000000000000
+      internalID: 7539353184281130037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1246
+        width: 59
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b19872a4785e1360800000000000000
+      internalID: 7142243317021446585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_8
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1144
+        width: 60
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823ec81b49a4a4a70800000000000000
+      internalID: 8811937623398212392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_9
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1192
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26522d600b334520800000000000000
+      internalID: 2685054675859953195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 849
+        width: 74
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0747c32a57bc21060800000000000000
+      internalID: 6922819283315356784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 939
+        width: 74
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e274819d836a6f0800000000000000
+      internalID: -673788589178933756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_12
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1020
+        width: 72
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d267301de8eaf70800000000000000
+      internalID: 9200448117121887511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_13
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1015
+        width: 6
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2169f0c54e716f0800000000000000
+      internalID: -713850931865316619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_14
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1022
+        width: 77
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf3cd8bdff528000800000000000000
+      internalID: 36697290305191859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_15
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1039
+        width: 12
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc38171bad31d8b0800000000000000
+      internalID: -5129250695562117892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_16
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 933
+        width: 18
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44fe144234bb7910800000000000000
+      internalID: 1836259401067852878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_17
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 836
+        width: 74
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de302e3a831db700800000000000000
+      internalID: 557623413332524755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_18
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 935
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192fccafb3ec879d0800000000000000
+      internalID: -2776242413267783023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 630
+        width: 83
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df18baadcc6e04310800000000000000
+      internalID: 1387362452746502653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_20
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 775
+        width: 292
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e322944bb894f63b0800000000000000
+      internalID: -5517110154131594690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_21
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 719
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f02a920438be0c70800000000000000
+      internalID: 8939284843898478837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_22
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 722
+        width: 118
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555943c3c598c31f0800000000000000
+      internalID: -1063824382726204075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_23
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 722
+        width: 80
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26081c1442780ee20800000000000000
+      internalID: 3377848310319644770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_24
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 722
+        width: 112
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea776f93db9f6910800000000000000
+      internalID: 1832854906577844975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_25
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 768
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6590341d412d0500800000000000000
+      internalID: 363983759821804907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_26
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 771
+        width: 94
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca1c413935ab8020800000000000000
+      internalID: 2345149696035265221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_27
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 766
+        width: 239
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59835fd78b702b670800000000000000
+      internalID: 8552907131298592917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_28
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 766
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5d7a18fe12b01a0800000000000000
+      internalID: -6842337896303176200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_29
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 738
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0b28cc07e109d00800000000000000
+      internalID: 977314588955685070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_30
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 628
+        width: 72
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adf8bcacfe62f670800000000000000
+      internalID: 8571035072348093858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_31
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 689
+        width: 182
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91751a9beddcfb540800000000000000
+      internalID: 5025962065649555225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_32
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 655
+        width: 99
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc6048902787a3c0800000000000000
+      internalID: -4348358341139862350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_33
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 558
+        width: 609
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5abadb4dd510700800000000000000
+      internalID: 504787801538799090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_34
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 670
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102d86498cba6f810800000000000000
+      internalID: 1798813979152798209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_35
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 643
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09854e4184d60ee70800000000000000
+      internalID: 9142427399917688976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_36
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 601
+        width: 292
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1a169a947e3fe30800000000000000
+      internalID: 4536223553252598186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 404
+        width: 73
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24760b0a138e31340800000000000000
+      internalID: 4833462124945631042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_38
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 507
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9565909f2a717aef0800000000000000
+      internalID: -97082878234896807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_39
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 206
+        width: 102
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4ca214bd5a470a0800000000000000
+      internalID: -6884695569232902984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_40
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 538
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e522d41b81966cd0800000000000000
+      internalID: -2565202911205120543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_41
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 399
+        width: 209
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7627bfd2acdea900800000000000000
+      internalID: 697737584385140347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_42
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 399
+        width: 388
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5568b9d9ac6ccf470800000000000000
+      internalID: 8429831176060634709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_43
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 406
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54f91c54b9706320800000000000000
+      internalID: 2549171204637979738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_44
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 344
+        width: 142
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ff59f52de5903f0800000000000000
+      internalID: -934111190062858389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 116
+        width: 73
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace4e9f34cc86de0800000000000000
+      internalID: -1339596296815317848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_46
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 207
+        width: 400
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f73d8b20960f9210800000000000000
+      internalID: 1341798430255429623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_47
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 139
+        width: 379
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d00a89d3d5ce6b0800000000000000
+      internalID: -5265731345167938183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_48
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 124
+        width: 560
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e412c7e98b6cce0800000000000000
+      internalID: -1385216844542947742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_49
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 214
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7919675b95527ff80800000000000000
+      internalID: -8072942739811561065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_50
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 162
+        width: 26
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ab0a6f685bb5000800000000000000
+      internalID: 25813814148643355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_51
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 115
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006cc985e9dbe9820800000000000000
+      internalID: 2926985295626552832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_52
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 67
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe614b44a656b130800000000000000
+      internalID: 3582145817257012922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zona_1_latar_depan_53
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 67
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3de1636c8e8b970800000000000000
+      internalID: 8771016212313199562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zona_1_latar_depan_0: 2404065264734043669
+      zona_1_latar_depan_1: 6889773460218944448
+      zona_1_latar_depan_10: 6922819283315356784
+      zona_1_latar_depan_11: -673788589178933756
+      zona_1_latar_depan_12: 9200448117121887511
+      zona_1_latar_depan_13: -713850931865316619
+      zona_1_latar_depan_14: 36697290305191859
+      zona_1_latar_depan_15: -5129250695562117892
+      zona_1_latar_depan_16: 1836259401067852878
+      zona_1_latar_depan_17: 557623413332524755
+      zona_1_latar_depan_18: -2776242413267783023
+      zona_1_latar_depan_19: 1387362452746502653
+      zona_1_latar_depan_2: 4306200379004411348
+      zona_1_latar_depan_20: -5517110154131594690
+      zona_1_latar_depan_21: 8939284843898478837
+      zona_1_latar_depan_22: -1063824382726204075
+      zona_1_latar_depan_23: 3377848310319644770
+      zona_1_latar_depan_24: 1832854906577844975
+      zona_1_latar_depan_25: 363983759821804907
+      zona_1_latar_depan_26: 2345149696035265221
+      zona_1_latar_depan_27: 8552907131298592917
+      zona_1_latar_depan_28: -6842337896303176200
+      zona_1_latar_depan_29: 977314588955685070
+      zona_1_latar_depan_3: 607410086275771845
+      zona_1_latar_depan_30: 8571035072348093858
+      zona_1_latar_depan_31: 5025962065649555225
+      zona_1_latar_depan_32: -4348358341139862350
+      zona_1_latar_depan_33: 504787801538799090
+      zona_1_latar_depan_34: 1798813979152798209
+      zona_1_latar_depan_35: 9142427399917688976
+      zona_1_latar_depan_36: 4536223553252598186
+      zona_1_latar_depan_37: 4833462124945631042
+      zona_1_latar_depan_38: -97082878234896807
+      zona_1_latar_depan_39: -6884695569232902984
+      zona_1_latar_depan_4: 1491143031907725981
+      zona_1_latar_depan_40: -2565202911205120543
+      zona_1_latar_depan_41: 697737584385140347
+      zona_1_latar_depan_42: 8429831176060634709
+      zona_1_latar_depan_43: 2549171204637979738
+      zona_1_latar_depan_44: -934111190062858389
+      zona_1_latar_depan_45: -1339596296815317848
+      zona_1_latar_depan_46: 1341798430255429623
+      zona_1_latar_depan_47: -5265731345167938183
+      zona_1_latar_depan_48: -1385216844542947742
+      zona_1_latar_depan_49: -8072942739811561065
+      zona_1_latar_depan_5: 7606009188690827157
+      zona_1_latar_depan_50: 25813814148643355
+      zona_1_latar_depan_51: 2926985295626552832
+      zona_1_latar_depan_52: 3582145817257012922
+      zona_1_latar_depan_53: 8771016212313199562
+      zona_1_latar_depan_6: 7539353184281130037
+      zona_1_latar_depan_7: 7142243317021446585
+      zona_1_latar_depan_8: 8811937623398212392
+      zona_1_latar_depan_9: 2685054675859953195
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 10
+  m_EditorClassIdentifier: 
+  questID: QR010
+  title: Satpam larang anak main bola
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR010_Satpam
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: 8309960566f9ab4b5b65f7558bd855f8, type: 3}
+      npcName: Satpam
+      secondaryNpcImage: {fileID: 21300000, guid: c6ed75c053854ed67a820ddd71aa7055, type: 3}
+      secondaryNpcName: Anak Remaja
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 1
+        dialogueText: Kak Ardi! Satpam nggak bolehin kami main bola di jalan! Padahal
+          kami hati-hati!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Nak, main bola di jalan berbahaya! Nanti kalau kena orang gimana?
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Itu kan salah pengendara sendiri yang ga hati hati
+        options:
+        - buttonText: Mereka boleh main bola.
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Satpam benar. Main di jalan berbahaya.
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Pak, mereka boleh main selama hati hati. Ga bakal kena pengendara
+          lain kok.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Saya ga mau tanggung jawab ya...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Terima kasih, Kak!
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Pak Satpam benar. Kalian nggak boleh main bola di jalan.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: "Yah\u2026Kakak ngga seru..."
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []

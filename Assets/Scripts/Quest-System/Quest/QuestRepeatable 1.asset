@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 1
+  m_EditorClassIdentifier: 
+  questID: QR001
+  title: Remaja DIpaksa Ikut Pengajian
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR001_IbuIbu
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: 7c798d6996c720f18b254c1030c5b950, type: 3}
+      npcName: Ibu-Ibu
+      secondaryNpcImage: {fileID: 0}
+      secondaryNpcName: 
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 0
+        dialogueText: Nak, saya mau komplain soal anak tetangga saya. Setiap ada
+          pengajian RT, dia nggak pernah ikut.
+        options:
+        - buttonText: Memang kenapa kalau nggak ikut,Bu?
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Ya kan pengajian RT itu bagus untuk remaja! Masa dia sendirian
+          nggak ikut? Teman temannya ikut loh. Nanti dikiranya dia nggak religius,
+          merusak citra RT kita!
+        options:
+        - buttonText: Pengajian tidak bisa dipaksakan. Ini pilihan pribadi remaja
+            ini.
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Baik Bu, memang benar semua orang harus ikut pengajian.
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: Nah! Begitu dong
+      - speaker: 0
+        dialogueText: Tapi ini untuk kebaikan dia
+        options:
+        - buttonText: Kebaikan yang dipaksakan bukan kebaikan. Dia punya hak untuk
+            memilih bagaimana dia menjalankan agamanya. Selama dia nggak ganggu orang
+            lain, kita nggak bisa paksa
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: Hmph!!
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []

@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb006a3a33ec54f979cca7f890ea53, type: 3}
+  m_Name: QuestRepeatable 5
+  m_EditorClassIdentifier: 
+  questID: QR005
+  title: Guru memukul anak karena tidak bisa jawab
+  description: 
+  rewardHAM: 20
+  hasCost: 0
+  costRupiah: 0
+  deadlineHours: 24
+  difficulty: 0
+  completesOnObjectClick: 1
+  targetObjectID: QR005_Anak
+  completionDialogue:
+    stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: 8d72cbccfd255c3a485d478b695e77bb, type: 3}
+      npcName: Anak
+      secondaryNpcImage: {fileID: 21300000, guid: 7c798d6996c720f18b254c1030c5b950, type: 3}
+      secondaryNpcName: Guru
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes:
+      - speaker: 0
+        dialogueText: "Kak Ardi\u2026 Ibu Guru ini mukul saya...\""
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Guru mukul kamu? Kenapa?
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Saya... saya nggak bisa jawab soal matematika... Jadi Ibu guru
+          mukul pipi saya...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Nak Ardi, saya cuma mendisiplinkan anak itu. Dia bandel, nggak
+          mau belajar.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Ibu mukul anak ini?
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Iya, saya tampar sedikit. Bukan mukul keras kok. Cuma biar
+          dia kapok dan mau belajar.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Sakit, Kak Ardi... Dan malu... Teman-teman pada lihat..
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Anak sekarang itu manja! Dulu waktu saya sekolah, dipukul guru
+          itu biasa! Itu bagian dari pendidikan!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Tapi ini bukan zaman dulu...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 9
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Nak Ardi, kalau nggak dipukul, anak nggak akan takut. Kalau
+          nggak takut, nggak akan belajar. Ini cara saya mengajar.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 10
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Kak Ardi... Saya takut ke sekolah sekarang... Takut dipukul
+          lagi...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 11
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Ya belajar yang bener biar nggak dipukul!
+        options:
+        - buttonText: Nurut aja sama guru. Belajar yang rajin biar nggak dipukul.
+          nextNodeIndex: 12
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Guru tidak boleh memukul anak. Ini kekerasan dan melanggar
+            hukum.
+          nextNodeIndex: 16
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Mungkin kamu harus belajar lebih giat. Guru mukul kamu karena
+          kamu nggak bisa jawab kan?
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 13
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Tapi... Kak Ardi... Saya udah berusaha...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 14
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Nah! Dengar tuh! Belajar yang bener!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 15
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Baik...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 1
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Ibu, Anda TIDAK BOLEH memukul anak. Ini kekerasan dan melanggar
+          hukum perlindungan anak.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 17
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: "Tapi ini cara mendidik\u2014"
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 18
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Tidak ada pembenaran untuk kekerasan. Ada banyak cara mendidik
+          tanpa kekerasan fisik. Anda harus minta maaf ke anak ini dan tidak boleh
+          ulangi lagi.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 19
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Baik... Maaf...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 20
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Terima kasih, Kak Ardi/Dina...
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+  isRepeatable: 1
+  canSpawn: 1
+  isMultiStage: 0
+  stages: []
