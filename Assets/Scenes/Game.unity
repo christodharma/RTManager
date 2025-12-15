@@ -3824,7 +3824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &525440437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24275,7 +24275,6 @@ MonoBehaviour:
   questDatabase: {fileID: 11400000, guid: ed1bcc5a7651e1a4999c9f318da6b60e, type: 2}
   questBoxUI: {fileID: 5463750487974142096}
   questIDsToOffer:
-  - QT001
   - QR001
   - QR002
   - QR003
