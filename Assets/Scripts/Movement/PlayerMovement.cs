@@ -50,12 +50,10 @@ public class PlayerMovement : MonoBehaviour, IPersistable
     {
         data.Position = transform.position;
         data.Rotation = transform.rotation;
-        data.LocalScale = transform.localScale;
     }
 
     public void Load(GameData data)
     {
         transform.SetPositionAndRotation(data.Position, data.Rotation);
-        transform.localScale = data.LocalScale;
     }
 }

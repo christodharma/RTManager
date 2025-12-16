@@ -32,5 +32,4 @@ public class GameData
     [Header("Movement")]
     public Vector3 Position;
     public Quaternion Rotation;
-    public Vector3 LocalScale = Vector3.one;
 }
