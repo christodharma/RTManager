@@ -11,7 +11,6 @@ public class DialoguePopup : MonoBehaviour
     public Canvas DialoguePopupCanvas;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
-    [SerializeField] private Button NextButton;
     public Image portraitImage;
     public GameObject buttonPrefab;
     public Transform buttonContainer;
@@ -35,7 +34,6 @@ public class DialoguePopup : MonoBehaviour
     void Awake()
     {
         DialoguePopupCanvas.enabled = false;
-        NextButton.onClick.AddListener(() => { dialogueText.pageToDisplay++; });
     }
 
     private IEnumerator TypeText(string fullText, System.Action onFinished = null)

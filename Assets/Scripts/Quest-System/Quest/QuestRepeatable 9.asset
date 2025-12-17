@@ -63,7 +63,7 @@ MonoBehaviour:
           costRupiah: 0
           responseText: 
       - speaker: 1
-        dialogueText: '"Tapi ini tempat umum... Saya bebas kan?"'
+        dialogueText: Tapi ini tempat umum... Saya bebas kan?
         options:
         - buttonText: Vape kan bukan rokok. Nggak apa-apa.
           nextNodeIndex: 4
