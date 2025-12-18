@@ -6467,6 +6467,7 @@ MonoBehaviour:
   questDatabase: {fileID: 11400000, guid: ed1bcc5a7651e1a4999c9f318da6b60e, type: 2}
   timeManager: {fileID: 44190513}
   startingMoneyOfDay: 50000
+  globalRepeatableCooldown: 5
 --- !u!4 &712453358
 Transform:
   m_ObjectHideFlags: 0
@@ -28134,14 +28135,6 @@ MonoBehaviour:
   questIDsToOffer:
   - QR001
   - QR002
-  - QR003
-  - QR004
-  - QR005
-  - QR006
-  - QR007
-  - QR008
-  - QR009
-  - QR010
   interactDistance: 1.5
   interactButton: {fileID: 4623486088867037881}
   player: {fileID: 1350666358}

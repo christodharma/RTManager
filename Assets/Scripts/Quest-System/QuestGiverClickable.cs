@@ -62,21 +62,17 @@ public class QuestGiverClickable : MonoBehaviour
         {
             string qID = questObj.questID;
 
-            if (QuestManager.Instance.activeQuests.Exists(q => q.questID == qID))
-                continue;
+            if (QuestManager.Instance.activeQuests.Exists(q => q.questID == qID)) continue;
 
-            bool isRepeatable = questObj.isRepeatable;
-            if (isRepeatable)
+            if (questObj.isRepeatable)
             {
-                if (QuestManager.Instance.HasQuestBeenCompletedToday(qID)) continue;
+                // Cek cooldown global
+                if (QuestManager.Instance.IsQuestOnCooldown(qID)) continue;
             }
             else
             {
                 if (QuestManager.Instance.completedQuests.Exists(q => q.questID == qID)) continue;
             }
-
-            if (QuestManager.Instance.availableQuests.Exists(q => q.questID == qID))
-                continue;
 
             combinedQuests.Add(new QuestData(questObj));
         }

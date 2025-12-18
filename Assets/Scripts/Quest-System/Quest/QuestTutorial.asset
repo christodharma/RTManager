@@ -13,38 +13,30 @@ MonoBehaviour:
   m_Name: QuestTutorial
   m_EditorClassIdentifier: 
   questID: QT001
-  title: Buat Surat Keterangan RT
-  description: Seorang warga membutuhkan surat keterangan RT!
+  title: Bantuan Buku Pelajaran
+  description: 'Dimas kehilangan buku matematikanya.
+
+    Dia tidak bisa belajar
+    untuk ulangan besok. Bantu Dimas!'
   rewardHAM: 100
   hasCost: 1
   costRupiah: 5000
   deadlineHours: 12
   difficulty: 0
   completesOnObjectClick: 1
-  targetObjectID: BuatSurat
+  targetObjectID: BukuPelajaran
   completionDialogue:
-    npcImage: {fileID: 21300000, guid: 4e7f4e5ef3f45501b9f2653600f9548e, type: 3}
-    npcName: Pak Ahmad
-    conversationNodes: []
-    dialogueText: Bisa buatkan surat keterangan RT, mas? Saya baru mau mengurus KTP
-      saya hilang
-    options:
-    - buttonText: '[Bantu] Boleh, Pak, suratnya pakai materai Rp10000 ya'
-      nextNodeIndex: -1
-      completesQuest: 1
-      failQuest: 0
-      costRupiah: 10000
-      responseText: 
-    - buttonText: '[Tolak] Lain waktu dulu ya, Pak, saya sibuk'
-      nextNodeIndex: -1
-      completesQuest: 0
-      failQuest: 1
-      costRupiah: 0
-      responseText: 
-    successResponse: Terima kasih banyak, Mas. Saya jadi bisa mengajukan asuransi
-      untuk anak saya yang sakit.
-    failureResponse: Oalah, ya mas, gapapa.
     stageDialogues: []
+    finalCompletionDialogue:
+      npcImage: {fileID: 0}
+      npcName: 
+      secondaryNpcImage: {fileID: 0}
+      secondaryNpcName: 
+      dialogueText: Default dialogue...
+      options: []
+      successResponse: Thank you so much! You helped me a lot!
+      failureResponse: Oh... I see. That's disappointing.
+      conversationNodes: []
   isRepeatable: 0
   canSpawn: 1
   isMultiStage: 0

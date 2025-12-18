@@ -26,6 +26,10 @@ public class QuestManager : MonoBehaviour, IPersistable
     public int startingMoneyOfDay;
     private List<string> dailyCompletedQuests = new List<string>();
 
+    [Header("Repeatable Settings")]
+    public int globalRepeatableCooldown = 2; // Semua quest repeatable muncul kembali setelah X hari
+    private Dictionary<string, int> lastCompletionDays = new Dictionary<string, int>();
+
     public DailyReport TodayReport { get; private set; } = new DailyReport();
 
     // Events (for UI auto-refresh)
@@ -117,6 +121,15 @@ public class QuestManager : MonoBehaviour, IPersistable
         activeQuests.Remove(quest);
         completedQuests.Add(quest);
 
+        var questObj = questDatabase.GetQuestByID(quest.questID);
+        if (questObj != null && questObj.isRepeatable)
+        {
+            if (lastCompletionDays.ContainsKey(quest.questID))
+                lastCompletionDays[quest.questID] = CurrentDay;
+            else
+                lastCompletionDays.Add(quest.questID, CurrentDay);
+        }
+
         if (questDatabase.GetQuestByID(quest.questID).isRepeatable)
         {
             if (!dailyCompletedQuests.Contains(quest.questID))
@@ -181,6 +194,13 @@ public class QuestManager : MonoBehaviour, IPersistable
         return Random.Range(2, 5);
     }
 
+    public bool IsQuestOnCooldown(string questID)
+    {
+        if (!lastCompletionDays.ContainsKey(questID)) return false;
+
+        return (CurrentDay - lastCompletionDays[questID]) < globalRepeatableCooldown;
+    }
+
     public void GenerateDailyQuests()
     {
         Debug.Log($"Generating quests for Day {CurrentDay}...");
@@ -234,31 +254,29 @@ public class QuestManager : MonoBehaviour, IPersistable
 
         foreach (var quest in questDatabase.quests)
         {
-            // Skip quests outside difficulty range based on day
-            if (!IsDifficultyAllowed(quest.difficulty))
-                continue;
+            if (!IsDifficultyAllowed(quest.difficulty)) continue;
 
-            // Prevent duplicates in same day
-            bool alreadySpawnedToday = availableQuests.Exists(q => q.questID == quest.questID);
-            if (alreadySpawnedToday && !quest.isRepeatable)
-                continue;
+            if (activeQuests.Exists(q => q.questID == quest.questID)) continue;
 
-            // Repeatable quests always allowed
             if (quest.isRepeatable)
             {
-                result.Add(quest);
-                continue;
+                if (!IsQuestOnCooldown(quest.questID))
+                {
+                    result.Add(quest);
+                }
             }
+            else
+            {
+                bool alreadyDone = completedQuests.Exists(q => q.questID == quest.questID) ||
+                                   failedQuests.Exists(q => q.questID == quest.questID) ||
+                                   refusedQuests.Exists(q => q.questID == quest.questID);
 
-            // Skip permanent completed or refused quests
-            bool alreadyCompleted = completedQuests.Exists(q => q.questID == quest.questID);
-            bool alreadyActive = activeQuests.Exists(q => q.questID == quest.questID);
-            bool refused = refusedQuests.Exists(q => q.questID == quest.questID);
-
-            if (!alreadyCompleted && !alreadyActive && !refused && quest.canSpawn)
-                result.Add(quest);
+                if (!alreadyDone && quest.canSpawn)
+                {
+                    result.Add(quest);
+                }
+            }
         }
-
         return result;
     }
 

@@ -4,9 +4,12 @@ using TMPro;
 
 public class QuestLogEntryUI : MonoBehaviour
 {
+    [Header("UI Components")]
     public TextMeshProUGUI titleText;
     public TextMeshProUGUI rewardText;
     public TextMeshProUGUI deadlineText;
+    public TextMeshProUGUI objectiveText;
+
     public Button trackButton;
 
     private QuestData quest;
@@ -29,6 +32,8 @@ public class QuestLogEntryUI : MonoBehaviour
         titleText.text = quest.title;
         rewardText.text = $"Reward: {quest.rewardHAM} HAM Points";
 
+        UpdateObjectiveText();
+
         if (trackButton != null)
         {
             trackButton.onClick.RemoveAllListeners();
@@ -36,6 +41,32 @@ public class QuestLogEntryUI : MonoBehaviour
         }
 
         UpdateDeadlineText();
+    }
+
+    private void UpdateObjectiveText()
+    {
+        if (objectiveText == null) return;
+
+        QuestObject sourceQuest = QuestManager.Instance.questDatabase.GetQuestByID(quest.questID);
+
+        if (sourceQuest == null)
+        {
+            objectiveText.text = "Quest details not found.";
+            return;
+        }
+
+        if (sourceQuest.isMultiStage && sourceQuest.stages != null && sourceQuest.stages.Length > 0)
+        {
+            int index = Mathf.Clamp(quest.currentStageIndex, 0, sourceQuest.stages.Length - 1);
+
+            string currentObjective = sourceQuest.stages[index].objectiveDescription;
+
+            objectiveText.text = $"<color=yellow>[Stage {index + 1}]</color> {currentObjective}";
+        }
+        else
+        {
+            objectiveText.text = sourceQuest.description;
+        }
     }
 
     private void OnTrackClicked()
@@ -51,7 +82,6 @@ public class QuestLogEntryUI : MonoBehaviour
         if (targetObject != null)
         {
             QuestTracker.Instance.TrackQuest(targetObject.transform);
-
             NotificationSystem.Instance.ShowNotification($"Tracking: {quest.title}");
         }
         else
