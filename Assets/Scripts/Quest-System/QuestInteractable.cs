@@ -7,6 +7,12 @@ public class QuestInteractable : MonoBehaviour
     public string objectID;
     public DialoguePopup dialoguePopup;
 
+    [Header("Default Dialogue Settings")]
+    public Sprite npcDefaultPortrait;
+    public string npcDisplayName;
+    [TextArea(3, 6)]
+    public string defaultDialogueText = "Halo! Senang bertemu denganmu.";
+
     [Header("Interaction UI")]
     public Button interactButton;     // Assign in inspector
     public Transform player;          // Player reference
@@ -40,22 +46,14 @@ public class QuestInteractable : MonoBehaviour
 
             bool hasQuestToOffer = (quest != null);
 
-            interactButton.gameObject.SetActive(hasQuestToOffer);
+            interactButton.gameObject.SetActive(true);
 
             playerInRange = true;
 
-            // >> LOGIKA PENAMBAHAN/PENGHAPUSAN LISTENER
-            if (hasQuestToOffer && !isListening)
+            if (!isListening)
             {
-                // Tambahkan listener HANYA jika ada Quest dan belum ditambahkan
                 interactButton.onClick.AddListener(Interact);
                 isListening = true;
-            }
-            else if (!hasQuestToOffer && isListening)
-            {
-                // Hapus listener jika sudah tidak ada Quest yang ditawarkan (atau dihilangkan oleh logika lain)
-                interactButton.onClick.RemoveListener(Interact);
-                isListening = false;
             }
         }
         else if (!shouldBeInRange && playerInRange)
@@ -63,7 +61,6 @@ public class QuestInteractable : MonoBehaviour
             playerInRange = false;
             interactButton.gameObject.SetActive(false);
 
-            // >> PENGHAPUSAN LISTENER KETIKA KELUAR JANGKAUAN
             if (isListening)
             {
                 interactButton.onClick.RemoveListener(Interact);
@@ -76,19 +73,24 @@ public class QuestInteractable : MonoBehaviour
     {
         var quest = QuestManager.Instance.GetQuestRequiringObject(objectID);
 
-        if (interactButton != null)
-        {
-            interactButton.gameObject.SetActive(false);
-        }
+        if (interactButton != null) interactButton.gameObject.SetActive(false);
 
         if (quest != null)
         {
-            Debug.Log($"[DEBUG INTERACT] NPC {objectID} memicu Quest: {quest.title}");
             dialoguePopup.OpenDialogue(quest, this);
         }
         else
         {
-            Debug.Log("No active quest requires this object.");
+            var pastQuest = QuestManager.Instance.GetPastQuestByObjectID(objectID);
+
+            if (pastQuest != null)
+            {
+                dialoguePopup.OpenOutcomeDialogue(pastQuest);
+            }
+            else
+            {
+                dialoguePopup.OpenDefaultDialogue(npcDisplayName, defaultDialogueText, npcDefaultPortrait);
+            }
         }
     }
 

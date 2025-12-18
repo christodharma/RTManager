@@ -248,6 +248,17 @@ public class QuestManager : MonoBehaviour, IPersistable
         return dailyCompletedQuests.Contains(questID);
     }
 
+    public QuestData GetPastQuestByObjectID(string id)
+    {
+        var completed = completedQuests.FirstOrDefault(q => q.targetObjectID == id);
+        if (completed != null) return completed;
+
+        var failed = failedQuests.FirstOrDefault(q => q.targetObjectID == id);
+        if (failed != null) return failed;
+
+        return null;
+    }
+
     private List<QuestObject> GetEligibleQuestsFromDatabase()
     {
         List<QuestObject> result = new List<QuestObject>();

@@ -70,6 +70,65 @@ public class DialoguePopup : MonoBehaviour
             b.SetActive(true);
     }
 
+    public void OpenDefaultDialogue(string name, string message, Sprite portrait)
+    {
+        ClearDialogueUI();
+
+        nameText.text = name;
+        if (portrait != null)
+        {
+            portraitImage.sprite = portrait;
+            portraitImage.gameObject.SetActive(true);
+        }
+        else portraitImage.gameObject.SetActive(false);
+
+        CreateSimpleCloseButton();
+        ShowTextAnimated(message, () => ShowAllButtons());
+
+        DialoguePopupCanvas.enabled = true;
+        ControllerUI.SetActive(false);
+    }
+
+    public void OpenOutcomeDialogue(QuestData quest)
+    {
+        ClearDialogueUI();
+
+        QuestStageDialogue finalData = quest.completionDialogue.finalCompletionDialogue;
+
+        if (finalData == null && quest.completionDialogue.stageDialogues.Length > 0)
+            finalData = quest.completionDialogue.stageDialogues[quest.completionDialogue.stageDialogues.Length - 1];
+
+        if (finalData != null)
+        {
+            nameText.text = finalData.npcName;
+            portraitImage.sprite = finalData.npcImage;
+            portraitImage.gameObject.SetActive(finalData.npcImage != null);
+
+            string msg = (quest.state == QuestState.Completed) ? finalData.successResponse : finalData.failureResponse;
+
+            CreateSimpleCloseButton();
+            ShowTextAnimated(msg, () => ShowAllButtons());
+        }
+
+        DialoguePopupCanvas.enabled = true;
+        ControllerUI.SetActive(false);
+    }
+
+    private void ClearDialogueUI()
+    {
+        foreach (var b in activeButtons) Destroy(b);
+        activeButtons.Clear();
+    }
+
+    private void CreateSimpleCloseButton()
+    {
+        GameObject btnObj = Instantiate(buttonPrefab, buttonContainer);
+        btnObj.SetActive(false);
+        btnObj.GetComponentInChildren<TextMeshProUGUI>().text = "Tutup";
+        btnObj.GetComponent<Button>().onClick.AddListener(CloseDialogue);
+        activeButtons.Add(btnObj);
+    }
+
     public void OpenDialogue(QuestData quest, QuestInteractable source)
     {
         currentQuest = quest;

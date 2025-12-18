@@ -7562,6 +7562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR002_Tunawisma
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 2049748386d249d0ebf9ca5eeb1222a2, type: 3}
+  npcDisplayName: Tunawisma
+  defaultDialogueText: Halo Nak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -7858,6 +7861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR007_Anak
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: a1ac58e48c9627bb896d496f173bf5ad, type: 3}
+  npcDisplayName: Anak
+  defaultDialogueText: Halo Kak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -14995,6 +15001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR003_Anak
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: a1ac58e48c9627bb896d496f173bf5ad, type: 3}
+  npcDisplayName: Anak
+  defaultDialogueText: Halo Kak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -15187,6 +15196,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR006_Remaja
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: c40fcbc816a34e5cfb3093923893c3b3, type: 3}
+  npcDisplayName: 
+  defaultDialogueText: Halo Kak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -24041,6 +24053,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR010_Satpam
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 8309960566f9ab4b5b65f7558bd855f8, type: 3}
+  npcDisplayName: Satpam
+  defaultDialogueText: Halo Nak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -27576,6 +27591,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR004_Satpam
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 8309960566f9ab4b5b65f7558bd855f8, type: 3}
+  npcDisplayName: Satpam
+  defaultDialogueText: Halo Nak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -29211,6 +29229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR005_Anak
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 8d72cbccfd255c3a485d478b695e77bb, type: 3}
+  npcDisplayName: Anak
+  defaultDialogueText: Halo Kak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -29561,6 +29582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR001_IbuIbu
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 7c798d6996c720f18b254c1030c5b950, type: 3}
+  npcDisplayName: Ibu-Ibu
+  defaultDialogueText: Halo Nak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -30006,6 +30030,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR009_IbuIbu
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 3d657d20594cb6148bf64144b2c6c71b, type: 3}
+  npcDisplayName: Ibu-Ibu
+  defaultDialogueText: Halo Nak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
@@ -31145,6 +31172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectID: QR008_Warga
   dialoguePopup: {fileID: 2248519713439964918}
+  npcDefaultPortrait: {fileID: 21300000, guid: 3d657d20594cb6148bf64144b2c6c71b, type: 3}
+  npcDisplayName: Warga
+  defaultDialogueText: Halo Kak Ardi!
   interactButton: {fileID: 4623486088867037880}
   player: {fileID: 1350666358}
   interactDistance: 1.5
