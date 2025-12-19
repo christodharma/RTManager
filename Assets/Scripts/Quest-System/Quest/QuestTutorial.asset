@@ -61,9 +61,313 @@ MonoBehaviour:
         dialogueText: Dengarkan baik-baik penjelasan NPC. Informasi ini penting untuk
           menyelesaikan quest!
         options:
+        - buttonText: Waduh, pasti Ibu dan Dimas khawatir ya. Hilangnya di mana,
+            Bu?
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Gampang, Bu! Saya belikan buku baru aja.
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Kapan hilangnya? Sudah dicari di mana aja?
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Ibu mau belikan tapi lagi nggak ada uang. Gajian suami masih
+          seminggu lagi...
+        options:
+        - buttonText: Boleh saya bicara sama Dimas dulu, Bu?
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Saya ada ide, Bu. Gimana kalau kita cari buku pinjem dulu?
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Baik, Bu. Saya belikan buku baru sekarang.
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: 'Terima kasih, Nak! Tapi... maaf ya, ibu lagi nggak ada uang.
+          Gajian suami masih lama..
+
+'
+        options:
+        - buttonText: Boleh saya bicara sama Dimas dulu, Bu?
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Saya ada ide, Bu. Gimana kalau kita cari buku pinjem dulu?
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Baik, Bu. Saya belikan buku baru sekarang.
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Kemarin sore, Nak. Dimas bilang hilang di sekolah. Sudah dicari
+          di kelas, di tas, di mana-mana. Nggak ketemu...
+        options:
+        - buttonText: Boleh saya bicara sama Dimas dulu, Bu?
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Saya ada ide, Bu. Gimana kalau kita cari buku pinjem dulu?
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Baik, Bu. Saya belikan buku baru sekarang.
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Silakan, Nak. Dimas di sana.
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Pinjem? Hmm... bisa sih. Tapi dari siapa ya?
+        options:
         - buttonText: Lanjut
+          nextNodeIndex: 9
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Beneran, Nak? Waduh... ibu nggak enak... Tapi kalau bisa terima
+          kasih banget...
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Saya bisa tanyakan ke teman-teman Dimas atau ke tetangga yang
+          punya anak SD.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 10
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Boleh dicoba, Nak. Terima kasih!
+        options:
+        - buttonText: tutup
+          nextNodeIndex: -1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+    - npcImage: {fileID: 21300000, guid: 8d72cbccfd255c3a485d478b695e77bb, type: 3}
+      npcName: Dimas
+      secondaryNpcImage: {fileID: 0}
+      secondaryNpcName: TUTORIAL TIP
+      additionalNpcImage: {fileID: 0}
+      additionalNpcName: 
+      dialogueText: 
+      options: []
+      successResponse: 
+      failureResponse: 
+      conversationNodes:
+      - speaker: 0
+        dialogueText: Kak Ardi... Aku kehilangan buku matematika... Besok ulangan...
+          Aku belum belajar...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Berbicara dengan NPC yang terkena masalah langsung sering memberikan
+          perspektif berbeda!
+        options:
+        - buttonText: Tenang, Dimas. Kakak akan bantu. Kamu inget nggak terakhir
+            kali lihat bukunya di mana?
           nextNodeIndex: 2
           completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Nggak papa! Besok kakak pasti udah cariin solusi kok!
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+        - buttonText: Apa kamu udah coba pinjam teman?
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Terakhir... kayaknya di meja kelas. Tapi pas mau pulang, bukunya
+          nggak ada...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 3
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Aku takut ada yang ngambil... atau jatuh ke mana gitu...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 4
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: 'Hmm, buku hilang di sekolah. Bisa:
+
+          1. Jatuh di
+          suatu tempat di sekolah
+
+          2. Diambil teman (sengaja atau nggak
+          sengaja)
+
+          3. Memang hilang'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 5
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: 'Tapi besok udah ulangan. Urgent! Harus cari solusi
+
+          cepat.'
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 6
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Ini fase SOLUSI. Pilih dengan bijak! Setiap pilihan punya pro
+          dan kontra
+        options:
+        - buttonText: Belikan buku baru
+          nextNodeIndex: 7
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 25000
+          responseText: 
+        - buttonText: Pinjam dari tetangga/teman
+          nextNodeIndex: 11
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 5000
+          responseText: 
+      - speaker: 2
+        dialogueText: Dimas, kakak belikan buku baru saja ya
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 8
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Waaah! Buku baru! Terima kasih, Kak!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 9
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Aku sekarang bisa belajar! Besok aku pasti siap ulangan!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 10
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: 'Selamat! Kamu menyelesaikan quest pertama! HAM Points akan
+          dikonversi jadi uang di akhir hari. Semakin tinggi points, semakin banyak
+          uang besok!
+
+'
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 2
+        dialogueText: Dimas, kakak bantu tanyain ke temen kamu untuk pinjam bukunya
+          ya
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 12
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Terima kasih, Kak! Aku bisa belajar sekarang!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 13
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Solusi hemat! Kamu menghemat budget. Uang ini bisa kamu gunakan
+          untuk quest lain!
+        options:
+        - buttonText: Tutup
+          nextNodeIndex: -1
+          completesQuest: 1
           failQuest: 0
           costRupiah: 0
           responseText: 
