@@ -216,6 +216,11 @@ public class DialoguePopup : MonoBehaviour
             speakerName = playerName;
             speakerImage = playerImage;
         }
+        else if (node.speaker == Speaker.NPC3)
+        {
+            speakerName = currentActiveStageData.additionalNpcName;
+            speakerImage = currentActiveStageData.additionalNpcImage;
+        }
         else
         {
 

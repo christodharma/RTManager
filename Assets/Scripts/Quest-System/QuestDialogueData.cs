@@ -50,6 +50,10 @@ public class QuestStageDialogue
     public Sprite secondaryNpcImage;
     public string secondaryNpcName;
 
+    [Header("NPC 3 Identity (Additional Speaker)")]
+    public Sprite additionalNpcImage;
+    public string additionalNpcName;
+
     [Header("Single-Stage Dialogue / Start Dialogue")]
     [TextArea(3, 6)]
     public string dialogueText = "Default dialogue...";

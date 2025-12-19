@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 62abbbb3d7b0cfe41b5b320f7f3c06bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8016361486836487063
+    second: MBAK Lili_0
+  - first:
+      213: 8796999029230725572
+    second: MBAK Lili_1
+  - first:
+      213: 7884440316927952004
+    second: MBAK Lili_2
+  - first:
+      213: 8326712914867204921
+    second: MBAK Lili_3
+  - first:
+      213: 5580231925171677953
+    second: MBAK Lili_4
+  - first:
+      213: -6830674000149491491
+    second: MBAK Lili_5
+  - first:
+      213: 5737305184746689846
+    second: MBAK Lili_6
+  - first:
+      213: -2209732057961884299
+    second: MBAK Lili_7
+  - first:
+      213: -9071620235419120695
+    second: MBAK Lili_8
+  - first:
+      213: 6422837983084979932
+    second: MBAK Lili_9
+  - first:
+      213: -1098245870256679382
+    second: MBAK Lili_10
+  - first:
+      213: 1679835390288833155
+    second: MBAK Lili_11
+  - first:
+      213: 499698765521487775
+    second: MBAK Lili_12
+  - first:
+      213: 5432337466146639777
+    second: MBAK Lili_13
+  - first:
+      213: 6252301562881454514
+    second: MBAK Lili_14
+  - first:
+      213: -6511974431523977170
+    second: MBAK Lili_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MBAK Lili_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1688
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793d20ebc46df3f60800000000000000
+      internalID: 8016361486836487063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1699
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9e0c23208351a70800000000000000
+      internalID: 8796999029230725572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1702
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4844247d1b82b6d60800000000000000
+      internalID: 7884440316927952004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1733
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933315d774d6e8370800000000000000
+      internalID: 8326712914867204921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1721
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10be620ee57f07d40800000000000000
+      internalID: 5580231925171677953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_5
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 931
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d794ff229431a0800000000000000
+      internalID: -6830674000149491491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_6
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 943
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63555d00ba00f9f40800000000000000
+      internalID: 5737305184746689846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_7
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 912
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5759364a6647551e0800000000000000
+      internalID: -2209732057961884299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_8
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 909
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb099a95712b1280800000000000000
+      internalID: -9071620235419120695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_9
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 898
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6aaafad11822950800000000000000
+      internalID: 6422837983084979932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 86
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a269f43233f32c0f0800000000000000
+      internalID: -1098245870256679382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 82
+        width: 373
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aab472369ff4710800000000000000
+      internalID: 1679835390288833155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_12
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 91
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970c9531694fe600800000000000000
+      internalID: 499698765521487775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_13
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 79
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af47b9c42a836b40800000000000000
+      internalID: 5432337466146639777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_14
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 74
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b13b243523a4c650800000000000000
+      internalID: 6252301562881454514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lili_15
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 68
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e284696a1c1d0a5a0800000000000000
+      internalID: -6511974431523977170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MBAK Lili_0: 8016361486836487063
+      MBAK Lili_1: 8796999029230725572
+      MBAK Lili_10: -1098245870256679382
+      MBAK Lili_11: 1679835390288833155
+      MBAK Lili_12: 499698765521487775
+      MBAK Lili_13: 5432337466146639777
+      MBAK Lili_14: 6252301562881454514
+      MBAK Lili_15: -6511974431523977170
+      MBAK Lili_2: 7884440316927952004
+      MBAK Lili_3: 8326712914867204921
+      MBAK Lili_4: 5580231925171677953
+      MBAK Lili_5: -6830674000149491491
+      MBAK Lili_6: 5737305184746689846
+      MBAK Lili_7: -2209732057961884299
+      MBAK Lili_8: -9071620235419120695
+      MBAK Lili_9: 6422837983084979932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

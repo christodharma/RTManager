@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: bb85eb88252286e4c90f5041a44e251a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2163932225961954290
+    second: PAK SIMUTORANG_0
+  - first:
+      213: 2585480416802201336
+    second: PAK SIMUTORANG_1
+  - first:
+      213: 3475430551005136723
+    second: PAK SIMUTORANG_2
+  - first:
+      213: 6758042711348600906
+    second: PAK SIMUTORANG_3
+  - first:
+      213: 4966234435892973802
+    second: PAK SIMUTORANG_4
+  - first:
+      213: 6787489561722785218
+    second: PAK SIMUTORANG_5
+  - first:
+      213: 8199769511154500000
+    second: PAK SIMUTORANG_6
+  - first:
+      213: -5608440344041540281
+    second: PAK SIMUTORANG_7
+  - first:
+      213: 1535575614621900231
+    second: PAK SIMUTORANG_8
+  - first:
+      213: 153311969507334818
+    second: PAK SIMUTORANG_9
+  - first:
+      213: 3051783115112651894
+    second: PAK SIMUTORANG_10
+  - first:
+      213: -2265638069365451182
+    second: PAK SIMUTORANG_11
+  - first:
+      213: -7774970231143178854
+    second: PAK SIMUTORANG_12
+  - first:
+      213: -4272831644673581134
+    second: PAK SIMUTORANG_13
+  - first:
+      213: 5280647566964284842
+    second: PAK SIMUTORANG_14
+  - first:
+      213: -3751241244067718653
+    second: PAK SIMUTORANG_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1581
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0474810b1b28f1e0800000000000000
+      internalID: -2163932225961954290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1588
+        width: 389
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe59399db871e320800000000000000
+      internalID: 2585480416802201336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1587
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357833a2ca53b3030800000000000000
+      internalID: 3475430551005136723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_3
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1604
+        width: 311
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40e9d25a0469cd50800000000000000
+      internalID: 6758042711348600906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_4
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1600
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae096be38eb9be440800000000000000
+      internalID: 4966234435892973802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_5
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 833
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd88237bc1023e50800000000000000
+      internalID: 6787489561722785218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_6
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 837
+        width: 311
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a141781dee6bc170800000000000000
+      internalID: 8199769511154500000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 29
+        width: 322
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7453f6dc831da22b0800000000000000
+      internalID: -5608440344041540281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_8
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 29
+        width: 322
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd5a4bb2e57f4510800000000000000
+      internalID: 1535575614621900231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_9
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 39
+        width: 322
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aadc4a8c6ca02200800000000000000
+      internalID: 153311969507334818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_10
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 820
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c13dbf29c1a5a20800000000000000
+      internalID: 3051783115112651894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_11
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 821
+        width: 389
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256ded50e26de80e0800000000000000
+      internalID: -2265638069365451182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_12
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 814
+        width: 243
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d5971b4c1c91490800000000000000
+      internalID: -7774970231143178854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 79
+        width: 303
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfde22f14ad3b4c0800000000000000
+      internalID: -4272831644673581134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_14
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 68
+        width: 317
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaddfecebf0a84940800000000000000
+      internalID: 5280647566964284842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK SIMUTORANG_15
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 74
+        width: 303
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a9c84a6f9e0fbc0800000000000000
+      internalID: -3751241244067718653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK SIMUTORANG_0: -2163932225961954290
+      PAK SIMUTORANG_1: 2585480416802201336
+      PAK SIMUTORANG_10: 3051783115112651894
+      PAK SIMUTORANG_11: -2265638069365451182
+      PAK SIMUTORANG_12: -7774970231143178854
+      PAK SIMUTORANG_13: -4272831644673581134
+      PAK SIMUTORANG_14: 5280647566964284842
+      PAK SIMUTORANG_15: -3751241244067718653
+      PAK SIMUTORANG_2: 3475430551005136723
+      PAK SIMUTORANG_3: 6758042711348600906
+      PAK SIMUTORANG_4: 4966234435892973802
+      PAK SIMUTORANG_5: 6787489561722785218
+      PAK SIMUTORANG_6: 8199769511154500000
+      PAK SIMUTORANG_7: -5608440344041540281
+      PAK SIMUTORANG_8: 1535575614621900231
+      PAK SIMUTORANG_9: 153311969507334818
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

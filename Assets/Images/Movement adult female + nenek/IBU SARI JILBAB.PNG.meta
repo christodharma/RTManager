@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 6943ab450026a71478cd5a95bc8cb98c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4345683434290926705
+    second: IBU SARI JILBAB_0
+  - first:
+      213: -100801657595872011
+    second: IBU SARI JILBAB_1
+  - first:
+      213: 2911321362291046268
+    second: IBU SARI JILBAB_2
+  - first:
+      213: 9180953834444011054
+    second: IBU SARI JILBAB_3
+  - first:
+      213: -8482625749808258071
+    second: IBU SARI JILBAB_4
+  - first:
+      213: -4213547717494672606
+    second: IBU SARI JILBAB_5
+  - first:
+      213: 4665325572932582600
+    second: IBU SARI JILBAB_6
+  - first:
+      213: -2028444324753623798
+    second: IBU SARI JILBAB_7
+  - first:
+      213: -4350041791287090902
+    second: IBU SARI JILBAB_8
+  - first:
+      213: -5748771134666532345
+    second: IBU SARI JILBAB_9
+  - first:
+      213: 6574087614312028438
+    second: IBU SARI JILBAB_10
+  - first:
+      213: -5797436435651625075
+    second: IBU SARI JILBAB_11
+  - first:
+      213: -7287820710948287412
+    second: IBU SARI JILBAB_12
+  - first:
+      213: 1656113683652453301
+    second: IBU SARI JILBAB_13
+  - first:
+      213: -8730521517612186668
+    second: IBU SARI JILBAB_14
+  - first:
+      213: 5288364757562666449
+    second: IBU SARI JILBAB_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1689
+        width: 272
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174d53f1f08fe4c30800000000000000
+      internalID: 4345683434290926705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1700
+        width: 313
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc3a3e2d61e99ef0800000000000000
+      internalID: -100801657595872011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_2
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1693
+        width: 272
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c773d5aaa57176820800000000000000
+      internalID: 2911321362291046268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_3
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1734
+        width: 294
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26bb41aedc496f70800000000000000
+      internalID: 9180953834444011054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_4
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1710
+        width: 272
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e81cc2d8a74a80800000000000000
+      internalID: -8482625749808258071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_5
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 943
+        width: 272
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223729edca87685c0800000000000000
+      internalID: -4213547717494672606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_6
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 967
+        width: 294
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc313004e09eb040800000000000000
+      internalID: 4665325572932582600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_7
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 926
+        width: 272
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05376042a489d3e0800000000000000
+      internalID: -2028444324753623798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_8
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 933
+        width: 313
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21aa30d90c81a3c0800000000000000
+      internalID: -4350041791287090902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_9
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 922
+        width: 272
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a9e2f7c134830b0800000000000000
+      internalID: -5748771134666532345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 104
+        width: 288
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6191d5daad9db3b50800000000000000
+      internalID: 6574087614312028438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 107
+        width: 288
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff315274e5b8fa0800000000000000
+      internalID: -5797436435651625075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_12
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 110
+        width: 288
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c41390da57cda90800000000000000
+      internalID: -7287820710948287412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_13
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 90
+        width: 333
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3a4cdee92bbf610800000000000000
+      internalID: 1656113683652453301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_14
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 80
+        width: 333
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d342de9fe4f6d680800000000000000
+      internalID: -8730521517612186668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI JILBAB_15
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 80
+        width: 333
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dda7316abb046940800000000000000
+      internalID: 5288364757562666449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IBU SARI JILBAB_0: 4345683434290926705
+      IBU SARI JILBAB_1: -100801657595872011
+      IBU SARI JILBAB_10: 6574087614312028438
+      IBU SARI JILBAB_11: -5797436435651625075
+      IBU SARI JILBAB_12: -7287820710948287412
+      IBU SARI JILBAB_13: 1656113683652453301
+      IBU SARI JILBAB_14: -8730521517612186668
+      IBU SARI JILBAB_15: 5288364757562666449
+      IBU SARI JILBAB_2: 2911321362291046268
+      IBU SARI JILBAB_3: 9180953834444011054
+      IBU SARI JILBAB_4: -8482625749808258071
+      IBU SARI JILBAB_5: -4213547717494672606
+      IBU SARI JILBAB_6: 4665325572932582600
+      IBU SARI JILBAB_7: -2028444324753623798
+      IBU SARI JILBAB_8: -4350041791287090902
+      IBU SARI JILBAB_9: -5748771134666532345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

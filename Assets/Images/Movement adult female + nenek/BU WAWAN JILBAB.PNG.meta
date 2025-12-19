@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: a7198d21cc3e3284198a578cb17e0e4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5854702753554269177
+    second: BU WAWAN JILBAB_0
+  - first:
+      213: 4032583256922541668
+    second: BU WAWAN JILBAB_1
+  - first:
+      213: 1446323430727137248
+    second: BU WAWAN JILBAB_2
+  - first:
+      213: 8804708458662957428
+    second: BU WAWAN JILBAB_3
+  - first:
+      213: 7921592117140047515
+    second: BU WAWAN JILBAB_4
+  - first:
+      213: 266324136522238764
+    second: BU WAWAN JILBAB_5
+  - first:
+      213: 840961975313172322
+    second: BU WAWAN JILBAB_6
+  - first:
+      213: 7043087728318510861
+    second: BU WAWAN JILBAB_7
+  - first:
+      213: -8782908468197472997
+    second: BU WAWAN JILBAB_8
+  - first:
+      213: 4485764863724062320
+    second: BU WAWAN JILBAB_9
+  - first:
+      213: -9186100558718345853
+    second: BU WAWAN JILBAB_10
+  - first:
+      213: -447651754659615957
+    second: BU WAWAN JILBAB_11
+  - first:
+      213: 6203960598855150899
+    second: BU WAWAN JILBAB_12
+  - first:
+      213: -9097419736181982798
+    second: BU WAWAN JILBAB_13
+  - first:
+      213: -4970916110727708545
+    second: BU WAWAN JILBAB_14
+  - first:
+      213: 8438501059106456089
+    second: BU WAWAN JILBAB_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1684
+        width: 287
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c75ec7ddaefbea0800000000000000
+      internalID: -5854702753554269177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1695
+        width: 313
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e4e0c4b1d96f730800000000000000
+      internalID: 4032583256922541668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1696
+        width: 293
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7b0de4f7f521410800000000000000
+      internalID: 1446323430727137248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_3
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1729
+        width: 293
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4719b7d91bb903a70800000000000000
+      internalID: 8804708458662957428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_4
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1713
+        width: 289
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96caa56f062fed60800000000000000
+      internalID: 7921592117140047515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_5
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 989
+        width: 289
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b4580246c22b300800000000000000
+      internalID: 266324136522238764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_6
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1005
+        width: 293
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26707200672bbab00800000000000000
+      internalID: 840961975313172322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_7
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 972
+        width: 293
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07765819f21eb160800000000000000
+      internalID: 7043087728318510861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_8
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 971
+        width: 313
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15c1523847dc1680800000000000000
+      internalID: -8782908468197472997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_9
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 960
+        width: 287
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07683308063a04e30800000000000000
+      internalID: 4485764863724062320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 90
+        width: 313
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d539e363a648080800000000000000
+      internalID: -9186100558718345853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 103
+        width: 313
+        height: 737
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bee64d91f99c9f0800000000000000
+      internalID: -447651754659615957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_12
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 99
+        width: 313
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33de74f6b45e81650800000000000000
+      internalID: 6203960598855150899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_13
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 83
+        width: 331
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9be3c33f87fb180800000000000000
+      internalID: -9097419736181982798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_14
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 80
+        width: 331
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f700fc36222c30bb0800000000000000
+      internalID: -4970916110727708545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU WAWAN JILBAB_15
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 55
+        width: 331
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9124cc011049b1570800000000000000
+      internalID: 8438501059106456089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BU WAWAN JILBAB_0: -5854702753554269177
+      BU WAWAN JILBAB_1: 4032583256922541668
+      BU WAWAN JILBAB_10: -9186100558718345853
+      BU WAWAN JILBAB_11: -447651754659615957
+      BU WAWAN JILBAB_12: 6203960598855150899
+      BU WAWAN JILBAB_13: -9097419736181982798
+      BU WAWAN JILBAB_14: -4970916110727708545
+      BU WAWAN JILBAB_15: 8438501059106456089
+      BU WAWAN JILBAB_2: 1446323430727137248
+      BU WAWAN JILBAB_3: 8804708458662957428
+      BU WAWAN JILBAB_4: 7921592117140047515
+      BU WAWAN JILBAB_5: 266324136522238764
+      BU WAWAN JILBAB_6: 840961975313172322
+      BU WAWAN JILBAB_7: 7043087728318510861
+      BU WAWAN JILBAB_8: -8782908468197472997
+      BU WAWAN JILBAB_9: 4485764863724062320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

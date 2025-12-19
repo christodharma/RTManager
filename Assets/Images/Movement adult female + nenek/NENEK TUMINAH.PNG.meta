@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 900398f316fd6414ca23afad8cd162e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4730008282232124756
+    second: NENEK TUMINAH_0
+  - first:
+      213: -2136902560778351364
+    second: NENEK TUMINAH_1
+  - first:
+      213: -7697116305276506177
+    second: NENEK TUMINAH_2
+  - first:
+      213: -2816249535992126792
+    second: NENEK TUMINAH_3
+  - first:
+      213: -176221955885673920
+    second: NENEK TUMINAH_4
+  - first:
+      213: -2554919165390554759
+    second: NENEK TUMINAH_5
+  - first:
+      213: 4828264088828404195
+    second: NENEK TUMINAH_6
+  - first:
+      213: -6907131801377846971
+    second: NENEK TUMINAH_7
+  - first:
+      213: 8690933023788268903
+    second: NENEK TUMINAH_8
+  - first:
+      213: 3333323986733465752
+    second: NENEK TUMINAH_9
+  - first:
+      213: -8834664857069695054
+    second: NENEK TUMINAH_10
+  - first:
+      213: -7698194487553452294
+    second: NENEK TUMINAH_11
+  - first:
+      213: -4252149744814689164
+    second: NENEK TUMINAH_12
+  - first:
+      213: -4496900099034085246
+    second: NENEK TUMINAH_13
+  - first:
+      213: -1528824118949493240
+    second: NENEK TUMINAH_14
+  - first:
+      213: -670165070708904429
+    second: NENEK TUMINAH_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NENEK TUMINAH_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1870
+        width: 288
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455f917d87d54a140800000000000000
+      internalID: 4730008282232124756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1865
+        width: 288
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc0f2951723852e0800000000000000
+      internalID: -2136902560778351364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1865
+        width: 288
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf602d50895e2590800000000000000
+      internalID: -7697116305276506177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_3
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1895
+        width: 265
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a458d7fbaae8d0800000000000000
+      internalID: -2816249535992126792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_4
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1894
+        width: 268
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0425fc5901fed8df0800000000000000
+      internalID: -176221955885673920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_5
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1894
+        width: 268
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979fe0d3e8a1b8cd0800000000000000
+      internalID: -2554919165390554759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1031
+        width: 394
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e164688b90710340800000000000000
+      internalID: 4828264088828404195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1032
+        width: 349
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549c112e830f420a0800000000000000
+      internalID: -6907131801377846971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_8
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1016
+        width: 369
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d7c91e9856c9870800000000000000
+      internalID: 8690933023788268903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_9
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1027
+        width: 349
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89089865188524e20800000000000000
+      internalID: 3333323986733465752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_10
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1036
+        width: 394
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfcbbcde17f46580800000000000000
+      internalID: -8834664857069695054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_11
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 93
+        width: 394
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6918d76e48a2590800000000000000
+      internalID: -7698194487553452294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_12
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 84
+        width: 349
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4747d8006545df4c0800000000000000
+      internalID: -4252149744814689164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_13
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 73
+        width: 369
+        height: 745
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28887ae7f2dc791c0800000000000000
+      internalID: -4496900099034085246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_14
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 89
+        width: 349
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80647f9509688cae0800000000000000
+      internalID: -1528824118949493240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NENEK TUMINAH_15
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 88
+        width: 394
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e658b3b6813b6f0800000000000000
+      internalID: -670165070708904429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NENEK TUMINAH_0: 4730008282232124756
+      NENEK TUMINAH_1: -2136902560778351364
+      NENEK TUMINAH_10: -8834664857069695054
+      NENEK TUMINAH_11: -7698194487553452294
+      NENEK TUMINAH_12: -4252149744814689164
+      NENEK TUMINAH_13: -4496900099034085246
+      NENEK TUMINAH_14: -1528824118949493240
+      NENEK TUMINAH_15: -670165070708904429
+      NENEK TUMINAH_2: -7697116305276506177
+      NENEK TUMINAH_3: -2816249535992126792
+      NENEK TUMINAH_4: -176221955885673920
+      NENEK TUMINAH_5: -2554919165390554759
+      NENEK TUMINAH_6: 4828264088828404195
+      NENEK TUMINAH_7: -6907131801377846971
+      NENEK TUMINAH_8: 8690933023788268903
+      NENEK TUMINAH_9: 3333323986733465752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

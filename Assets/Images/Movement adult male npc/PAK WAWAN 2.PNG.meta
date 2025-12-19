@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 75d56cce1aa24124882b08462b2221d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2073270573155495153
+    second: PAK WAWAN 2_0
+  - first:
+      213: -7363570393343272045
+    second: PAK WAWAN 2_1
+  - first:
+      213: 2957879775644037193
+    second: PAK WAWAN 2_2
+  - first:
+      213: 3675420039115835813
+    second: PAK WAWAN 2_3
+  - first:
+      213: 8395018681184017495
+    second: PAK WAWAN 2_4
+  - first:
+      213: 6060400249607912214
+    second: PAK WAWAN 2_5
+  - first:
+      213: 4819827452829426851
+    second: PAK WAWAN 2_6
+  - first:
+      213: 5664658281031721889
+    second: PAK WAWAN 2_7
+  - first:
+      213: 1335319025302981411
+    second: PAK WAWAN 2_8
+  - first:
+      213: 7457058944714400779
+    second: PAK WAWAN 2_9
+  - first:
+      213: -5614844522195854222
+    second: PAK WAWAN 2_10
+  - first:
+      213: -7895817912667290295
+    second: PAK WAWAN 2_11
+  - first:
+      213: 6676707408047486371
+    second: PAK WAWAN 2_12
+  - first:
+      213: -6857322474547750870
+    second: PAK WAWAN 2_13
+  - first:
+      213: -8086138516920024236
+    second: PAK WAWAN 2_14
+  - first:
+      213: -8617635846002728520
+    second: PAK WAWAN 2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK WAWAN 2_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1595
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03dbcbf5634a33e0800000000000000
+      internalID: -2073270573155495153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1602
+        width: 389
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bd03abdb75fc990800000000000000
+      internalID: -7363570393343272045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_2
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1618
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94033930cff7c0920800000000000000
+      internalID: 2957879775644037193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_3
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1618
+        width: 328
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a90ad76d07b10330800000000000000
+      internalID: 3675420039115835813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_4
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1636
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cddb60309118470800000000000000
+      internalID: 8395018681184017495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_5
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 852
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b719aeaedda1450800000000000000
+      internalID: 6060400249607912214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_6
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 834
+        width: 328
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4e294288773e240800000000000000
+      internalID: 4819827452829426851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_7
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 834
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3eed6a1b8ec9e40800000000000000
+      internalID: 5664658281031721889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_8
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 818
+        width: 389
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b41052491088210800000000000000
+      internalID: 1335319025302981411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_9
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 811
+        width: 245
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04e9dcd99bcc7760800000000000000
+      internalID: 7457058944714400779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 22
+        width: 322
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cd771e7a01412b0800000000000000
+      internalID: -5614844522195854222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_11
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 33
+        width: 322
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945cc48317b6c6290800000000000000
+      internalID: -7895817912667290295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_12
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 39
+        width: 322
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5b3ed430e68ac50800000000000000
+      internalID: 6676707408047486371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 79
+        width: 303
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2857428a85e5d0a0800000000000000
+      internalID: -6857322474547750870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_14
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 68
+        width: 303
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453c06e6cd348cf80800000000000000
+      internalID: -8086138516920024236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK WAWAN 2_15
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 63
+        width: 303
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1a5533bd1086880800000000000000
+      internalID: -8617635846002728520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK WAWAN 2_0: -2073270573155495153
+      PAK WAWAN 2_1: -7363570393343272045
+      PAK WAWAN 2_10: -5614844522195854222
+      PAK WAWAN 2_11: -7895817912667290295
+      PAK WAWAN 2_12: 6676707408047486371
+      PAK WAWAN 2_13: -6857322474547750870
+      PAK WAWAN 2_14: -8086138516920024236
+      PAK WAWAN 2_15: -8617635846002728520
+      PAK WAWAN 2_2: 2957879775644037193
+      PAK WAWAN 2_3: 3675420039115835813
+      PAK WAWAN 2_4: 8395018681184017495
+      PAK WAWAN 2_5: 6060400249607912214
+      PAK WAWAN 2_6: 4819827452829426851
+      PAK WAWAN 2_7: 5664658281031721889
+      PAK WAWAN 2_8: 1335319025302981411
+      PAK WAWAN 2_9: 7457058944714400779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

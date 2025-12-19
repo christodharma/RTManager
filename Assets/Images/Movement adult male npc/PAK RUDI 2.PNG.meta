@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ef9581e6733118b418cc2a65ed691cd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6936506449856174312
+    second: PAK RUDI 2_0
+  - first:
+      213: 3733451376263210879
+    second: PAK RUDI 2_1
+  - first:
+      213: -2248314364913812230
+    second: PAK RUDI 2_2
+  - first:
+      213: 5535218279044833410
+    second: PAK RUDI 2_3
+  - first:
+      213: -205600474246121132
+    second: PAK RUDI 2_4
+  - first:
+      213: 4575805923064865726
+    second: PAK RUDI 2_5
+  - first:
+      213: -3144930941531567182
+    second: PAK RUDI 2_6
+  - first:
+      213: -7150403287042238023
+    second: PAK RUDI 2_7
+  - first:
+      213: 6160571250077446645
+    second: PAK RUDI 2_8
+  - first:
+      213: 972931692709409117
+    second: PAK RUDI 2_9
+  - first:
+      213: -4879661793979511128
+    second: PAK RUDI 2_10
+  - first:
+      213: -7566667637471060522
+    second: PAK RUDI 2_11
+  - first:
+      213: -7459521228621349092
+    second: PAK RUDI 2_12
+  - first:
+      213: -3895381619540720627
+    second: PAK RUDI 2_13
+  - first:
+      213: 9057905388825234032
+    second: PAK RUDI 2_14
+  - first:
+      213: -7504376846283913285
+    second: PAK RUDI 2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK RUDI 2_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1594
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e812ed6ddb634060800000000000000
+      internalID: 6936506449856174312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1601
+        width: 389
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77ac5cfe32efc330800000000000000
+      internalID: 3733451376263210879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_2
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1616
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc77e74ff16cc0e0800000000000000
+      internalID: -2248314364913812230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1617
+        width: 355
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28067bca2bb01dc40800000000000000
+      internalID: 5535218279044833410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_4
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1626
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45978ee357f852df0800000000000000
+      internalID: -205600474246121132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_5
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 39
+        width: 323
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3e86d4e37808f30800000000000000
+      internalID: 4575805923064865726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_6
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 837
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb40e2a8f5fa54d0800000000000000
+      internalID: -3144930941531567182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_7
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 828
+        width: 355
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9df0b481aa4cc90800000000000000
+      internalID: -7150403287042238023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_8
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 827
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1b95e69eebe7550800000000000000
+      internalID: 6160571250077446645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_9
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 812
+        width: 389
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51f9ae383c808d00800000000000000
+      internalID: 972931692709409117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_10
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 805
+        width: 259
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae4ec1b375f74cb0800000000000000
+      internalID: -4879661793979511128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 34
+        width: 323
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddd717afdbcdf690800000000000000
+      internalID: -7566667637471060522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_12
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 28
+        width: 323
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ff98df6f47a7890800000000000000
+      internalID: -7459521228621349092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 82
+        width: 317
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0480be3e03d0f9c0800000000000000
+      internalID: -3895381619540720627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_14
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 79
+        width: 317
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a4606d5f424bd70800000000000000
+      internalID: 9057905388825234032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK RUDI 2_15
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 63
+        width: 317
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7c498a4091bd790800000000000000
+      internalID: -7504376846283913285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK RUDI 2_0: 6936506449856174312
+      PAK RUDI 2_1: 3733451376263210879
+      PAK RUDI 2_10: -4879661793979511128
+      PAK RUDI 2_11: -7566667637471060522
+      PAK RUDI 2_12: -7459521228621349092
+      PAK RUDI 2_13: -3895381619540720627
+      PAK RUDI 2_14: 9057905388825234032
+      PAK RUDI 2_15: -7504376846283913285
+      PAK RUDI 2_2: -2248314364913812230
+      PAK RUDI 2_3: 5535218279044833410
+      PAK RUDI 2_4: -205600474246121132
+      PAK RUDI 2_5: 4575805923064865726
+      PAK RUDI 2_6: -3144930941531567182
+      PAK RUDI 2_7: -7150403287042238023
+      PAK RUDI 2_8: 6160571250077446645
+      PAK RUDI 2_9: 972931692709409117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

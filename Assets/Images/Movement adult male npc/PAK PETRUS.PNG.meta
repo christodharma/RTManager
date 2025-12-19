@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: c151212c7718c924aaec86c57b0ca2b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1575089925701260697
+    second: PAK PETRUS_0
+  - first:
+      213: -3659099124429866242
+    second: PAK PETRUS_1
+  - first:
+      213: 4247066513739822492
+    second: PAK PETRUS_2
+  - first:
+      213: -4877591275943858817
+    second: PAK PETRUS_3
+  - first:
+      213: 1377188912199678715
+    second: PAK PETRUS_4
+  - first:
+      213: 305326462783483664
+    second: PAK PETRUS_5
+  - first:
+      213: 8631715925572588940
+    second: PAK PETRUS_6
+  - first:
+      213: -2727949288718270932
+    second: PAK PETRUS_7
+  - first:
+      213: 8499311710394695938
+    second: PAK PETRUS_8
+  - first:
+      213: 1924365736892142092
+    second: PAK PETRUS_9
+  - first:
+      213: 8780534681240692690
+    second: PAK PETRUS_10
+  - first:
+      213: -565224526286028043
+    second: PAK PETRUS_11
+  - first:
+      213: -5866010320398784928
+    second: PAK PETRUS_12
+  - first:
+      213: -3795797948160769985
+    second: PAK PETRUS_13
+  - first:
+      213: 7878733530122095672
+    second: PAK PETRUS_14
+  - first:
+      213: 6772875777472427605
+    second: PAK PETRUS_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK PETRUS_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1582
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99558b631f7dbd510800000000000000
+      internalID: 1575089925701260697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1589
+        width: 389
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa3a6aabb4483dc0800000000000000
+      internalID: -3659099124429866242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1600
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c953be80e7c90fa30800000000000000
+      internalID: 4247066513739822492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_3
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1605
+        width: 341
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d62ddb3905f4cb0800000000000000
+      internalID: -4877591275943858817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_4
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1614
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfab44cd402cc1310800000000000000
+      internalID: 1377188912199678715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 43
+        width: 328
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f6cbadcccbc3400800000000000000
+      internalID: 305326462783483664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_6
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 39
+        width: 328
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8516d9c6e30ac770800000000000000
+      internalID: 8631715925572588940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_7
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 39
+        width: 328
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2efaa04390642ad0800000000000000
+      internalID: -2727949288718270932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_8
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 79
+        width: 303
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c46528fe93f570800000000000000
+      internalID: 8499311710394695938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_9
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 796
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0293652178b4ba10800000000000000
+      internalID: 1924365736892142092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_10
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 787
+        width: 341
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7695575c9bad970800000000000000
+      internalID: 8780534681240692690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_11
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 782
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2026cb94be728f0800000000000000
+      internalID: -565224526286028043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_12
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 771
+        width: 389
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066eadb61beb79ea0800000000000000
+      internalID: -5866010320398784928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_13
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 764
+        width: 260
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3088bc80ed925bc0800000000000000
+      internalID: -3795797948160769985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_14
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 57
+        width: 303
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c03eef662e65d60800000000000000
+      internalID: 7878733530122095672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK PETRUS_15
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 53
+        width: 303
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5567718a2a61efd50800000000000000
+      internalID: 6772875777472427605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK PETRUS_0: 1575089925701260697
+      PAK PETRUS_1: -3659099124429866242
+      PAK PETRUS_10: 8780534681240692690
+      PAK PETRUS_11: -565224526286028043
+      PAK PETRUS_12: -5866010320398784928
+      PAK PETRUS_13: -3795797948160769985
+      PAK PETRUS_14: 7878733530122095672
+      PAK PETRUS_15: 6772875777472427605
+      PAK PETRUS_2: 4247066513739822492
+      PAK PETRUS_3: -4877591275943858817
+      PAK PETRUS_4: 1377188912199678715
+      PAK PETRUS_5: 305326462783483664
+      PAK PETRUS_6: 8631715925572588940
+      PAK PETRUS_7: -2727949288718270932
+      PAK PETRUS_8: 8499311710394695938
+      PAK PETRUS_9: 1924365736892142092
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

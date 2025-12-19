@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: f51c4b1dcd1abc9439520b6837f7f079
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6751692476641443042
+    second: IBU SARI_0
+  - first:
+      213: -4122179515986394304
+    second: IBU SARI_1
+  - first:
+      213: -3258910545211819039
+    second: IBU SARI_2
+  - first:
+      213: -6047482020549310743
+    second: IBU SARI_3
+  - first:
+      213: 390360285679070587
+    second: IBU SARI_4
+  - first:
+      213: 1767674042236419012
+    second: IBU SARI_5
+  - first:
+      213: 8883806832082573648
+    second: IBU SARI_6
+  - first:
+      213: 8802360604682186257
+    second: IBU SARI_7
+  - first:
+      213: -6863518752990968693
+    second: IBU SARI_8
+  - first:
+      213: -642349344574952168
+    second: IBU SARI_9
+  - first:
+      213: 7953857661259466491
+    second: IBU SARI_10
+  - first:
+      213: -9131866564904162179
+    second: IBU SARI_11
+  - first:
+      213: -4435234371137447369
+    second: IBU SARI_12
+  - first:
+      213: -960058502978765002
+    second: IBU SARI_13
+  - first:
+      213: -5563499431791080347
+    second: IBU SARI_14
+  - first:
+      213: 1383830399455010627
+    second: IBU SARI_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IBU SARI_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1689
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130c19e67b2d42a0800000000000000
+      internalID: -6751692476641443042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1700
+        width: 281
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0434d3902931bc6c0800000000000000
+      internalID: -4122179515986394304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1693
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebffd5202606c2d0800000000000000
+      internalID: -3258910545211819039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1734
+        width: 266
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6c89ba427031ca0800000000000000
+      internalID: -6047482020549310743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_4
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1710
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d22529c96da6500800000000000000
+      internalID: 390360285679070587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_5
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 970
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb3e260d2a088810800000000000000
+      internalID: 1767674042236419012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_6
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 994
+        width: 266
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059587fce3f994b70800000000000000
+      internalID: 8883806832082573648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_7
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 953
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e69f24554482a70800000000000000
+      internalID: 8802360604682186257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_8
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 960
+        width: 281
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84cdb20f02efb0a0800000000000000
+      internalID: -6863518752990968693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_9
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 949
+        width: 234
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81da7e6acaae517f0800000000000000
+      internalID: -642349344574952168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 99
+        width: 274
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6c36dc667c16e60800000000000000
+      internalID: 7953857661259466491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 107
+        width: 274
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cee9eedb7154180800000000000000
+      internalID: -9131866564904162179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 107
+        width: 274
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73adfbc96d1e272c0800000000000000
+      internalID: -4435234371137447369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 90
+        width: 328
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f7b5ec0ef2da2f0800000000000000
+      internalID: -960058502978765002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_14
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 90
+        width: 328
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c41045eba7ac2b0800000000000000
+      internalID: -5563499431791080347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU SARI_15
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 95
+        width: 328
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f17ec9a6a543310800000000000000
+      internalID: 1383830399455010627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IBU SARI_0: -6751692476641443042
+      IBU SARI_1: -4122179515986394304
+      IBU SARI_10: 7953857661259466491
+      IBU SARI_11: -9131866564904162179
+      IBU SARI_12: -4435234371137447369
+      IBU SARI_13: -960058502978765002
+      IBU SARI_14: -5563499431791080347
+      IBU SARI_15: 1383830399455010627
+      IBU SARI_2: -3258910545211819039
+      IBU SARI_3: -6047482020549310743
+      IBU SARI_4: 390360285679070587
+      IBU SARI_5: 1767674042236419012
+      IBU SARI_6: 8883806832082573648
+      IBU SARI_7: 8802360604682186257
+      IBU SARI_8: -6863518752990968693
+      IBU SARI_9: -642349344574952168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

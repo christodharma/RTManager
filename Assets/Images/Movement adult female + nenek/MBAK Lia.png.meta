@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 6c594e7a0703c0b46a1748ae83a2227e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3397154161003696903
+    second: MBAK Lia_0
+  - first:
+      213: 5632005770447134916
+    second: MBAK Lia_1
+  - first:
+      213: -4521566600580546893
+    second: MBAK Lia_2
+  - first:
+      213: 4175637316847269045
+    second: MBAK Lia_3
+  - first:
+      213: -1969366729003746480
+    second: MBAK Lia_4
+  - first:
+      213: 3444718513871329981
+    second: MBAK Lia_5
+  - first:
+      213: 4833091519220066761
+    second: MBAK Lia_6
+  - first:
+      213: 7028808071465847141
+    second: MBAK Lia_7
+  - first:
+      213: -3134380979523360661
+    second: MBAK Lia_8
+  - first:
+      213: -2326527484634149293
+    second: MBAK Lia_9
+  - first:
+      213: 3493215064756611569
+    second: MBAK Lia_10
+  - first:
+      213: -2115576208575074963
+    second: MBAK Lia_11
+  - first:
+      213: 7827779674535926065
+    second: MBAK Lia_12
+  - first:
+      213: -1999122396574860868
+    second: MBAK Lia_13
+  - first:
+      213: 7294789624106086958
+    second: MBAK Lia_14
+  - first:
+      213: -4373525635662969557
+    second: MBAK Lia_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MBAK Lia_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1688
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc622a1a42ead0d0800000000000000
+      internalID: -3397154161003696903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1699
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0a3789867e82e40800000000000000
+      internalID: 5632005770447134916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1702
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3020122b2041c0800000000000000
+      internalID: -4521566600580546893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1733
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4fb852408d2f930800000000000000
+      internalID: 4175637316847269045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1721
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3245e4676ba4e0800000000000000
+      internalID: -1969366729003746480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_5
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 931
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba138acc391ecf20800000000000000
+      internalID: 3444718513871329981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_6
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 943
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9a0124127921340800000000000000
+      internalID: 4833091519220066761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_7
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 912
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569ce1663b75b8160800000000000000
+      internalID: 7028808071465847141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_8
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 909
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e4c41b117084d0800000000000000
+      internalID: -3134380979523360661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_9
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 898
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ec236449386bfd0800000000000000
+      internalID: -2326527484634149293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 86
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f96cd2f7946a7030800000000000000
+      internalID: 3493215064756611569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 82
+        width: 373
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d6d98a5a6f3a2e0800000000000000
+      internalID: -2115576208575074963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_12
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 91
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1399cb0042cd1ac60800000000000000
+      internalID: 7827779674535926065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_13
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 79
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9b0a9a5c0b144e0800000000000000
+      internalID: -1999122396574860868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_14
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 74
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e227c00838c4c3560800000000000000
+      internalID: 7294789624106086958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK Lia_15
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 68
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b258e363b9d1e43c0800000000000000
+      internalID: -4373525635662969557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MBAK Lia_0: -3397154161003696903
+      MBAK Lia_1: 5632005770447134916
+      MBAK Lia_10: 3493215064756611569
+      MBAK Lia_11: -2115576208575074963
+      MBAK Lia_12: 7827779674535926065
+      MBAK Lia_13: -1999122396574860868
+      MBAK Lia_14: 7294789624106086958
+      MBAK Lia_15: -4373525635662969557
+      MBAK Lia_2: -4521566600580546893
+      MBAK Lia_3: 4175637316847269045
+      MBAK Lia_4: -1969366729003746480
+      MBAK Lia_5: 3444718513871329981
+      MBAK Lia_6: 4833091519220066761
+      MBAK Lia_7: 7028808071465847141
+      MBAK Lia_8: -3134380979523360661
+      MBAK Lia_9: -2326527484634149293
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

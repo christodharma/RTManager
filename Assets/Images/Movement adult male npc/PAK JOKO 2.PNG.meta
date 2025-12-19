@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 9691331eb4b023e47b065fa5bd951872
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8101220531916647133
+    second: PAK JOKO 2_0
+  - first:
+      213: -6586572912414095880
+    second: PAK JOKO 2_1
+  - first:
+      213: 303247459368389326
+    second: PAK JOKO 2_2
+  - first:
+      213: -7671206445483730785
+    second: PAK JOKO 2_3
+  - first:
+      213: 5884909435772692620
+    second: PAK JOKO 2_4
+  - first:
+      213: -8705981021814858971
+    second: PAK JOKO 2_5
+  - first:
+      213: -8492031594207764383
+    second: PAK JOKO 2_6
+  - first:
+      213: -4899886828329411425
+    second: PAK JOKO 2_7
+  - first:
+      213: -3553178968209178150
+    second: PAK JOKO 2_8
+  - first:
+      213: -4873055107861286292
+    second: PAK JOKO 2_9
+  - first:
+      213: -6270589450361967097
+    second: PAK JOKO 2_10
+  - first:
+      213: -8879991316282579059
+    second: PAK JOKO 2_11
+  - first:
+      213: -5261151653944409160
+    second: PAK JOKO 2_12
+  - first:
+      213: -2173145571906114394
+    second: PAK JOKO 2_13
+  - first:
+      213: -5260135414226148098
+    second: PAK JOKO 2_14
+  - first:
+      213: 6736383576532541740
+    second: PAK JOKO 2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK JOKO 2_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1600
+        width: 281
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda2ef3d6215d6070800000000000000
+      internalID: 8101220531916647133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1607
+        width: 389
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5095455dac794a0800000000000000
+      internalID: -6586572912414095880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1632
+        width: 281
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca41b625f9553400800000000000000
+      internalID: 303247459368389326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_3
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1623
+        width: 340
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f985142b1666a8590800000000000000
+      internalID: -7671206445483730785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_4
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1637
+        width: 281
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c886396c3f56ba150800000000000000
+      internalID: 5884909435772692620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_5
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 828
+        width: 332
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bde6d03642e2780800000000000000
+      internalID: -8705981021814858971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_6
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 842
+        width: 283
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1602addf14e362a80800000000000000
+      internalID: -8492031594207764383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 25
+        width: 338
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c5fcde3ea100cb0800000000000000
+      internalID: -4899886828329411425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 25
+        width: 338
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1c080dd8290bec0800000000000000
+      internalID: -3553178968209178150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_9
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 39
+        width: 338
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62760da23e6f5cb0800000000000000
+      internalID: -4873055107861286292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_10
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 836
+        width: 283
+        height: 798
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70eecde2e146af8a0800000000000000
+      internalID: -6270589450361967097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_11
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 823
+        width: 387
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d876c6032fee3c480800000000000000
+      internalID: -8879991316282579059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_12
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 821
+        width: 283
+        height: 798
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b34f2d0272acf6b0800000000000000
+      internalID: -5261151653944409160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 79
+        width: 304
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aca25dbd9f67d1e0800000000000000
+      internalID: -2173145571906114394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_14
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 65
+        width: 304
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4299cc5be3007b0800000000000000
+      internalID: -5260135414226148098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK JOKO 2_15
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 65
+        width: 304
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c216ff50c217c7d50800000000000000
+      internalID: 6736383576532541740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK JOKO 2_0: 8101220531916647133
+      PAK JOKO 2_1: -6586572912414095880
+      PAK JOKO 2_10: -6270589450361967097
+      PAK JOKO 2_11: -8879991316282579059
+      PAK JOKO 2_12: -5261151653944409160
+      PAK JOKO 2_13: -2173145571906114394
+      PAK JOKO 2_14: -5260135414226148098
+      PAK JOKO 2_15: 6736383576532541740
+      PAK JOKO 2_2: 303247459368389326
+      PAK JOKO 2_3: -7671206445483730785
+      PAK JOKO 2_4: 5884909435772692620
+      PAK JOKO 2_5: -8705981021814858971
+      PAK JOKO 2_6: -8492031594207764383
+      PAK JOKO 2_7: -4899886828329411425
+      PAK JOKO 2_8: -3553178968209178150
+      PAK JOKO 2_9: -4873055107861286292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

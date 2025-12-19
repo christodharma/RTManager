@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 6bc93d4b17123664a9b915b2d8902c72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4856355250010898892
+    second: IBU WAWAN_0
+  - first:
+      213: -6415902029650308644
+    second: IBU WAWAN_1
+  - first:
+      213: 5464118409776994085
+    second: IBU WAWAN_2
+  - first:
+      213: -3434945529919939974
+    second: IBU WAWAN_3
+  - first:
+      213: 680564849023357381
+    second: IBU WAWAN_4
+  - first:
+      213: 4554307352610332648
+    second: IBU WAWAN_5
+  - first:
+      213: 4091954422143382752
+    second: IBU WAWAN_6
+  - first:
+      213: 6817603720212478992
+    second: IBU WAWAN_7
+  - first:
+      213: -7235312049837050836
+    second: IBU WAWAN_8
+  - first:
+      213: -2543855143512740986
+    second: IBU WAWAN_9
+  - first:
+      213: 1214778284380220544
+    second: IBU WAWAN_10
+  - first:
+      213: -256232620004493822
+    second: IBU WAWAN_11
+  - first:
+      213: -2499502966755707350
+    second: IBU WAWAN_12
+  - first:
+      213: -4000194568166972732
+    second: IBU WAWAN_13
+  - first:
+      213: -3690030019188600649
+    second: IBU WAWAN_14
+  - first:
+      213: 5754642437176616872
+    second: IBU WAWAN_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IBU WAWAN_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1684
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1c00cae5d356340800000000000000
+      internalID: 4856355250010898892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1695
+        width: 281
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd15cf0d81326f6a0800000000000000
+      internalID: -6415902029650308644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1696
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5271e695eb274db40800000000000000
+      internalID: 5464118409776994085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1729
+        width: 289
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a5e4a5d3f9450d0800000000000000
+      internalID: -3434945529919939974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_4
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1713
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c197a8df1ad17900800000000000000
+      internalID: 680564849023357381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_5
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 933
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd94e4866243f30800000000000000
+      internalID: 4554307352610332648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_6
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 949
+        width: 289
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4f1f8edda89c830800000000000000
+      internalID: 4091954422143382752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_7
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 916
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c75aa567efc9e50800000000000000
+      internalID: 6817603720212478992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_8
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 915
+        width: 281
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24fb566602079b90800000000000000
+      internalID: -7235312049837050836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_9
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 904
+        width: 252
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b6fd2993962bcd0800000000000000
+      internalID: -2543855143512740986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 90
+        width: 284
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c6759d962cbd010800000000000000
+      internalID: 1214778284380220544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 103
+        width: 284
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b3c82acda17cf0800000000000000
+      internalID: -256232620004493822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_12
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 107
+        width: 284
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26bd7f6b4bff4dd0800000000000000
+      internalID: -2499502966755707350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 90
+        width: 307
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2e5f3fb347c78c0800000000000000
+      internalID: -4000194568166972732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_14
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 86
+        width: 307
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b05cb78f316accc0800000000000000
+      internalID: -3690030019188600649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IBU WAWAN_15
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 86
+        width: 307
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7ec45aec89cdf40800000000000000
+      internalID: 5754642437176616872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IBU WAWAN_0: 4856355250010898892
+      IBU WAWAN_1: -6415902029650308644
+      IBU WAWAN_10: 1214778284380220544
+      IBU WAWAN_11: -256232620004493822
+      IBU WAWAN_12: -2499502966755707350
+      IBU WAWAN_13: -4000194568166972732
+      IBU WAWAN_14: -3690030019188600649
+      IBU WAWAN_15: 5754642437176616872
+      IBU WAWAN_2: 5464118409776994085
+      IBU WAWAN_3: -3434945529919939974
+      IBU WAWAN_4: 680564849023357381
+      IBU WAWAN_5: 4554307352610332648
+      IBU WAWAN_6: 4091954422143382752
+      IBU WAWAN_7: 6817603720212478992
+      IBU WAWAN_8: -7235312049837050836
+      IBU WAWAN_9: -2543855143512740986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

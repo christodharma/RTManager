@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 0659440ea39963b4d8f536bae2ed17eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3645489067647735640
+    second: PAK AHMAD 3_0
+  - first:
+      213: 8234427977950757451
+    second: PAK AHMAD 3_1
+  - first:
+      213: -539470926854876779
+    second: PAK AHMAD 3_2
+  - first:
+      213: 8243645043305190129
+    second: PAK AHMAD 3_3
+  - first:
+      213: -1659505768649073153
+    second: PAK AHMAD 3_4
+  - first:
+      213: -5776837879230300087
+    second: PAK AHMAD 3_5
+  - first:
+      213: -970686917767748397
+    second: PAK AHMAD 3_6
+  - first:
+      213: 6853308946489005685
+    second: PAK AHMAD 3_7
+  - first:
+      213: -7523717768079524682
+    second: PAK AHMAD 3_8
+  - first:
+      213: 5092823581544898016
+    second: PAK AHMAD 3_9
+  - first:
+      213: 3123350717131572757
+    second: PAK AHMAD 3_10
+  - first:
+      213: 3915820611574025122
+    second: PAK AHMAD 3_11
+  - first:
+      213: -1768049294507829969
+    second: PAK AHMAD 3_12
+  - first:
+      213: 3079286595468173672
+    second: PAK AHMAD 3_13
+  - first:
+      213: -613780400535364673
+    second: PAK AHMAD 3_14
+  - first:
+      213: -5418575628218528181
+    second: PAK AHMAD 3_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PAK AHMAD 3_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1606
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85796bd0ef0679230800000000000000
+      internalID: 3645489067647735640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1613
+        width: 389
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b420b4a3e90964270800000000000000
+      internalID: 8234427977950757451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1631
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5911a2edc0a6388f0800000000000000
+      internalID: -539470926854876779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_3
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1629
+        width: 344
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f29d9c7d7f476270800000000000000
+      internalID: 8243645043305190129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1635
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdd5fcbb4048f8e0800000000000000
+      internalID: -1659505768649073153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 34
+        width: 330
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940057b4e8c84dfa0800000000000000
+      internalID: -5776837879230300087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 39
+        width: 330
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a556246d6782f0800000000000000
+      internalID: -970686917767748397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_7
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 39
+        width: 330
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576db7b2d28db1f50800000000000000
+      internalID: 6853308946489005685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_8
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 801
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc33536d82669790800000000000000
+      internalID: -7523717768079524682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_9
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 795
+        width: 344
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed57b180185da640800000000000000
+      internalID: 5092823581544898016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_10
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 797
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c693ddee585b20800000000000000
+      internalID: 3123350717131572757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_11
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 779
+        width: 389
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abc50d691ac75630800000000000000
+      internalID: 3915820611574025122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_12
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 772
+        width: 277
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f251b7fb880a677e0800000000000000
+      internalID: -1768049294507829969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_13
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 48
+        width: 304
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861a08408d2dbba20800000000000000
+      internalID: 3079286595468173672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_14
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 58
+        width: 304
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb1ef74af96b77f0800000000000000
+      internalID: -613780400535364673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PAK AHMAD 3_15
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 52
+        width: 304
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e027bcc2a5dc4b0800000000000000
+      internalID: -5418575628218528181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PAK AHMAD 3_0: 3645489067647735640
+      PAK AHMAD 3_1: 8234427977950757451
+      PAK AHMAD 3_10: 3123350717131572757
+      PAK AHMAD 3_11: 3915820611574025122
+      PAK AHMAD 3_12: -1768049294507829969
+      PAK AHMAD 3_13: 3079286595468173672
+      PAK AHMAD 3_14: -613780400535364673
+      PAK AHMAD 3_15: -5418575628218528181
+      PAK AHMAD 3_2: -539470926854876779
+      PAK AHMAD 3_3: 8243645043305190129
+      PAK AHMAD 3_4: -1659505768649073153
+      PAK AHMAD 3_5: -5776837879230300087
+      PAK AHMAD 3_6: -970686917767748397
+      PAK AHMAD 3_7: 6853308946489005685
+      PAK AHMAD 3_8: -7523717768079524682
+      PAK AHMAD 3_9: 5092823581544898016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

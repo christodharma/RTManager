@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 72514a44d3a76724aa8068d163582ad5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4942277465241232820
+    second: HAJI USMAN_0
+  - first:
+      213: -1332357083656013153
+    second: HAJI USMAN_1
+  - first:
+      213: -4451158440262114162
+    second: HAJI USMAN_2
+  - first:
+      213: -2090684296745197077
+    second: HAJI USMAN_3
+  - first:
+      213: -6757725307520382319
+    second: HAJI USMAN_4
+  - first:
+      213: 8160705295014346473
+    second: HAJI USMAN_5
+  - first:
+      213: 6220298625832627000
+    second: HAJI USMAN_6
+  - first:
+      213: -8730083951574790072
+    second: HAJI USMAN_7
+  - first:
+      213: 8527251957117792498
+    second: HAJI USMAN_8
+  - first:
+      213: -2337252304781523350
+    second: HAJI USMAN_9
+  - first:
+      213: 310995034140800116
+    second: HAJI USMAN_10
+  - first:
+      213: -1316312271089647918
+    second: HAJI USMAN_11
+  - first:
+      213: -1845832056069894154
+    second: HAJI USMAN_12
+  - first:
+      213: 2099905779458858220
+    second: HAJI USMAN_13
+  - first:
+      213: 961109975847106230
+    second: HAJI USMAN_14
+  - first:
+      213: 3873702858671392114
+    second: HAJI USMAN_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HAJI USMAN_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1598
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b52f195b2f769440800000000000000
+      internalID: 4942277465241232820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1605
+        width: 389
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a35b2aa44828de0800000000000000
+      internalID: -1332357083656013153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1615
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84e1395bfe4a32c0800000000000000
+      internalID: -4451158440262114162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_3
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1621
+        width: 303
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1e30385b56cf2e0800000000000000
+      internalID: -2090684296745197077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_4
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1623
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a849303acb732a0800000000000000
+      internalID: -6757725307520382319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_5
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 29
+        width: 322
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eebaf18a36a04170800000000000000
+      internalID: 8160705295014346473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_6
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 39
+        width: 322
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83baa95c4a0f25650800000000000000
+      internalID: 6220298625832627000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_7
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 818
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840db0766e288d680800000000000000
+      internalID: -8730083951574790072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_8
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 816
+        width: 303
+        height: 794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0b246c972e65670800000000000000
+      internalID: 8527251957117792498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_9
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 810
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66c80f7969609fd0800000000000000
+      internalID: -2337252304781523350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_10
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 800
+        width: 389
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4747fd8f550e05400800000000000000
+      internalID: 310995034140800116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_11
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 793
+        width: 232
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deb63ca6f48bbde0800000000000000
+      internalID: -1316312271089647918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 25
+        width: 322
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffccee46894266e0800000000000000
+      internalID: -1845832056069894154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 79
+        width: 303
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec5f6e3e2d542d10800000000000000
+      internalID: 2099905779458858220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_14
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 79
+        width: 303
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6737c4e6c865d00800000000000000
+      internalID: 961109975847106230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAJI USMAN_15
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 83
+        width: 303
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2750688e93822c530800000000000000
+      internalID: 3873702858671392114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HAJI USMAN_0: 4942277465241232820
+      HAJI USMAN_1: -1332357083656013153
+      HAJI USMAN_10: 310995034140800116
+      HAJI USMAN_11: -1316312271089647918
+      HAJI USMAN_12: -1845832056069894154
+      HAJI USMAN_13: 2099905779458858220
+      HAJI USMAN_14: 961109975847106230
+      HAJI USMAN_15: 3873702858671392114
+      HAJI USMAN_2: -4451158440262114162
+      HAJI USMAN_3: -2090684296745197077
+      HAJI USMAN_4: -6757725307520382319
+      HAJI USMAN_5: 8160705295014346473
+      HAJI USMAN_6: 6220298625832627000
+      HAJI USMAN_7: -8730083951574790072
+      HAJI USMAN_8: 8527251957117792498
+      HAJI USMAN_9: -2337252304781523350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

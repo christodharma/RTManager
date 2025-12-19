@@ -24,14 +24,56 @@ MonoBehaviour:
   deadlineHours: 12
   difficulty: 0
   completesOnObjectClick: 1
-  targetObjectID: BukuPelajaran
+  targetObjectID: QT001_IbuSari
   completionDialogue:
-    stageDialogues: []
-    finalCompletionDialogue:
-      npcImage: {fileID: 0}
-      npcName: 
+    stageDialogues:
+    - npcImage: {fileID: 21300000, guid: 8d59fa7507a424b52b082387330b697a, type: 3}
+      npcName: Ibu Sari
       secondaryNpcImage: {fileID: 0}
-      secondaryNpcName: 
+      secondaryNpcName: TUTORIAL TIP
+      additionalNpcImage: {fileID: 0}
+      additionalNpcName: 
+      dialogueText: 
+      options: []
+      successResponse: 
+      failureResponse: 
+      conversationNodes:
+      - speaker: 0
+        dialogueText: Oh, Nak Ardi! Terima kasih sudah datang.
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 1
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 0
+        dialogueText: Dimas kehilangan buku matematikanya. Besok dia ulangan, tapi
+          dia nggak bisa belajar...
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+      - speaker: 1
+        dialogueText: Dengarkan baik-baik penjelasan NPC. Informasi ini penting untuk
+          menyelesaikan quest!
+        options:
+        - buttonText: Lanjut
+          nextNodeIndex: 2
+          completesQuest: 0
+          failQuest: 0
+          costRupiah: 0
+          responseText: 
+    finalCompletionDialogue:
+      npcImage: {fileID: 21300000, guid: 8d59fa7507a424b52b082387330b697a, type: 3}
+      npcName: Ibu Sari
+      secondaryNpcImage: {fileID: 21300000, guid: 8d72cbccfd255c3a485d478b695e77bb, type: 3}
+      secondaryNpcName: Dimas
+      additionalNpcImage: {fileID: 9206188513362600717, guid: efe77f45d5678b943bc459423e107d81, type: 3}
+      additionalNpcName: TUTORIAL TIP
       dialogueText: Default dialogue...
       options: []
       successResponse: Thank you so much! You helped me a lot!
@@ -39,5 +81,13 @@ MonoBehaviour:
       conversationNodes: []
   isRepeatable: 0
   canSpawn: 1
-  isMultiStage: 0
-  stages: []
+  isMultiStage: 1
+  stages:
+  - objectiveDescription: Bicara dengan Ibu Sari
+    requiresItem: 0
+    requiredItemID: QT001_IbuSari
+    requiredAmount: 0
+  - objectiveDescription: Bicara dengan Dimas
+    requiresItem: 0
+    requiredItemID: QT001_Dimas
+    requiredAmount: 0

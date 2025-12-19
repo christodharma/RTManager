@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 57970b17f249b094ebb6220dda67aa8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7567324123902117750
+    second: MBAK RINA_0
+  - first:
+      213: -2105933449614497606
+    second: MBAK RINA_1
+  - first:
+      213: -3489443349818371296
+    second: MBAK RINA_2
+  - first:
+      213: 524854828349871117
+    second: MBAK RINA_3
+  - first:
+      213: 2974945780770207125
+    second: MBAK RINA_4
+  - first:
+      213: -2687787022189116308
+    second: MBAK RINA_5
+  - first:
+      213: 7790724472014092457
+    second: MBAK RINA_6
+  - first:
+      213: -3261746148444916652
+    second: MBAK RINA_7
+  - first:
+      213: 9165718019489718496
+    second: MBAK RINA_8
+  - first:
+      213: -5817360791456928160
+    second: MBAK RINA_9
+  - first:
+      213: -6440372872359064196
+    second: MBAK RINA_10
+  - first:
+      213: 4874432531537880275
+    second: MBAK RINA_11
+  - first:
+      213: -1487337818786400139
+    second: MBAK RINA_12
+  - first:
+      213: -1119437268427401527
+    second: MBAK RINA_13
+  - first:
+      213: -8366692594275628326
+    second: MBAK RINA_14
+  - first:
+      213: 2150940998239107512
+    second: MBAK RINA_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MBAK RINA_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1688
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88f19e7dc67bf690800000000000000
+      internalID: -7567324123902117750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1699
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab86d1f6fa836c2e0800000000000000
+      internalID: -2105933449614497606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1702
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0231a3ed2c1039fc0800000000000000
+      internalID: -3489443349818371296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1733
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0451728fa8a84700800000000000000
+      internalID: 524854828349871117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_4
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1721
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595fad8fc61294920800000000000000
+      internalID: 2974945780770207125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_5
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 931
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64438e91ff03bad0800000000000000
+      internalID: -2687787022189116308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_6
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 943
+        width: 287
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b75951a63e1c60800000000000000
+      internalID: 7790724472014092457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_7
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 912
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4543172d823fbb2d0800000000000000
+      internalID: -3261746148444916652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_8
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 909
+        width: 305
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e4170afb233f70800000000000000
+      internalID: 9165718019489718496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_9
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 898
+        width: 240
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eacee8e25944fa0800000000000000
+      internalID: -5817360791456928160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 86
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dc9f1cef23f96a0800000000000000
+      internalID: -6440372872359064196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 82
+        width: 373
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d46ce3cf8675a340800000000000000
+      internalID: 4874432531537880275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_12
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 91
+        width: 368
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5787b32522aeb5be0800000000000000
+      internalID: -1487337818786400139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_13
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 79
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c61d034cb5f670f0800000000000000
+      internalID: -1119437268427401527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_14
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 74
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada4f450a6983eb80800000000000000
+      internalID: -8366692594275628326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MBAK RINA_15
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 68
+        width: 448
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9bdd4117da9dd10800000000000000
+      internalID: 2150940998239107512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MBAK RINA_0: -7567324123902117750
+      MBAK RINA_1: -2105933449614497606
+      MBAK RINA_10: -6440372872359064196
+      MBAK RINA_11: 4874432531537880275
+      MBAK RINA_12: -1487337818786400139
+      MBAK RINA_13: -1119437268427401527
+      MBAK RINA_14: -8366692594275628326
+      MBAK RINA_15: 2150940998239107512
+      MBAK RINA_2: -3489443349818371296
+      MBAK RINA_3: 524854828349871117
+      MBAK RINA_4: 2974945780770207125
+      MBAK RINA_5: -2687787022189116308
+      MBAK RINA_6: 7790724472014092457
+      MBAK RINA_7: -3261746148444916652
+      MBAK RINA_8: 9165718019489718496
+      MBAK RINA_9: -5817360791456928160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

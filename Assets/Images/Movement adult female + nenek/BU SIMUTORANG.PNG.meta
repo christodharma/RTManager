@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: af3477cc816cf944688c725f18bf766f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4246316668292126109
+    second: BU SIMUTORANG_0
+  - first:
+      213: -8526692941194756575
+    second: BU SIMUTORANG_1
+  - first:
+      213: 4733006765082866167
+    second: BU SIMUTORANG_2
+  - first:
+      213: 7536283055146016393
+    second: BU SIMUTORANG_3
+  - first:
+      213: 5810237661542517514
+    second: BU SIMUTORANG_4
+  - first:
+      213: 319597739322296387
+    second: BU SIMUTORANG_5
+  - first:
+      213: -4933059372300226739
+    second: BU SIMUTORANG_6
+  - first:
+      213: 5594312269218817708
+    second: BU SIMUTORANG_7
+  - first:
+      213: 8359825602221691527
+    second: BU SIMUTORANG_8
+  - first:
+      213: 426757310560388396
+    second: BU SIMUTORANG_9
+  - first:
+      213: -3709796692889248297
+    second: BU SIMUTORANG_10
+  - first:
+      213: -6829548872664002515
+    second: BU SIMUTORANG_11
+  - first:
+      213: 9156923067314376075
+    second: BU SIMUTORANG_12
+  - first:
+      213: -933508893472204515
+    second: BU SIMUTORANG_13
+  - first:
+      213: -1200924057553721693
+    second: BU SIMUTORANG_14
+  - first:
+      213: 3555462206965153424
+    second: BU SIMUTORANG_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BU SIMUTORANG_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1689
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d955f590382fdea30800000000000000
+      internalID: 4246316668292126109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1700
+        width: 306
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e714342f91ba980800000000000000
+      internalID: -8526692941194756575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1696
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1f84883940fa140800000000000000
+      internalID: 4733006765082866167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1734
+        width: 301
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e16cc7281469860800000000000000
+      internalID: 7536283055146016393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_4
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1721
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b86d48e5c12a050800000000000000
+      internalID: 5810237661542517514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_5
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 952
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348c25b53707f6400800000000000000
+      internalID: 319597739322296387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_6
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 965
+        width: 301
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f222a23a04a8bb0800000000000000
+      internalID: -4933059372300226739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_7
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 927
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6a5617e5df2ad40800000000000000
+      internalID: 5594312269218817708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_8
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 931
+        width: 306
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782d3acc711140470800000000000000
+      internalID: 8359825602221691527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_9
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 920
+        width: 258
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25c04d43852ce500800000000000000
+      internalID: 426757310560388396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 87
+        width: 263
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddda6b2097248cc0800000000000000
+      internalID: -3709796692889248297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 107
+        width: 263
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2051bc1c719831a0800000000000000
+      internalID: -6829548872664002515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_12
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 107
+        width: 263
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d8ad6a30de31f70800000000000000
+      internalID: 9156923067314376075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_13
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 90
+        width: 307
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19dbe97b928b03f0800000000000000
+      internalID: -933508893472204515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 81
+        width: 307
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a62a43bee5755fe0800000000000000
+      internalID: -1200924057553721693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BU SIMUTORANG_15
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 81
+        width: 307
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09efb722a0a875130800000000000000
+      internalID: 3555462206965153424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BU SIMUTORANG_0: 4246316668292126109
+      BU SIMUTORANG_1: -8526692941194756575
+      BU SIMUTORANG_10: -3709796692889248297
+      BU SIMUTORANG_11: -6829548872664002515
+      BU SIMUTORANG_12: 9156923067314376075
+      BU SIMUTORANG_13: -933508893472204515
+      BU SIMUTORANG_14: -1200924057553721693
+      BU SIMUTORANG_15: 3555462206965153424
+      BU SIMUTORANG_2: 4733006765082866167
+      BU SIMUTORANG_3: 7536283055146016393
+      BU SIMUTORANG_4: 5810237661542517514
+      BU SIMUTORANG_5: 319597739322296387
+      BU SIMUTORANG_6: -4933059372300226739
+      BU SIMUTORANG_7: 5594312269218817708
+      BU SIMUTORANG_8: 8359825602221691527
+      BU SIMUTORANG_9: 426757310560388396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
