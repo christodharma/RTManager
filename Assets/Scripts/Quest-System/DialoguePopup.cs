@@ -50,6 +50,22 @@ public class DialoguePopup : MonoBehaviour
         onFinished?.Invoke();
     }
 
+    void Start()
+    {
+        if (GameTimeManager.Instance != null)
+        {
+            GameTimeManager.Instance.OnDayEnded += HandleDayEnded;
+        }
+    }
+
+    void OnDestroy()
+    {
+        if (GameTimeManager.Instance != null)
+        {
+            GameTimeManager.Instance.OnDayEnded -= HandleDayEnded;
+        }
+    }
+
     private void ShowTextAnimated(string text, System.Action onFinished = null)
     {
         if (typingRoutine != null)
@@ -86,7 +102,7 @@ public class DialoguePopup : MonoBehaviour
         ShowTextAnimated(message, () => ShowAllButtons());
 
         DialoguePopupCanvas.enabled = true;
-        ControllerUI.SetActive(false);
+        if (ControllerUI != null) ControllerUI.SetActive(false);
     }
 
     public void OpenOutcomeDialogue(QuestData quest)
@@ -111,7 +127,31 @@ public class DialoguePopup : MonoBehaviour
         }
 
         DialoguePopupCanvas.enabled = true;
-        ControllerUI.SetActive(false);
+        if (ControllerUI != null) ControllerUI.SetActive(false);
+    }
+
+    public void OpenSimpleDialogue(QuestStageDialogue data)
+    {
+        currentQuest = null;
+        currentActiveStageData = data;
+
+        ClearDialogueUI();
+        DialoguePopupCanvas.enabled = true;
+        if (ControllerUI != null) ControllerUI.SetActive(false);
+
+        if (data.conversationNodes != null && data.conversationNodes.Count > 0)
+        {
+            currentNodes = data.conversationNodes;
+            ShowNode(0);
+        }
+        else
+        {
+            nameText.text = data.npcName;
+            portraitImage.sprite = data.npcImage;
+            portraitImage.gameObject.SetActive(data.npcImage != null);
+
+            ShowTextAnimated(data.dialogueText, () => ShowAllButtons());
+        }
     }
 
     private void ClearDialogueUI()
@@ -189,7 +229,7 @@ public class DialoguePopup : MonoBehaviour
         }
 
         DialoguePopupCanvas.enabled = true;
-        ControllerUI.SetActive(false);
+        if (ControllerUI != null) ControllerUI.SetActive(false);
     }
 
     private void ShowNode(int index)
@@ -304,6 +344,12 @@ public class DialoguePopup : MonoBehaviour
     }
     private void FinalizeStageChoice(DialogueOption option, QuestStageDialogue stageData)
     {
+        if (currentQuest == null)
+        {
+            CloseDialogue();
+            return;
+        }
+
         if (option.failQuest)
         {
             QuestManager.Instance.TodayReport.npcFeedback.Add(
@@ -362,11 +408,45 @@ public class DialoguePopup : MonoBehaviour
     public void CloseDialogue()
     {
         DialoguePopupCanvas.enabled = false;
-        ControllerUI.SetActive(true);
+        if (ControllerUI != null) ControllerUI.SetActive(true);
 
         foreach (var b in activeButtons)
             Destroy(b);
 
         activeButtons.Clear();
+    }
+
+    private void HandleDayEnded()
+    {
+        if (currentQuest != null && currentQuest.state != QuestState.Completed && currentQuest.state != QuestState.Failed)
+        {
+            Debug.Log($"[DialoguePopup] Auto-failing quest: {currentQuest.title} due to end of day.");
+
+            currentQuest.state = QuestState.Failed;
+
+            QuestManager.Instance.FailQuest(currentQuest);
+
+            if (QuestManager.Instance.TodayReport != null)
+            {
+                QuestManager.Instance.TodayReport.failedQuests++;
+            }
+        }
+
+        DialoguePopupCanvas.enabled = false;
+
+        if (typingRoutine != null)
+        {
+            StopCoroutine(typingRoutine);
+            typingRoutine = null;
+        }
+
+        foreach (var b in activeButtons)
+        {
+            Destroy(b);
+        }
+        activeButtons.Clear();
+
+        currentQuest = null;
+        currentActiveStageData = null;
     }
 }

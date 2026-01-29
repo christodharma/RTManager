@@ -226,9 +226,9 @@ public class GameTimeManager : MonoBehaviour, IPersistable
 
         string sceneToLoad;
 
-        if (ham >= 80) // High HAM
+        if (ham >= 500) // High HAM
             sceneToLoad = highHamEndingScene;
-        else if (ham >= 40) // Medium HAM
+        else if (ham >= 200) // Medium HAM
             sceneToLoad = midHamEndingScene;
         else // Low HAM
             sceneToLoad = lowHamEndingScene;

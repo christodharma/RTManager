@@ -10,6 +10,7 @@ public class DaySummaryUI : MonoBehaviour
     public TextMeshProUGUI summaryText;
     public Button nextDayButton;
 
+    public GameObject MainControllerUI;
     public GameObject playerController;
     public GameObject buttonGroup;
 
@@ -30,6 +31,7 @@ public class DaySummaryUI : MonoBehaviour
         var report = QuestManager.Instance.TodayReport;
 
         panel.SetActive(true);
+        MainControllerUI.SetActive(false);
         playerController.SetActive(false);
         buttonGroup.SetActive(false);
 
@@ -57,6 +59,7 @@ public class DaySummaryUI : MonoBehaviour
     {
         panel.SetActive(false);
         Time.timeScale = 1f;
+        MainControllerUI.SetActive(true);
         playerController.SetActive(true);
         buttonGroup.SetActive(true);
         GameTimeManager.Instance.StartNextDay();
